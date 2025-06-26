@@ -1,0 +1,2316 @@
+[
+{
+    "Threat ID":"T-O-RAN-01",
+    "Threat title":"An attacker exploits insecure designs or lack of adaption in O-RAN components",
+    "Threat Description":"Unauthenticated\/unauthorized access to O-RAN components could possibly be achieved via the different O-RAN interfaces, depending upon the design of the hardware-software O-RAN system and how different functions are segregated within the O-RAN system. \nO-RAN components might be vulnerable if: \n\u2022 Outdated component from the lack of update or patch management,\n\u2022 Poorly design architecture,\n\u2022 Missing appropriate security hardening,\n\u2022 Unnecessary or insecure function\/protocol\/component.\nAn attacker could, in such case, either inject malwares and\/or manipulate existing software, harm the O-RAN components, create a performance issue by manipulation of parameters, or reconfigure the O-RAN components and disable the security features with the purpose of eavesdropping or wiretapping on various CUS & M planes, reaching northbound systems, attack broader network to cause denial-of-service, steal unprotected private keys, certificates, hash values, or other type of breaches.\nIn addition, O-RAN components could be software providing network functions, so they are likely to be vulnerable to software flaws: it could be possible to bypass firewall restrictions or to take advantage of a buffer overflow to execute arbitrary commands, etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Outdated component from the lack of update or patch management",
+      "Poorly design architecture",
+      "Missing appropriate security hardening",
+      "Unnecessary or insecure function\/protocol\/component"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-O-RAN-02",
+    "Threat title":"An attacker exploits misconfigured or poorly configured O-RAN components",
+    "Threat Description":"Unauthenticated\/unauthorized access to O-RAN components could possibly be achieved via the different O-RAN interfaces, depending upon the configuration of the hardware-software O-RAN system. \nO-RAN components might be vulnerable if: \n\u2022 Errors from the lack of configuration change management,\n\u2022 Misconfigured or poorly configured O-RAN components,\n\u2022 Improperly configured permissions,\n\u2022 Unnecessary features are enabled (e.g. unnecessary ports, services, accounts, or privileges),\n\u2022 Default accounts and their passwords still enabled and unchanged,\n\u2022 Security features are disabled or not configured securely.\nAn attacker could, in such case, either inject malwares and\/or manipulate existing software, harm the O-RAN components, create a performance issue by manipulation of parameters, or reconfigure the O-RAN components and disable the security features with the purpose of eavesdropping or wiretapping on various CUS & M planes, reaching northbound systems, attack broader network to cause denial-of-service, steal unprotected private keys, certificates, hash values, or other type of breaches.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Errors from the lack of configuration change management",
+      "Misconfigured or poorly configured O-RAN components",
+      "Improperly configured permissions",
+      "Unnecessary features are enabled (e.g. unnecessary ports, services, accounts, or privileges)",
+      "Default accounts and their passwords still enabled and unchanged",
+      "Security features are disabled or not configured securely"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-O-RAN-03",
+    "Threat title":"Attacks from the internet to penetrate O-RAN network boundary",
+    "Threat Description":"Web servers serving O-RAN functional and management services should provide adequate protection. \nAn attacker that have access to the uncontrolled O-RAN network could:\n\u2022 Bypass the information flow control policy implemented by the firewall,\n\u2022 And\/or attack O-RAN components in the trusted networks by taking advantage of particularities and errors in the design and implementation of the network protocols (IP, TCP, UDP, application protocols),\n\u2022 Use of incorrect or exceeded TCP sequence numbers,\n\u2022 Perform brute force attacks on FTP passwords,\n\u2022 Use of improper HTTP user sessions,\n\u2022 Etc.\nThe effects of such attacks may include:\n\u2022 An intrusion, meaning unauthorized access to O-RAN components,\n\u2022 Blocking, flooding or restarting an O-RAN component causing a denial of service,\n\u2022 Flooding of network equipment, causing a denial of service,\n\u2022 Etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Errors in the design and implementation of the network protocols (HTTP, P, TCP, UDP, application protocols)"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-O-RAN-04",
+    "Threat title":"An attacker attempts to jam the airlink signal through IoT devices",
+    "Threat Description":"DDoS attacks on O-RAN systems: The 5G evolution means billions of things, collectively referred to as IoT, will be using the 5G O-RAN. Thus, IoT could increase the risk of O-RAN resource overload by way of DDoS attacks. Attackers create a botnet army by infecting many (millions\/billions) IoT devices with a \u201cremote-reboot\u201d malware. Attackers instruct the malware to reboot all devices in a specific or targeted 5G coverage area at the same time.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Failure to address overload situations"
+    ],
+    "Threatened Asset":"ASSET-D-06, ASSET-D-18",
+    "Affected Components":"O-RU, airlink with UE, O-DU"
+  },
+  {
+    "Threat ID":"T-O-RAN-05",
+    "Threat title":"An attacker penetrates and compromises the O-RAN system through the open O-RAN\u2019s Fronthaul, O1, O2, A1, and E2",
+    "Threat Description":"O-RAN\u2019s Fronthaul, O1, O2, A1, and E2 management interfaces are the new open interfaces that allow software programmability of RAN. These interfaces may not be secured to industry best practices.\nO-RAN components might be vulnerable if: \n\u2022 Improper or missing authentication and authorization processes,\n\u2022 Improper or missing ciphering and integrity checks of sensitive data exchanged over O-RAN interfaces,\n\u2022 Improper or missing replay protection of sensitive data exchanged over O-RAN interfaces,\n\u2022 Improper prevention of key reuse,\n\u2022 Improper implementation,\n\u2022 Improperly validate inputs, respond to error conditions in both the submitted data as well as out of sequence protocol steps.\nAn attacker could, in such case, cause denial-of-service, data tampering or information disclosure, etc.\nNOTE: O-RAN interfaces allow use of TLS or SSH. Industry best practices mandate the use of TLS (v1.2 or higher) or SSH certificate-based authentication. An implementation that implements TLS version lower than 1.2 or a SSH password authentication, may become the key source of vulnerability that a malicious code will exploit to compromise the O-RAN system.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper or missing authentication and authorization processes",
+      "Improper prevention of key reuse",
+      "Improper or missing replay protection of sensitive data exchanged over O-RAN interfaces",
+      "Improper or missing ciphering and integrity checks of sensitive data exchanged over O-RAN interfaces"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-O-RAN-06",
+    "Threat title":"An attacker exploits insufficient\/improper mechanisms for authentication and authorization to compromise O-RAN components",
+    "Threat Description":"O-RAN management and orchestration should not be used without appropriate authentication and authorization and authorization checks. \nO-RAN components might be vulnerable if: \n\u2022 Unauthenticated access to O-RAN functions,\n\u2022 Improper authentication mechanisms,\n\u2022 Use of Predefined\/ default accounts,\n\u2022 Weak or missing password policy,\n\u2022 Lack of mutual authentication to O-RAN components and interfaces,\n\u2022 Failure to block consecutive failed login attempts,\n\u2022 Improper authorization and access control policy.\nAn attacker could, in such case, either inject malwares and\/or manipulate existing software, harm the O-RAN components, create a performance issue by manipulation of parameters, or reconfigure the O-RAN components and disable the security features with the purpose of eavesdropping or wiretapping on various CUS & M planes, reaching northbound systems, attack broader network to cause denial-of-service, steal unprotected private keys, certificates, hash values, or other type of breaches.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Unauthenticated access to O-RAN functions",
+      "Improper authentication mechanisms",
+      "Use of Predefined\/ default accounts",
+      "Weak or missing password policy",
+      "Lack of mutual authentication to O-RAN components and interfaces",
+      "Failure to block consecutive failed login attempts",
+      "Improper authorization and access control policy"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-O-RAN-07",
+    "Threat title":"An attacker compromises O-RAN monitoring mechanisms and log files integrity and availability",
+    "Threat Description":"Improper \/ missing controls for protection of security event log files generated by O-RAN components and the lack of security events logged together with a unique system reference (e.g. host name, IP or MAC address) and the exact time the incident occurred do not allow a correct and rapid audit in case of security incident occurrence. Security restoration is delayed. Compromise of availability and integrity of security event log files could conduct to delays, wrong audit results, delays in security restoration, threats persistence.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of security event logging",
+      "Insufficient protection of log files"
+    ],
+    "Threatened Asset":"ASSET-D-29",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-O-RAN-08",
+    "Threat title":"An attacker compromises O-RAN data integrity, confidentiality and traceability",
+    "Threat Description":"O-RAN components may not be secured to industry best practices. Adequate security controls are needed for protecting sensitive data stored, processed and transferred by O-RAN components. \nO-RAN components might be vulnerable if: \n\u2022 Improper or missing ciphering of sensitive data in storage or in transfer,\n\u2022 Improper or missing integrity mechanisms to protect sensitive data in storage or in transfer,\n\u2022 Presence of active function(s) that reveal confidential internal data in the clear to administrators. Such functions could be, for example, local or remote OAM CLI or GUI, logging messages, alarms, configuration file exports etc.\n\u2022 No traceability (logging) of access to personal data.\nAn attacker could, in such case, cause denial-of-service, data tampering, information disclosure, spoofing identity, elevation of privilege, etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper or missing ciphering of sensitive data in storage or in transfer",
+      "Improper or missing integrity mechanisms to protect sensitive data in storage or in transfer",
+      "Presence of active function(s) that reveal confidential internal data",
+      "No traceability (logging) of access to personal data"
+    ],
+    "Threatened Asset":"ASSET-D-01 to ASSET-D-29",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-O-RAN-09",
+    "Threat title":"An attacker compromises O-RAN components integrity and availability",
+    "Threat Description":"Overload situation could appear in the case of DoS attack or increased traffic. Inability to deal with such events affects availability of information or security functionalities of O-RAN components.\nO-RAN components may boot from unauthorized memory devices. Inability to deal with such events affects integrity of information or security functionalities of O-RAN components.\nInsufficient assurance of O-RAN software package integrity could affect CIA of data, services, hardware and policies during installation or upgrade phases for O-RAN components.\nAn attacker could, in such case, cause denial-of-service, data tampering, information disclosure, spoofing identity, etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper handling of overload situations",
+      "Unrestricted boot memory devices",
+      "Lack of \/ improper mechanisms for Network Product software package integrity validation"
+    ],
+    "Threatened Asset":"ASSET-C-01 to ASSET-C-12",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-FRHAUL-01",
+    "Threat title":"An attacker penetrates O-DU and beyond through O-RU or the Fronthaul interface",
+    "Threat Description":"When having two different vendors, the O-RU and the O-DU needs to be managed as different entities and may have heterogeneous security levels. Instead, the O-DU will have to bridge the management traffic between the management system and the O-RU. Hence the possibilities to reach the northbound systems beyond the O-DU through the Open Fronthaul interface become a possible attack vector in this split architecture.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Heterogeneous security levels between O-RU and O-DU provided by different vendors"
+    ],
+    "Threatened Asset":"ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "Affected Components":"rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-FRHAUL-02",
+    "Threat title":"Unauthorized access to Open Front Haul Ethernet L1 physical layer interface(s)",
+    "Threat Description":"The Open Front Haul Ethernet L1 physical interface comprises one or more coaxial cables, twisted pairs, or optical fibers. Each end of the Open Front Haul Ethernet L1 physical interface comprises a physical connection (colloquially known as an Ethernet Port) to physical O-RAN network elements, e.g., O-DU, O-RU, etc.\nUnauthorized access to the Open Front Haul Ethernet L1 physical layer interface (cables and connections) provides a means to launch attacks on the availability, integrity, and confidentiality of the Open Front Haul system.\nPotential loss of availability on the Open Front Haul interface can occur from one or more of the following threats:\n\u2022 An unauthorized device on the Ethernet L1 Interface can flood the L1 interface with unintended network traffic causing disruption or degradation of authorized network elements on the Open Front Haul interface.\n\u2022 An unauthorized device on the Ethernet L1 Interface can send L2 messages to authorized network devices causing disruption, denial, or degradation of the Open Front Haul interface.\n\u2022 An attacker (person) gains access to the Open Front Haul Ethernet L1 interface(s) and denies the Open Front Haul services by disabling a physical connection to a network element either by removing an Ethernet port connection or cutting the physical interface (coaxial cable, twisted pair, or optical fiber). \n\nPotential loss of availability, confidentiality, and\/or integrity on the Open Front Haul interface can occur from one or more of the following threats:\n\u2022 An unauthorized device on the Ethernet L1 Interface has access to U-Plane traffic on the Open Front Hall Interface.\n\u2022 An unauthorized device on the Ethernet L1 Interface has access to S-Plane traffic on the Open Front Hall Interface.\n\u2022 An unauthorized device on the Ethernet L1 Interface has access to C-Plane traffic on the Open Front Hall Interface.\n\u2022 An unauthorized device on the Ethernet L1 Interface has access to M-Plane traffic on the Open Front Hall Interface.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of authentication and access control to the Open Front Haul Ethernet L1 physical layer interface"
+    ],
+    "Threatened Asset":"ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "Affected Components":"rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-MPLANE-01",
+    "Threat title":"An attacker attempts to intercept the Fronthaul (MITM) over M Plane",
+    "Threat Description":"The High bit rate Fronthaul interface impose strict performance requirements ((bandwidth, latency, fronthaul transport link length, etc.) that limit the use of some security features, due to the increased processing delay. This opens the risk of Man-in-the-Middle (MITM) attacks over the fronthaul interface or O1 to intercept the M plane.\nFor the transported Management-Plane data over the fronthaul interface or O1, an Attacker could potentially do threats, such as passive wiretapping and denial of service, but would need to break M-Plane Security prior to gain OAM access.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements"
+    ],
+    "Threatened Asset":"ASSET-D-02, ASSET-D-03",
+    "Affected Components":"Near-RT RIC, Non-RT RIC, O-CU, O-DU, SMO"
+  },
+  {
+    "Threat ID":"T-SPLANE-01",
+    "Threat title":"DoS attack against a Master clock",
+    "Threat Description":"A denial of service (DoS) attack towards a Master clock of the timing network used by the open Fronthaul to maintain the availability and accuracy of the Master clock. An attacker can attack a master clock by sending an excessive number of time protocol packets or impersonate a legitimate clock, a slave, or an intermediate clock, by sending malicious messages to the master, thus degrading the victim\u2019s performance.\nThe attacker may be residing either within the attacked network (insider) or on an external network connected to the attacked network.\nThis attack results in a situation where the clock service is interrupted completely or the timing protocol is operational but slaves are being provided inaccurate timing information due the degraded performance of the Master clock.\nThis clock service disruption or degradation in the accuracy of time may cause DoS to applications on all the RUs that rely on accurate time, potentially bringing down the cell.\nA cell outage caused by misaligned time, may further impact performance in connected neighboring cells.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper process to monitor and manage the performance of the Master clock",
+      "ANNOUNCE messages can be sent publicly in clear text"
+    ],
+    "Threatened Asset":"ASSET-D-01",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-SPLANE-02",
+    "Threat title":"Impersonation of a Master clock (Spoofing) within a PTP network with a fake ANNOUNCE message",
+    "Threat Description":"An attacker within the PTP network can impersonate the master clock\u2019s grandmasterIdentity value and propose himself as a grandmaster candidate by sending fake ANNOUNCE messages declaring him to be the best clock in the network. The attacker may be residing either within the attacked network (insider) or on an external network connected to the attacked network.\nThis attack results in a situation where the attacker clock becomes a GM, PTP is operational, all clocks are synchronized, but the malicious GM provides intentionally inaccurate timing information.\nThis degradation in the accuracy of time may cause DoS to applications on all the RUs that rely on accurate time, potentially bringing down the cell.\nA cell outage caused by misaligned time, may further impact performance in connected neighboring cells.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Inaccurate timing information",
+      "Improper synchronization between clocks",
+      "ANNOUNCE messages can be sent publicly in clear text"
+    ],
+    "Threatened Asset":"ASSET-D-01",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-SPLANE-03",
+    "Threat title":"A Rogue PTP Instance wanting to be a Grand Master",
+    "Threat Description":"An attacker can propose himself as a grandmaster candidate by sending manipulated\/malicious ANNOUNCE messages declaring him to be the best clock in the network. The attacker causes other nodes in the network to believe it is a legitimate master. The attacker is internal to the attacked PTP network and could launch this attack by either modification of in-flight protocol packets or injecting fake ANNOUNCE messages to the PTP network. It is assumed that an MITM attacker has physical access to a segment of the network or has gained control of one of the nodes in the network. This attack results in a situation where the time protocol is operational but slaves are being provided intentionally inaccurate timing information.\nThis degradation in the accuracy of time may cause DoS to applications on all the RUs that rely on accurate time, potentially bringing down the cell.\nA cell outage caused by misaligned time, may further impact performance in connected neighboring cells.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Inaccurate timing information",
+      "Improper synchronization between clocks",
+      "ANNOUNCE messages can be sent publicly in clear text"
+    ],
+    "Threatened Asset":"ASSET-D-01",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-SPLANE-04",
+    "Threat title":"Selective interception and removal of PTP timing packets",
+    "Threat Description":"An attacker can position himself in such way that allows him to intercept and remove valid synchronization packets. This leads to clock synchronization errors of all clocks downstream or makes them go into free-running mode.\nAttacks may be launched close to the GM by tapping the egress line of an active GM clock. This impacts a larger set of slaves who depend on this GM for timing synchronization.\nAttacks may also target a one or more slaves. This is done by tapping the ingress line of a particular slave(s). The impact is confined to the targeted slaves.\nAlternatively, a MiTM attacker can reside in an intermediate node such as TCs, routers and switches to launch this attack. The attacker has physical access to a node of the PTP n\/w or has gained full control of one device in the network. This requires additional capability to tap the h\/w where PTP timing is implemented.\nSelective interception and removal can impact timing packets and cause clock degradation in attacked nodes. Removing all packets or random packets may push the clocks in attacked nodes into free running mode\nThis attack results in a situation where the time protocol is operational, but slaves are being provided intentionally inaccurate timing information.\nThis degradation in the accuracy of time may cause DoS to applications on all the RUs that rely on accurate time, potentially bringing down the cell.\nA cell outage caused by misaligned time, may further impact performance in connected neighboring cells.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Inaccurate timing information",
+      "Improper synchronization between clocks",
+      "ANNOUNCE messages can be sent publicly in clear text"
+    ],
+    "Threatened Asset":"ASSET-D-01",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-SPLANE-05",
+    "Threat title":"Packet delay manipulation attack",
+    "Threat Description":"IEEE 1588 requires symmetric delays between GM and slaves. In packet delay manipulation attacks, the attacker is positioned such a way that allows him to delay the transmission of legitimate time synchronization protocol packets to the indended destination.\nAn attacker launches this attack by either tapping the transmission network or by taking control of an intermediate nodes such as routers, switches and T-TCs.\nThis attack results in a situation where the time protocol is operational, but slaves are being provided intentionally inaccurate timing information.\nThis degradation in the accuracy of time may cause DoS to applications on all the RUs that rely on accurate time, potentially bringing down the cell.\nA cell outage caused by misaligned time, may further impact performance in connected neighboring cells.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Inaccurate timing information",
+      "Improper synchronization between clocks",
+      "ANNOUNCE messages can be sent publicly in clear text"
+    ],
+    "Threatened Asset":"ASSET-D-01",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-CPLANE-01",
+    "Threat title":"Spoofing of DL C-plane messages",
+    "Threat Description":"The lack of authentication could allow an adversery to inject own DL C-plane messages that falsely claiming to be from the associated O-DU. \nAs a result, it would block the O-RU to process the corresponding U-Plane packets, leading to temporarly DoS. (Dropping the entire DL C-plane messages would achive same goal).",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of authentication could allow an adversary to inject own DL C-plane messages"
+    ],
+    "Threatened Asset":"ASSET-D-04",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-CPLANE-02",
+    "Threat title":"Spoofing of UL C-plane messages",
+    "Threat Description":"The lack of authentication could allow an adversery to inject own UL C-plane messages that falsely claiming to be from the associated O-DU.\nAs a result, temporarily limited cell performance (or even DoS) on cells served by the O-RU and in addition a consequential threat to all O-RUs parented to that O-DU might exist. (dropping the entire UL C-plane messages would achive same goal).",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of authentication could allow an adversary to inject own UL C-plane messages"
+    ],
+    "Threatened Asset":"ASSET-D-04",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-UPLANE-01",
+    "Threat title":"An attacker attempts to intercept the Fronthaul (MITM) over U Plane",
+    "Threat Description":"The High bit rate Fronthaul interface impose strict performance requirements ((bandwidth, latency, fronthaul transport link length, etc.) that limit the use of some security features, due to the increased processing delay. This opens the risk of Man-in-the-Middle (MITM) attacks over the fronthaul interface to intercept the U-Plane.\nFor the transported U-Plane data an attacker could potentially do threats, such as passive wiretapping and denial of service, but would need to break PDCP Security prior to any content access.\n3GPP defines UP integrity protection algorithms in their specifications but many of the OEMs have not implemented them because of impact on the user experience (e.g. download and upload data throughputs). Enabling UP integrity protection requires considerable compute resources and adds overhead that directly impacts the maximum throughputs that can be measured on the user device. The integrity protection is enabled on the Control Plane messages but that still leaves the user\u2019s data traffic vulnerable because the Control Plane and User Plane are segregated. For example, the lack of UP integrity could enable a rogue base station to manipulate the user data messages (i.e. DNS) and redirect a user to a malicious website. ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements"
+    ],
+    "Threatened Asset":"ASSET-D-05",
+    "Affected Components":"O-DU, O-RU"
+  },
+  {
+    "Threat ID":"T-ORU-01",
+    "Threat title":"An attacker stands up a false base station attack by attacking an O-RU",
+    "Threat Description":"A false base station attack occurs when an attacker masquerades as a legitimate mobile network to facilitate a Man-in-The-Middle (MiTM) attack between a subscriber\u2019s user equipment (UE) and the mobile network. \nThere are three attack scenarios on an O-RU that enable an attacker to realize a false base station attack: \n1. Hijack fronthaul to realize a false base station attack: Attacker disables an operational O-RU\u2019s access to the open fronthaul, plugs a false base station system into the operational O-RU\u2019s fronthaul interface, and launches a false base station attack with the O-RU providing the air interface.\n2. Recruit a standalone O-RU to realize a false base station attack: The stand-alone O-RU is an O-RU that is not operational but is available to an attacker to incorporate into a false base station system. The attacker plugs a false base station system into the standalone O-RU\u2019s fronthaul interface and launches a false base station attack with the O-RU providing the air interface.\n3. Gain unauthorized physical access to O-RU to realize a false base station attack: An attacker gains access to external and internal components of an O-RU (other than the open fronthaul interface), connects the O-RU under attack to a false base station system, and launches a false base station attack with the O-RU providing the air interface.\nSuccessful attacks may cause:\na) For a subscriber\u2019s UE in attack scenarios 1, 2, and 3: the false base stations, also known as SUPI\/5G-GUTI catchers, retrieves a subscriber identity by forcing a UE to attach to the false base station systems. This opens the door to subscriber identity interception\/disclosure and unauthorized subscriber tracking attacks. These attacks include stealing subscriber information, tampering with transmitted information, tracking subscribers, and compromising subscriber privacy.\nb) For the operator network: in attack scenario 1, the attacker removes the operational O-RU from providing service to UEs in the coverage area served by the operational O-RU.\nc) For operators and vendors in attack scenarios 1, 2, and 3, the attacker recruits legitimate operator\/vendor equipment for the purpose of creating a false base station attack on subscribers, possibly harming the reputation of the operator and vendor whose O-RU was used in the attack.\nNOTE: The false base station threat has existed since GSM networks and continued to evolve and persist with the evolution of mobile networks. 5G networks are expected to introduce several security enhancements over 4G and legacy networks. Despite these security enhancements, 5G networks could still be a target of false base station attacks [19].",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "False O-RUs"
+    ],
+    "Threatened Asset":"ASSET-D-01, ASSET-D-02, ASSET-D-03, ASSET-D-04, ASSET-D-05, ASSET-D-06",
+    "Affected Components":"O-RU"
+  },
+  {
+    "Threat ID":"T-NEAR-RT-01",
+    "Threat title":"Malicious Apps can exploit UE identification, track UE location and change UE priority",
+    "Threat Description":"xApps in the Near-RT-RIC have the capability to manipulate behavior of a certain cell, a group of UEs, and a specific UE. A malfunctioning or unavailable root of trust could potentially cause issues on the network and compromise RAN performance, privacy, etc. For example, the xApp could track a certain subscriber or impact service for a subscriber or a dedicated area. In addition, an xApp can receive order via A1 to control a certain UE and if a malfunctioning xApp receives an order to prioritize this UE, then the owner of the malfunctioning xApp knows a VIP that they want to track is in a certain area. With this command exposure, the attacker can obtain a rough location of a very important person and change the order from prioritize to deprioritize for a UE.\nFurther, E2 interface exposes UE identification that can be exploited by a malicious xApp. As the E2 interface (similar to A1 interface) can point out a certain UE in the network, this will create a correlation between the randomized (anonymized) UE identities between the RAN nodes. For example, a xApp can potentially be used as a \u201csniffer\u201d for UE identification. The additional challenge for the Near-RT RIC \/ E2 compared to the Non-RT RIC \/ A1 is that more frequent signaling is expected over the E2 interface to enable near-real-time operation. Therefore, the UE identifier will be exchanged more frequently over the E2 than over the A1.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Malicious xApps may be used to gain access to UE identification location and priority"
+    ],
+    "Threatened Asset":"ASSET-D-21, ASSET-D-22, ASSET-D-41, ASSET-D-43",
+    "Affected Components":"Near-RT RIC, UE, xApps"
+  },
+  {
+    "Threat ID":"T-NEAR-RT-02",
+    "Threat title":"Risk of deployment of a malicious xApp on Near-RT RIC",
+    "Threat Description":" The security threats associated with the onboarding and deployment of malicious xApps include:\n\u2022 Malicious xApps attaining unauthorized access to the Near-RT RIC and E2 Nodes\n\u2022 Malicious xApps abusing radio network information and control capabilities over RAN functions\n\u2022 Malicious xApp impacting service for a subscriber or a dedicated area\n\u2022 Malicious xApp exploiting UE identification, tracking UE location and changing UE slice priority  ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper or missing authentication and authorization of xApps"
+    ],
+    "Threatened Asset":"ASSET-D-10, ASSET D-11, ASSET D-21, ASSET-D-22",
+    "Affected Components":"Near-RT RIC, UE, xApps"
+  },
+  {
+    "Threat ID":"T-NEAR-RT-03",
+    "Threat title":"Attackers exploit non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs",
+    "Threat Description":"Not mutually authenticating xApps and Near-RT RIC platform APIs could potentially allow attackers to perform the following type of attacks [20]:\n- Operating malicious xApp claiming to be genuine in order to request certain services (theft of services) or information (data leakage)\n- Man in the middle attacks between a genuine xApp and a Near-RT RIC platform API\n- Querying network or UE information from a compromised xApp to Near-RT RIC platform (e.g. database via SDL API), thereby leaking potentially sensitive data about network and\/or UE (potential privacy issues) \n- Subscribing a malicious xApp to services provided by the Near-RT RIC platform, such as API-related events notifications, discovery of APIs, E2SM, etc. \nThe use of weak credentials in the process of API authentication can compromise the overall system. The user\/password combination isn\u2019t considered safe, not only for password related attacks (e.g., brute-force), but also it would represent a high risk to allow xApps, especially 3rd party xApps, to store the user\/password combo. This approach would extend the attack surface into xApps side.   \nAs a reference, OWASP API Security Top 10 report [21] indicates that authentication mechanisms are often implemented incorrectly, allowing attackers to compromise authentication tokens or to exploit implementation flaws to assume other user's identities temporarily or permanently. Compromising system's ability to identify the client\/user, compromises API security overall.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs"
+    ],
+    "Threatened Asset":"ASSET-D-09, ASSET-D-10, ASSET D-11, ASSET D-20, ASSET-D-21, ASSET-D-25, ASSET-D-26, ASSET-D-29, ASSET-D-30, ASSET-C-02, ASSET-C-09, ASSET-D-41, ASSET-D-43",
+    "Affected Components":"Near-RT RIC, UE, xApps"
+  },
+  {
+    "Threat ID":"T-NEAR-RT-04",
+    "Threat title":"Attackers exploit non authorized Near-RT RIC APIs to access to resources and services which they are not entitled to use.",
+    "Threat Description":"If the API consumers are not authorized by the API producers, attackers (e.g, malicious xApps) would potentially be able to perform the following types of attacks:\n- Abuse and\/or theft of services or information (data leakage), requesting and successfully obtaining them from the platform, e.g, in order to extract potentially sensitive information from the network and\/or UEs\n- Negatively impacting the network performance due to malicious policies over E2 Nodes\n- Flooding the platform with resource demanding operations that may lead to a Denial of Service attack\n\nAs a reference, OWASP API Security Top 10 report [21] indicates that \u2018Broken Object Level Authorization\u2019 has been the most common and impactful attack on APIs. Even if the application implements a proper infrastructure for authorization checks, developers might forget to use these checks before accessing a sensitive object. Unauthorized access can result in data disclosure to unauthorized parties, data loss, or data manipulation.\nIn the actual context of Near-RT RIC [8], the platform as API producer is responsible to specify those rights\/privileges for the platform services as resources to the xApps as consumers. In general, an xApp should only have the required set of permissions to perform the actions for which they are authorized, and no more. \nNOTE: The investigation of services for which the API producer is the xApp is for further study",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Non-authorized RT RIC APIs"
+    ],
+    "Threatened Asset":"ASSET-D-09, ASSET-D-10, ASSET D-11, ASSET D-20, ASSET-D-21, ASSET-D-25, ASSET-D-26, ASSET-D-29, ASSET-D-30, ASSET-C-02, ASSET-C-09, ASSET-D-41, ASSET-D-43",
+    "Affected Components":"Near-RT RIC, UE, xApps"
+  },
+  {
+    "Threat ID":"T-NEAR-RT-05",
+    "Threat title":"Attackers exploit non uniquely identified xApps using a trusted xAppID to access to resources and services which they are not entitled to use.",
+    "Threat Description":"Not uniquely identifying xApps using a trusted xAppID potentially entails certain threats and potential attacks:\n- A non-unique xAppID might cause misidentification of an xApp, possibly allowing a potentially malicious xApp to request certain services (theft of services), information (data leakage), or alter existing information\n- A malicious xApp might use the xAppID assigned to a legitimate xApp to request services or information from Near-RT RIC platform\n- A non-unique xApp ID could make it impossible to accurately assign actions to the correct xApp\n- A non-unique xApp ID could make it difficult to recognize that a malicious xApp is in the environment",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Not uniquely identifying xApps using a trusted xAppID"
+    ],
+    "Threatened Asset":"ASSET-D-39, ASSET-C-02, ASSET-C-09",
+    "Affected Components":"Near-RT RIC, xApps"
+  },
+  {
+    "Threat ID":"T-NONRTRIC-01",
+    "Threat title":"An attacker gains access to the Non-RT RIC through the SMO to cause a denial of service or degrade the performance of the Non-RT-RIC",
+    "Threat Description":"An attacker penetrates the Non-RT RIC through the SMO and attempts to trigger a Denial of Service or degrade the performance of non-RT RIC so that non-RT RIC would not be liable for ensuring:\n\u2022 The monitoring or tracing of the network to understand the effect of the A1 policy on performance in Near-RT RIC \n\u2022 The update of A1 policy \n\u2022 The exposure and secure delivery of A1 Enrichment Information to near-RT RIC\n\u2022 The setup of access control rules and the selection of which Enrichment Information ID (EiId) are exposed to a near-RT RIC",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper or missing authentication and authorization processes on the Non-RT RIC or SMO"
+    ],
+    "Threatened Asset":"ASSET-D-03, ASSET-D-07, ASSET-D-08, ASSET-C-11",
+    "Affected Components":"Non-RT RIC, rApps"
+  },
+  {
+    "Threat ID":"T-NONRTRIC-02",
+    "Threat title":"An attacker gains access to the Non-RT RIC through the SMO for UE tracking",
+    "Threat Description":"An attacker gains access to the Non-RT RIC through the SMO for UE tracking. ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Malicious rApps may be used to gain access to UE identification"
+    ],
+    "Threatened Asset":"ASSET-D-21, ASSET-D-22, ASSET-C-11",
+    "Affected Components":"Non-RT RIC, rApps, UE"
+  },
+  {
+    "Threat ID":"T-NONRTRIC-03",
+    "Threat title":"An attacker gains access to the Non-RT RIC through the SMO to cause Data Corruption\/Modification",
+    "Threat Description":"An attacker gains access to the Non-RT RIC through the SMO to cause Data Corruption\/Modification.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper or missing authentication and authorization processes on the Non-RT RIC or SMO"
+    ],
+    "Threatened Asset":"ASSET-C-11",
+    "Affected Components":"Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-NONRTRIC-04",
+    "Threat title":"An attacker exploits non uniquely identified rApp instances using a trusted rAppID to access R1 services and data which they are not entitled to use",
+    "Threat Description":"An attacker can exploit non-uniquely identified rApp instances using a trusted rAppID to gain unauthorized access to services and data. Potential threats and attacks include:\n- A non-unique rAppID might cause misidentification of an rApp instance, possibly allowing a potentially malicious rApp instance to request certain services (theft of services), information (data leakage), or alter existing information\n- A malicious rApp instance might use the rAppID assigned to a legitimate rApp instance to request access to R1 services or data\n- A non-unique rApp ID could make it impossible to accurately assign actions to the correct rApp instance\n- A non-unique rApp ID could make it difficult to recognize that a malicious rApp instance is in the environment",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Not uniquely identifying rApp instances using a trusted rAppID"
+    ],
+    "Threatened Asset":"ASSET-C-10, ASSET-C-11",
+    "Affected Components":"Non-RT RIC, rApps"
+  },
+  {
+    "Threat ID":"T-xAPP-01",
+    "Threat title":"An attacker exploits xApps vulnerabilities and misconfiguration",
+    "Threat Description":"Vulnerabilities can potentially exist in any xApp if it stems from an untrusted or unmaintained source. If attackers can find exploitable xApp, they can disrupt the offered network service and potentially take over another xApp or the whole near-RT RIC. \nThe actual consequences may vary. For example, an attacker may gain the ability to alter data transmitted over A1 or E2 interfaces, extract sensitive information, etc.\nMalicious xApps impact near-RT RIC functions in the purpose of performance degradation, DoS, etc.\nxAPPs have the capability to manipulate behavior of a certain cell, a group of UEs, and a specific UE. A malfunctioning xApp could potentially track a certain subscriber or impact service for a subscriber or a dedicated area [12].",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "xApp stems from an untrusted or unmaintained source"
+    ],
+    "Threatened Asset":"ASSET-C-03, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "Affected Components":"O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "Threat ID":"T-xAPP-02",
+    "Threat title":"Conflicting xApps unintentionally or maliciously impact O-RAN system functions to degrade performance or trigger a DoS",
+    "Threat Description":"Conflicting xApps unintentionally or maliciously impact O-RAN system functions such as mobility management, admission controls, bandwidth management and load balancing in the purpose of performance degradation.\nThere is no clear functional split between the Near-RT RIC and the O-gNB. The functional split depends on the available xApps and the capabilities exposed by the O-gNB. This creates possible conflicts between the decisions taken by the Near-RT RIC and the O-gNB that could lead to instability in the network, which introduces vulnerabilities that could be exploited by threat actors. For example, a threat actor can utilize a malicious xApp that intentionally triggers RRM decisions conflicting with the O-gNB internal decisions to create denial of service.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "xApps may be misconfigured or compromised",
+      "Failing or misconfigured authentication and authorization in xApp"
+    ],
+    "Threatened Asset":"ASSET-C-03, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "Affected Components":"O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "Threat ID":"T-xAPP-03",
+    "Threat title":"An attacker compromises xApp isolation",
+    "Threat Description":"An attacker can exploit weaknesses and vulnerabilities to compromise xApp isolation and to break out of xApp confinement. For example, attacker can use the underlying system vulnerabilities to easily breach isolation and confinement. \nAdversary can use side effects resulting from a shared resource usage to deduce information from co-hosted xApps.\nGaining unauthorized access to the underlying system provides new opportunities to exploit vulnerabilities in other xApps or O-RAN components to intercept and spoof network traffic, to degrade services (DoS), etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Vulnerabilities in the underlying system hosting xApps"
+    ],
+    "Threatened Asset":"ASSET-C-03, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "Affected Components":"O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "Threat ID":"T-xApp-04",
+    "Threat title":"False or malicious A1 policies modify behavior of xApps",
+    "Threat Description":"Unauthorized access to the Non-RT RIC enables the creation of \u2018false policies\u2019 that can be issued to the Near-RT RIC for enforcement. Existing Near-RT RIC policies could also be modified to achieve a false policy. False policies passed to the Near-RT RIC would be persistent until they were modified or deleted by the Non-RT RIC or the Near-RT RIC power cycles.\nFalse policies can be created to have numerous impacts to the normal performance of the RAN. A single false A1 policy can target a specific UE, groups of UEs, or an entire cell. A false policy could influence the Near-RT RIC to configure the O-DU and O-RU functions to support Denial of Service (DoS) attacks by using feedback data to degrade RAN performance. \nFalse policies could also be used for the purpose of locating a subscriber or group of subscribers. In this case, the false policy would cause the Near-RT RIC to isolate a subscriber in the O-CU. The Near-RT RIC could also use MIMO beamforming in the O-DU and O-RU to isolate a user onto a single beam. The data feedback from the RAN can include UE location or trajectory information from GPS data. The subscriber location would be attained from access to the Non-RT RIC in the SMO function.\nThe Near-RT RIC is capable of steering traffic to achieve optimal QoS or QoE performance. A false policy could notionally cause the Near-RT RIC to steer user data to isolate the data in order to facilitate a cyber-attack.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "xApp functionality exploited by malicious A1 policies"
+    ],
+    "Threatened Asset":"ASSET-D-07, ASSET-D-11, ASSET-C-09",
+    "Affected Components":"O-CU, O-DU, Near-RT RIC, xApps"
+  },
+  {
+    "Threat ID":"T-rAPP-01",
+    "Threat title":"Conflicting rApps impact O-RAN system functions to degrade performance or trigger a DoS",
+    "Threat Description":"rApps in the Non-RT RIC can be provided by different vendors. For example, one vendor can provide the rApp for Carrier license scheduling and another vendor provide the rApp for energy saving, etc.\nThis creates the risk that different rApps will take conflicting decisions at the same instance in time for the same user. Such conflicts between rApps include:\n\u2022 Direct conflicts: different rApps request change for the same parameter.\n\u2022 Indirect conflicts: different rApps request change to different parameters that will create opposite effects.\n\u2022 Implicit conflicts: different rApps request change to different parameters that are not creating any obvious opposite effect but result in an overall network performance degradation, instabilities, etc. \nThese conflicts are difficult to mitigate since dependencies are impossible to observe.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "rApp stems from an untrusted or unmaintained source"
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-rAPP-02",
+    "Threat title":"An attacker exploits rApp vulnerability for data breach or denial of service",
+    "Threat Description":"Vulnerabilities can potentially exist in any rApp. If attackers can find exploitable rApp, they can potentially force a data breach, disrupt the offered network service. and take over another rApp or the non-RT RIC. \nThe actual consequences may vary. For example, an attacker may gain the ability to alter data transmitted over A1 interface, extract sensitive information, etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "rApp management is exposed to the tenant in a web front-end or REST API. These interfaces may contain software vulnerabilities or implement authentication and authorization insufficiently."
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-rAPP-03",
+    "Threat title":"An attacker exploits rApps misconfiguration",
+    "Threat Description":"Security misconfiguration, such as open ports or enabled unused protocols, can potentially exist in an rApp. If attackers can find exploitable rApp, they can disrupt the offered network service and potentially take over another rApp or the whole non-RT RIC. \nThe actual consequences may vary. For example, an attacker may gain the ability to alter data transmitted over A1 interface, extract sensitive information, etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Vulnerabilities in the underlying system hosting rApps"
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-rAPP-04",
+    "Threat title":"An attacker bypasses authentication and authorization",
+    "Threat Description":"An Attacker can exploit an rApp that has weak or misconfigured authentication and authorization to gain access to the rApp and pose as a tenant. ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "rApps may be misconfigured or compromised",
+      "Failing or misconfigured authentication and authorization in rApp"
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-rAPP-05",
+    "Threat title":"An attacker deploys and exploits malicious rApp",
+    "Threat Description":"An untrusted source may intentionally provide a malicious rApp.  A trusted source may have a backdoor intentionally inserted in the rApp.  If attackers can find exploitable rApp, they can disrupt the offered network service and potentially take over another rApp or the whole non-RT RIC. \nMalicious rApps could impact non-RT RIC functions such as AI\/ML model training, A1 policy management, Enrichment information management, Network Configuration Optimization in the purpose of performance degradation, DoS, enrichment data sniffing (UE location, trajectory, navigation information, GPS data, etc.), etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "rApps may be misconfigured or compromised",
+      "Failing or misconfigured authentication and authorization in rApp"
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-rAPP-06",
+    "Threat title":"An attacker bypasses authentication and authorization using an injection attack",
+    "Threat Description":"It is possible that an attacker to submit requests without prior authentication and authorization by executing an injection attack to manipulate configurations, access logs, perform remote code execution, etc.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "rApps may be misconfigured or compromised",
+      "Failing or misconfigured authentication and authorization in rApp"
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-rAPP-07",
+    "Threat title":"rApp exploits services",
+    "Threat Description":"A malicious rApp or a trusted but compromised rApp can exploit services across the R1 interface",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "rApps may be misconfigured or compromised",
+      "Failing or misconfigured authentication and authorization in rApp"
+    ],
+    "Threatened Asset":"ASSET-C-10",
+    "Affected Components":"rApps, Non-RT RIC"
+  },
+  {
+    "Threat ID":"T-PNF-01",
+    "Threat title":"An attacker compromises a PNF to launch reverse attacks and other attacks against VNFs\/CNFs",
+    "Threat Description":"A lack of security policies to protect mixed PNF-VNF\/CNF deployments could be used to perform attacks against VNFs\/CNFs, potentially taking advantage of legacy security used by PNFs and not provided by the virtualization\/containerization layer.\nAttackers could use insecure interfaces as injection points and for reverse attack. ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Mixed PNF-VNF\/CNF deployments"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-01",
+    "Threat title":"External attacker exploits authentication weakness on SMO",
+    "Threat Description":"An external attacker can exploit the improper\/missing authentication weakness on SMO functions. If the authentication of O-RAN subjects on A1, O1, O2, and External interfaces on SMO is not supported or not properly implemented, those interfaces without proper credentials could be exploited to gain access to the SMO.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authentication "
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17",
+    "Affected Components":"Non-RT RIC, SMO Framework "
+  },
+  {
+    "Threat ID":"T-SMO-02",
+    "Threat title":"External attacker exploits authentication weakness on SMO",
+    "Threat Description":"An external attacker can exploit the improper\/missing authorization weakness on SMO functions.  A malicious external entity on A1, O1, O2, and External interfaces without authorization or with an incorrect access token may invoke the SMO functions. The data at rest related to that function will be leaked to the attacker. In addition, an attacker can be able to perform certain actions, e.g.  disclose O-RAN sensitive information or alter O-RAN components.",
+    "Threat type":"Elevation of Privilege, Information Disclosure",
+    "Impact type":"Authorization. Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authorization "
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17",
+    "Affected Components":"Non-RT RIC, SMO Framework "
+  },
+  {
+    "Threat ID":"T-SMO-03",
+    "Threat title":"External Overload DoS attack targeted at SMO",
+    "Threat Description":"Overload situation could appear in the case of DoS attack or increased traffic on externally facing interfaces. Inability to mitigate traffic volumetric attacks on an external interface affects availability of SMO data and functions.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of overload protection and rate-limiting"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17",
+    "Affected Components":"Non-RT RIC, SMO Framework"
+  },
+  {
+    "Threat ID":"T-SMO-04",
+    "Threat title":"Internal attacker exploits authentication weakness on a SMO function",
+    "Threat Description":"An internal attacker can exploit the improper\/missing authentication weakness on SMO functions.  If the authentication of internal interfaces (e.g. Internal Message Bus and R1) on SMO is not supported or not properly implemented, those interfaces without credentials could exploited to gain access to the SMO. ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authentication "
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-05",
+    "Threat title":"Internal attacker exploits authorization weakness on a SMO function",
+    "Threat Description":"An internal attacker can exploit the improper\/missing authorization weakness on SMO functions.  Malicious internal entities without authorization or with an incorrect access token may invoke the SMO functions. The data at rest related to these functions will be leaked to the attacker. In addition, an attacker can be able to perform certain actions, e.g.  disclose O-RAN sensitive information or alter O-RAN components.",
+    "Threat type":"Elevation of Privilege, Information Disclosure",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authorization "
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-06",
+    "Threat title":"Internal Overload DoS attack targeted at SMO functions",
+    "Threat Description":"Overload situation could appear in the case of DoS attack or increased traffic on internal SMO interfaces. Inability to mitigate traffic volumetric attacks on an external interface affects availability of SMO data and functions.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of overload protection and rate-limiting"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-07",
+    "Threat title":"Internal DoS attack disables internal SMO function(s) or process(es)",
+    "Threat Description":"Internal malicious actor exploits a vulnerability or escalates privilege to execute a DoS attack by disabling one or more SMO processes or functions. Inability to detect and report such events affects availability of SMO functions.",
+    "Threat type":"Denial of Service, Escalation of Privilege",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Privilege escalation or improperly configured authorization"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-08",
+    "Threat title":"Attacker exploits insecure API to gain access to SMO",
+    "Threat Description":"An insecure API may allow access to a system for an attacker to conduct remote code execution or an advanced persistent threat",
+    "Threat type":"Tampering, Information Disclosure, Escalation of Privilege",
+    "Impact type":"Integrity, Confidentiality, Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "API vulnerability"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-09",
+    "Threat title":"Sensitive data in transit is exposed to an internal attacker",
+    "Threat Description":"Unprotected data transferred between internal SMO functions is disclosed to an internal threat actor",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of data in transit"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-10",
+    "Threat title":"Sensitive data at rest is exposed to an internal attacker",
+    "Threat Description":"Unprotected data stored on the SMO is disclosed to an internal threat actor that has gain authorized access through privilege escalation",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of data at rest"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C_21",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-11",
+    "Threat title":"AI\/ML poisoning by internal attacker",
+    "Threat Description":"Internal attacker gains authorized access exploited to poison AI\/ML training data,or the AI\/ML models, stored in the SMO to influence insights.",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity protection of data at rest"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17",
+    "Affected Components":"Non-RT RIC, SMO Froamework "
+  },
+  {
+    "Threat ID":"T-SMO-12",
+    "Threat title":"AI\/ML exposure on external entity",
+    "Threat Description":"An external attacker can gain access to external entities to view or modify sensitive data AI\/ML data, or models, transferred between the external function and SMO via external interfaces(e.g., EI, Human-Machine, A1, O1)",
+    "Threat type":"Information disclosure, Tampering",
+    "Impact type":"Confidentiality, Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of data at rest"
+    ],
+    "Threatened Asset":"ASSET-C-11, ASSET-C-17",
+    "Affected Components":"Non-RT RIC, SMO Framework "
+  },
+  {
+    "Threat ID":"T-SMO-13",
+    "Threat title":"Malicious actor views local logs",
+    "Threat Description":"Malicious actor accesses locally stored logs in the SMO to perform reconnaissance to collect sensitive or private information.",
+    "Threat type":"Information disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of  data at rest"
+    ],
+    "Threatened Asset":"ASSET-C-17, ASSET-C-18",
+    "Affected Components":"SMO Framework, SMO Functions"
+  },
+  {
+    "Threat ID":"T-SMO-14",
+    "Threat title":"Malicious actor modifies local log entries",
+    "Threat Description":"Malicious actor accesses locally stored logs in the SMO to modify entries to hide presence or cause confusion.",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity protection of data at rest"
+    ],
+    "Threatened Asset":"ASSET-C-17, ASSET-C-18",
+    "Affected Components":"SMO Framework, SMO Functions"
+  },
+  {
+    "Threat ID":"T-SMO-15",
+    "Threat title":"Malicious actor deletes local logs",
+    "Threat Description":"Malicious actor accesses locally stored logs in the SMO to delete entries to hide presence or cause confusion.",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity protection of  data at rest"
+    ],
+    "Threatened Asset":"ASSET-C-17, ASSET-C-18",
+    "Affected Components":"SMO Framework, SMO Functions"
+  },
+  {
+    "Threat ID":"T-SMO-16",
+    "Threat title":"Malicious actor intercepts exports of local logs",
+    "Threat Description":"Malicious actor gains access to an external interface to intercept data in transit as logs are transferred from the SMO to a remote server\/external entity.",
+    "Threat type":"Information disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of  data in transit"
+    ],
+    "Threatened Asset":"ASSET-C-17, ASSET-C_18, ASSET-C-26",
+    "Affected Components":"SMO Framework, SMO Functions, External interfaces"
+  },
+  {
+    "Threat ID":"T-SMO-17",
+    "Threat title":"Malicious external actor gains unauthorized access to logs",
+    "Threat Description":"Malicious external actor gains unauthorized access to stored logs to view, modify, and delete",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authorization"
+    ],
+    "Threatened Asset":"ASSET-C-17, ASSET-C-18",
+    "Affected Components":"SMO Framework, SMO Functions"
+  },
+  {
+    "Threat ID":"T-SMO-18",
+    "Threat title":"Malicious internal actor gains authorized access to logs",
+    "Threat Description":"Malicious internal actor gains authorized access to stored logs to view, modify, and delete.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authorization"
+    ],
+    "Threatened Asset":"ASSET-C-17, ASSET-C-18",
+    "Affected Components":"SMO Framework, SMO Functions"
+  },
+  {
+    "Threat ID":"T-SMO-19",
+    "Threat title":"Internal attacker exploits O2 interface to view data in transit between SMO and O-Cloud",
+    "Threat Description":"If the O2 interface is not properly confidentiality protected, an internal attacker can perform a man-in-the-middle attack to view data in transit.",
+    "Threat type":"Information disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of data in transit"
+    ],
+    "Threatened Asset":"ASSET-C_08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-20",
+    "Threat title":"Internal attacker exploits O2 interface to modify data in transit between SMO and O-Cloud",
+    "Threat Description":"If the O2 interface is not properly integrity protected, an internal attacker can perform a man-in-the-middle attack to modify data in transit.",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity checking for data in transit"
+    ],
+    "Threatened Asset":"ASSET-C_08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-21",
+    "Threat title":"Internal attacker uses O2 interface via SMO to exploit API vulnerability to gain access to O-Cloud infrastructure",
+    "Threat Description":"If the O2 interface uses an API with a known vulnerability that is not properly protected or patched, an attacker can exploit it to gain access to the O-Cloud infrastructure from the SMO.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "API vulnerability"
+    ],
+    "Threatened Asset":"ASSET-C_08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-22",
+    "Threat title":"Internal attacker floods O2 interface via SMO to cause DDoS on O-Cloud infrastructure",
+    "Threat Description":"If the O2 interface is not protected, an internal attacker on the SMO can flood the O2 interface to overload the O-Cloud.  This can prevent legitimate messages from reaching the O-Cloud or cause heavy processing at the O-Cloud, resulting in performance degradation.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of overload protection and rate-limiting"
+    ],
+    "Threatened Asset":"ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-23",
+    "Threat title":"External attacker uses O2 interface via O-Cloud to exploit API vulnerability to gain access to SMO",
+    "Threat Description":"If the O2 interface uses an API with a known vulnerability that is not properly protected or patched, an attacker can exploit it to gain access to the SMO from the O-Cloud infrastructure.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "API vulnerability"
+    ],
+    "Threatened Asset":"ASSET-C_08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-24",
+    "Threat title":"External attacker floods O2 interface via O-Cloud to cause DDoS on SMO",
+    "Threat Description":"If the O2 interface is not protected, an external attacker in the O-Cloud can flood the O2 interface to overload the SMO.  This can prevent legitimate messages from reaching the SMO or cause heavy processing at the SMO, resulting in performance degradation or outage of the SMO.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of overload protection and rate-limiting"
+    ],
+    "Threatened Asset":"ASSET-C_08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-25",
+    "Threat title":"External attacker uses O2 interface via O-Cloud to gain authorized access to sensitive data-at-rest at the SMO",
+    "Threat Description":"If the SMO is not protected, an external attacker at the O-Cloud can use the O2 interface to gain authorized access to the SMO to view data-at-rest.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authorization"
+    ],
+    "Threatened Asset":"ASSET-C_08, ASSET-C-17, ASSET-C-23",
+    "Affected Components":"O-Cloud, SMO, O2 interface"
+  },
+  {
+    "Threat ID":"T-SMO-26",
+    "Threat title":"External attacker exploits External interface to view data in transit between SMO and external service",
+    "Threat Description":"If an External interface is not properly confidentiality protected, an external attacker can perform a man-in-the-middle attack to view data in transit.",
+    "Threat type":"Information disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection of data in transit"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26",
+    "Affected Components":"Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "Threat ID":"T-SMO-27",
+    "Threat title":"External attacker exploits External interface to modify data in transit between SMO and external service",
+    "Threat Description":"If an External interface is not properly integrity protected, an external attacker can perform a man-in-the-middle attack to modify data in transit.",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity checking for data in transit"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26",
+    "Affected Components":"Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "Threat ID":"T-SMO-28",
+    "Threat title":"External attacker uses External interface to exploit API vulnerability to gain access to SMO",
+    "Threat Description":"If an External interface uses an API with a known vulnerability that is not properly protected or patched, an attacker can exploit it to gain access to the SMO.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "API vulnerability"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26",
+    "Affected Components":"Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "Threat ID":"T-SMO-29",
+    "Threat title":"External attacker floods External interface to cause DDoS at SMO",
+    "Threat Description":"If the External interface is not protected, an external attacker can flood an External interface to overload the SMO.  This can prevent legitimate messages and data from reaching the SMO or cause heavy processing at the SMO, resulting in performance degradation or outage of the SMO.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of overload protection and rate-limiting"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26, ASSET-C_27, ASSET-C-28",
+    "Affected Components":"All"
+  },
+  {
+    "Threat ID":"T-SMO-30",
+    "Threat title":"External attacker uses External interface to gain access to sensitive data-at-rest at the SMO",
+    "Threat Description":"If the SMO is not protected, an external attacker can use the External interface to gain authorized access to the SMO to view data-at-rest.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or improperly configured authorization"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26",
+    "Affected Components":"Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "Threat ID":"T-SMO-31",
+    "Threat title":"External attacker poisons External AI\/ML data to corrupt SMO",
+    "Threat Description":"External data sources may be outside the control of the stakeholder(s) responsible for the O-RAN deployment.  The stakeholder for an External data source could fail to provide proper security controls to protect data consumed by the SMO.  If an external attacker were to gain access to AI\/ML data, it could be corrupted and then be used at the SMO.  ",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity checking for data at rest"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26",
+    "Affected Components":"Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "Threat ID":"T-SMO-32",
+    "Threat title":"External attacker poisons External Enrichment Information data sources to corrupt SMO",
+    "Threat Description":"External data sources may be outside the control of the stakeholder(s) responsible for the O-RAN deployment.  The stakeholder for an External data source could fail to provide proper security controls to protect data consumed by the SMO.  If an external attacker were to gain access to External Enrichment Information, it could be corrupted and then be used at the SMO.  ",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing integrity checking for data at rest"
+    ],
+    "Threatened Asset":"ASSET-C_11, ASSET-C-17, ASSET-C-26",
+    "Affected Components":"Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "Threat ID":"T-R1-01",
+    "Threat title":"A malicious actor gains unauthorized access to R1 services",
+    "Threat Description":"\u201cService management and exposure services Producer\u201d determines whether the Service Producer is authorized to produce the service.  An attacker can perform a spoofing attack to gain unauthorized access to R1 services.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-R1-02",
+    "Threat title":"Attacker modifies Service Heartbeat message to cause Denial of Service",
+    "Threat Description":"Attacker can exploit the Service Heartbeat on the R1 by modifying or inserting heartbeat messages to cause denial of service",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-R1-03",
+    "Threat title":"Malicious actor bypasses authentication to Request Data ",
+    "Threat Description":"Attacker can exploit password-based authentication on the R1 to request unauthorized data.  Weak password management can easily be exploited.  (Certificate-based mutual authentication using TLS and PKI X.509 certificates is recommended).",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-R1-04",
+    "Threat title":"Malicious actor bypasses authorization to Discover Data ",
+    "Threat Description":"\u201cData registration and discovery service producer\u201d determines whether the Data Producer is authorized to produce the data types.  An attacker can perform a spoofing attack to bypass authorization to discover available data.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-R1-05",
+    "Threat title":"A malicious actor gains unauthorized access to data",
+    "Threat Description":"An attacker can perform a spoofing attack to exploit the Data request and subscription service for the purpose to gain unauthorized access to data.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-R1-06",
+    "Threat title":"Malicious actor modifies a Data Request",
+    "Threat Description":"Data Consumers consume the \u201cData request and subscription service\u201d to request data instances or subscribe to them.  An attacker can modify a request to force the consumer to receive a different data set then that intended.  Without checks, the received data could be processed, leading to erroneous decisions or triggers.  ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-R1-07",
+    "Threat title":"Malicious actor compromises Data Delivery to the Data Consumer",
+    "Threat Description":"Data delivery messages relate to a particular data request or subscription. The data can be delivered to the Data Consumer in different ways, including:\n \u2022 as part of the payload of a data delivery message,\n\u2022 as a data stream,\n \u2022 from e.g., a REST endpoint, a message bus or object store location.\nAn attacker can perform snooping, injection, or modification attacks in the Delivery of Data process.  ",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-16",
+    "Affected Components":"R1 interface"
+  },
+  {
+    "Threat ID":"T-A1-01",
+    "Threat title":"Untrusted peering between Non-RT-RIC and Near-RT-RIC",
+    "Threat Description":"Malicious Non-RT-RIC peers with a Near-RT-RIC over the A1 interface, or a malicious Near-RT-RIC peers with a Non-RT-RIC over the A1 interface, due to weak mutual authentication.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-14",
+    "Affected Components":"A1 interface"
+  },
+  {
+    "Threat ID":"T-A1-02",
+    "Threat title":"Malicious function or application monitors messaging across A1 interface",
+    "Threat Description":"Internal threat actor can gain access to the messaging across the A1 interface for a MiTM attack to read policy.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-14",
+    "Affected Components":"A1 interface"
+  },
+  {
+    "Threat ID":"T-A1-03",
+    "Threat title":"Malicious function or application modifies messaging across A1 interface",
+    "Threat Description":"Internal threat actor can gain access to the messaging across the A1 interface for a MiTM attack to modify or inject policy.  This can result in the Near-RT RIC receiving malicious policy.",
+    "Threat type":null,
+    "Impact type":null,
+    "Threat agent":"All",
+    "Vulnerability":[
+      "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-14",
+    "Affected Components":"A1 interface"
+  },
+  {
+    "Threat ID":"T-AppLCM-01",
+    "Threat title":"Compromise of App\/VNF\/CNF update package integrity during onboarding",
+    "Threat Description":"Attackers gains access to the SMO to modify the App\/VNF\/CNF update package to enable a malicious application. ",
+    "Threat type":"Tampering; Denial of Service",
+    "Impact type":"Integrity; Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of integrity verification"
+    ],
+    "Threatened Asset":"ASSET-D-15",
+    "Affected Components":"Apps\/VNFs\/CNFs"
+  },
+  {
+    "Threat ID":"T-AppLCM-02",
+    "Threat title":"Compromise of App\/VNF\/CNF update image integrity during instantiation",
+    "Threat Description":"Attacker gains access to the O-Cloud platform to modify the App\/VNF\/CNF update image to enable a malicious application. ",
+    "Threat type":"Tampering; Denial of Service",
+    "Impact type":"Integrity; Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of integrity verification"
+    ],
+    "Threatened Asset":"ASSET-D-15",
+    "Affected Components":"Apps\/VNFs\/CNFs images"
+  },
+  {
+    "Threat ID":"T-AppLCM-03",
+    "Threat title":"Downgrade attack to vulnerable application version",
+    "Threat Description":"A software version downgrade attack is a form of attack on a system that makes it abandon a more recent version of a software package in favor of an older, possibly vulnerable, version. \nMalicious actor downgrades an application to enable exploitation of application vulnerabilities.",
+    "Threat type":"Denial of Service; Tampering",
+    "Impact type":"Availability; Integrity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of integrity verification"
+    ],
+    "Threatened Asset":"ASSET-D-15",
+    "Affected Components":"Apps\/VNFs\/CNFs"
+  },
+  {
+    "Threat ID":"T-AppLCM-04",
+    "Threat title":"Attacker exploits missing or improperly defined elements of application\u2019s SecurityDescriptor",
+    "Threat Description":"Proper and comprehensive definition of the App\/VNF\/CNF package SecurityDescriptor helps ensure elements of security needed for the App\/VNF\/CNF package are present. If attackers can find missing or improperly defined elements of an App\/VNF\/CNF package SecurityDescriptor, they can exploit that to gain unauthorized access to data and services. ",
+    "Threat type":"Elevation of Privilege; Denial of Service",
+    "Impact type":"Authorization; Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Misconfiguration"
+    ],
+    "Threatened Asset":"ASSET-D-15",
+    "Affected Components":"Apps\/VNFs\/CNFs"
+  },
+  {
+    "Threat ID":"T-AppLCM-05",
+    "Threat title":"Malicious actor modifies application\u2019s SecurityDescriptor",
+    "Threat Description":"Malicious actor modifies fields of an App\/VNF\/CNF package SecurityDescriptor to change security elements of the App\/VNF\/CNF, which could include information on encryption, algorithms, key requirements, firewall rules, etc. An attacker can modify the SecurityDescriptor to cause service disruption and gain unauthorized access to data and services.",
+    "Threat type":"Tampering; Elevation of Privilege; Denial of Service",
+    "Impact type":"Integrity; Authorization; Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Lack of authentication, lack of integrity verification"
+    ],
+    "Threatened Asset":"ASSET-D-15",
+    "Affected Components":"Apps\/VNFs\/CNFs"
+  },
+  {
+    "Threat ID":"T-AppLCM-06",
+    "Threat title":"Improper decommissioning of application ",
+    "Threat Description":"The improper decommissioning of an application can lead to excessive or conflicting resource usage, accidental deletion of pertinent data (such as application data, cryptographic keys, etc.), and misallocation of resources to a malicious application. Credentials or other trust relationships may not be revoked or removed, which leaves an exposure. ",
+    "Threat type":"Denial of Service, Information Disclosure",
+    "Impact type":"Availability, Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Improper release of resources and secrets"
+    ],
+    "Threatened Asset":"ASSET-D-15",
+    "Affected Components":"Apps\/VNFs\/CNFs"
+  },
+  {
+    "Threat ID":"T-AppLCM-07",
+    "Threat title":"Improper deletion of application sensitive data",
+    "Threat Description":"Adversary can gain access to sensitive data and secrets if an application\u2019s data is not securely deleted. This can include access to secure artifacts such as certificates and keys.\n",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Missing or weak confidentiality protection"
+    ],
+    "Threatened Asset":"ASSET-D-16, ASSET-D-17, ASSET-D-32",
+    "Affected Components":"Apps\/VNFs\/CNFs"
+  },
+  {
+    "Threat ID":"T-SharedORU-01",
+    "Threat title":"O-DU Tenant accesses O-DU Host",
+    "Threat Description":"The O-DU Tenant accesses the O-DU Host through the Shared O-RU.  Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-34",
+    "Affected Components":"O-DU Host"
+  },
+  {
+    "Threat ID":"T-SharedORU-02",
+    "Threat title":"O-DU Host accesses O-DU Tenant",
+    "Threat Description":"The O-DU Host accesses the O-DU Tenant through the Shared O-RU. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a host to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-35",
+    "Affected Components":"O-DU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-03",
+    "Threat title":"O-DU Tenant accesses O-DU Tenant",
+    "Threat Description":"An O-DU Tenant accesses another O-DU Tenant through the Shared O-RU supporting multiple tenants.  Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-35",
+    "Affected Components":"O-DU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-04",
+    "Threat title":"Password Attack on OFH M-Plane",
+    "Threat Description":"Use of single-factor authentication with password on the Open Fronthaul M-Plane can be exploited by an internal malicious actor to gain access to the Shared O-RU.  The attack can be a brute-force attack or stolen password.  There is increased risk of password attack in a multi-tenant environment. The internal malicious actor may be the Host MNO, a Tenant MNO, or a 3rd-party. [9]",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "The attack can be a brute-force attack or stolen password.  There is increased risk of password attack in a multi-tenant environment."
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C-34, ASSET-C-35",
+    "Affected Components":"Shared O-RU, O-DU Host, O-DU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-05",
+    "Threat title":"Untrusted peering to O-DU",
+    "Threat Description":"Attacker exploits weak authentication on the O-DU to establish a session with a malicious app masquerading as a Shared O-RU.  From the O-DU, a malicious actor can move laterally across Shared O-RUs and northbound to the O-CU and SMO. ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Attacker exploits weak authentication on the O-DU to establish a session with a malicious app masquerading as a Shared O-RU.  From the O-DU, a malicious actor can move laterally."
+    ],
+    "Threatened Asset":"ASSET-C-34, ASSET-C-35",
+    "Affected Components":"O-DU Host, O-DU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-06",
+    "Threat title":"Untrusted peering to the Shared O-RU",
+    "Threat Description":"Attacker exploits weak authentication on the Shared O-RU to establish session with a malicious app masquerading as a O-DU Host or O-DU Tenant",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited to establish session with a malicious app masquerading as a O-DU Host or O-DU Tenant"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-07",
+    "Threat title":"Untrusted peering to the SMO",
+    "Threat Description":"Attacker exploits weak authentication on the SMO to establish session with a malicious app masquerading as a Shared O-RU.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication on the SMO can be exploited to establish session with a malicious app masquerading as a Shared O-RU."
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-08",
+    "Threat title":"SMO Tenant accesses SMO Host",
+    "Threat Description":"The SMO Tenant accesses the SMO Host through the Shared O-RU.  Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-38",
+    "Affected Components":"SMO Host"
+  },
+  {
+    "Threat ID":"T-SharedORU-09",
+    "Threat title":"SMO Host accesses SMO Tenant",
+    "Threat Description":"The SMO Host accesses the SMO Tenant through the Shared O-RU. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-39",
+    "Affected Components":"SMO Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-10",
+    "Threat title":"O-DU Host accesses O-CU Tenant",
+    "Threat Description":"The O-DU Host accesses the O-CU Tenant through the Shared O-RU. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-37",
+    "Affected Components":"O-CU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-11",
+    "Threat title":"O-DU Tenant accesses O-CU Host",
+    "Threat Description":"The O-DU Tenant accesses the O-CU Host through the Shared O-RU. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-36",
+    "Affected Components":"O-CU Host"
+  },
+  {
+    "Threat ID":"T-SharedORU-12",
+    "Threat title":"O-DU Tenant accesses O-CU Tenant",
+    "Threat Description":"The O-DU Tenant accesses another O-CU Tenant through the Shared O-RU supporting multiple tenants. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-37",
+    "Affected Components":"O-CU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-13",
+    "Threat title":"SMO Host accesses O-CU Tenant",
+    "Threat Description":"The SMO Host accesses the O-CU Tenant through the Shared O-RU. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-37",
+    "Affected Components":"O-CU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-14",
+    "Threat title":"SMO Tenant accesses O-CU Host",
+    "Threat Description":"The SMO Tenant accesses the O-CU Host through the Shared O-RU. Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authentication can be exploited by a tenant to move laterally across the deployment."
+    ],
+    "Threatened Asset":"ASSET-C-36",
+    "Affected Components":"O-CU Host"
+  },
+  {
+    "Threat ID":"T-SharedORU-15",
+    "Threat title":"Physical port access to Shared O-RU Host\/Tenant",
+    "Threat Description":"A host, tenant, or third-party gains physical port connectivity to the Shared O-RU.  With this physical access the actor exploits weak physical layer authentication to gain access to the Shared O-RU.  ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak physical layer authentication can be exploited to gain access."
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-16",
+    "Threat title":"Physical port access to O-DU Host\/Tenant",
+    "Threat Description":"A host, tenant, or third-party gains physical port connectivity to a O-DU Host or O-DU Tenant.  With this physical access the actor exploits weak physical layer authentication to gain access to the O-DU.  ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak physical layer authentication can be exploited to gain access."
+    ],
+    "Threatened Asset":"ASSET-C-34, ASSET-C-35",
+    "Affected Components":"O-DU Host, O-DU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-17",
+    "Threat title":"Physical port access to O-CU Host\/Tenant",
+    "Threat Description":"A host, tenant, or third-party gains physical port connectivity to a O-CU Host or O-CU Tenant.  With this physical access the actor exploits weak physical layer authentication to gain access to the O-CU.  ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak physical layer authentication can be exploited to gain access."
+    ],
+    "Threatened Asset":"ASSET-C-36, ASSET-C-37",
+    "Affected Components":"O-CU Host, O-CU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-18",
+    "Threat title":"Malicious User Login Attempt to SMO Host\/Tenant",
+    "Threat Description":"The attacker attempts to access the SMO Host or SMO tenant though a management interface.  The attacker may be an internal or external actor.  Weak account management and\/or authentication can be exploited to gain access to move laterally across the deployment for nefarious purposes such as reconnaissance or damage. ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak account management and\/or authentication can be exploited to gain access."
+    ],
+    "Threatened Asset":"ASSET-C-38, ASSET-C-39",
+    "Affected Components":"SMO Host, SMO Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-19",
+    "Threat title":"Malicious User Login Attempt to O-CU Host\/Tenant",
+    "Threat Description":"The attacker attempts to access the O-CU Host or O-CU Tenant though a management interface.  The attacker may be an internal or external actor.  Weak account management and\/or authentication can be exploited to gain access to move laterally across the deployment for nefarious purposes such as reconnaissance or damage. ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak account management and\/or authentication can be exploited to gain access"
+    ],
+    "Threatened Asset":"ASSET-C-36, ASSET-C-37",
+    "Affected Components":"O-CU Host, O-CU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-20",
+    "Threat title":"Malicious User Login Attempt to O-DU Host\/Tenant",
+    "Threat Description":"The attacker attempts to access the O-DU Host or O-DU Tenant though a management interface.  The attacker may be an internal or external actor.  Weak account management and\/or authentication can be exploited to gain access to move laterally across the deployment for nefarious purposes such as reconnaissance or damage. ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak account management and\/or authentication can be exploited to gain access"
+    ],
+    "Threatened Asset":"ASSET-C-32, ASSET-C-33",
+    "Affected Components":"O-DU Host, O-DU Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-21",
+    "Threat title":"Malicious User Login Attempt to Shared O-RU Host\/Tenant",
+    "Threat Description":"The attacker attempts to access the O-RU Host or O-RU Tenant though a management interface.  The attacker may be an internal or external actor.  Weak account management and\/or authentication can be exploited to gain access to move laterally across the deployment for nefarious purposes such as reconnaissance or damage. ",
+    "Threat type":"Spoofing",
+    "Impact type":"Authenticity",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak account management and\/or authentication can be exploited to gain access"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-22",
+    "Threat title":"Unauthorized internal threat actor gains access to data in Shared O-RU",
+    "Threat Description":"Malicious internal threat actor exploits compromised credentials or weak or misconfigured authorization to gain access to view or modify sensitive data-at-rest or data-in-use in the Shared O-RU.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Compromised credentials or weak or misconfigured authorization to gain access to view or modify sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-23",
+    "Threat title":"Unauthorized external threat actor gains access to data in Shared O-RU",
+    "Threat Description":"Malicious external threat actor exploits compromised credentials or weak or misconfigured authorization to gain access to view or modify sensitive data-at-rest or data-in-use in the Shared O-RU.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Compromised credentials or weak or misconfigured authorization to gain access to view or modify sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-24",
+    "Threat title":"Data exposure at Shared O-RU",
+    "Threat Description":"Data-at-rest on the Shared O-RU is exposed to a tenant.  Attacker exploits weak confidentiality protection to view data owned by the MNO Host or a MNO Tenant.",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak confidentiality protection exploited to view sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-25",
+    "Threat title":"Shared O-RU data exposure at SMO",
+    "Threat Description":"Data-at-rest on the SMO related to a Shared O-RU is exposed to an unauthorized tenant \/ SMO user.  Attacker exploits weak confidentiality protection to view data owned by the MNO Host or a MNO Tenant of a shared O-RU.",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak confidentiality protection exploited to view sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-26",
+    "Threat title":"Shared O-RU data exposure at O-DU",
+    "Threat Description":"Data-at-rest on the O-DU related to a Shared O-RU is exposed to an unauthorized tenant.  Attacker exploits weak confidentiality protection to view data owned by the MNO Host or a MNO Tenant of a shared O-RU.",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak confidentiality protection exploited to view sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-27",
+    "Threat title":"Exposed data in transit between Shared O-RU and O-DU Host\/Tenant",
+    "Threat Description":"Data-in-transit between the Shared O-RU and an O-DU Host or O-DU Tenant could be exposed to another MNO or malicious threat actor. Weak confidentiality protection of data-in-transit allows the host, tenant, or actor to view intercepted data owned by the MNO Host or a MNO Tenant.",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak confidentiality protection exploited to view sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C-24, ASSET-C-25",
+    "Affected Components":"Shared O-RU, M-Plane, CUS-Plane"
+  },
+  {
+    "Threat ID":"T-SharedORU-28",
+    "Threat title":"Exposed data in transit between Shared O-RU and SMO Host\/Tenant",
+    "Threat Description":"Data-in-transit between the Shared O-RU and a SMO Host or SMO Tenant could be exposed to another MNO or malicious threat actor. Weak confidentiality protection of data-in-transit allows the host, tenant, or actor to view intercepted data owned by the MNO Host or a MNO Tenant.",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak confidentiality protection exploited to view sensitive data"
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C-22",
+    "Affected Components":"Shared O-RU, O1"
+  },
+  {
+    "Threat ID":"T-SharedORU-29",
+    "Threat title":"Modify\/Delete OFH C-Plane messages",
+    "Threat Description":"A Host MNO, Tenant MNO, or 3rd-party, modifies or deletes control plane messages on the OFH C-Plane between the Shared O-RU and Host O-DU or Tenant O-DU.  This type of integrity attack can also result in an availability attack.",
+    "Threat type":"Tampering",
+    "Impact type":"Integrity, Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak integrity protection exploited to modify or delete control messages"
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C_34, ASSET-C-35, ASSET-C-25",
+    "Affected Components":"Shared O-RU, O-DU Host, O-DU Tenant, CUS-Plane"
+  },
+  {
+    "Threat ID":"T-SharedORU-30",
+    "Threat title":"Clock hijacking on OFH S-Plane",
+    "Threat Description":"A Host MNO, Tenant MNO, or 3rd-party takes the role of Grand Master clock on the S-Plane to degrade performance on the U-Plane.  This type of authorization exploit can also result in an availability attack.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization, Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Weak authorization exploit can also result in spoofing of the Grand Master clock for an availability attack"
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C_34, ASSET-C-35, ASSET-C-25",
+    "Affected Components":"Shared O-RU, O-DU Host, O-DU Tenant, CUS-Plane"
+  },
+  {
+    "Threat ID":"T-SharedORU-31",
+    "Threat title":"Parameter conflicts at Shared O-RU",
+    "Threat Description":"O-DU Host and O-DU Tenants may force conflicting parameter settings at the Shared O-RU that can degrade performance or cause an outage.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Conflicting parameter settings degrade performance or cause an outage."
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-32",
+    "Threat title":"Volumetric DDoS attack from O-DU targeting Shared O-RU",
+    "Threat Description":"An O-DU Host or O-DU Tenant maliciously or unintentionally sends a high-rate of malformed, mis-sequenced, invalid, or valid packets over the Open Fronthaul interface to the Shared O-RU.  This kind of attack can cause a Denial of Service on the Shared O-RU.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "High-rate of malformed, mis-sequenced, invalid, or valid packets to cause a Denial of Service "
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C-24, ASSET-C-25",
+    "Affected Components":"Shared O-RU, M-Plane, CUS-Plane"
+  },
+  {
+    "Threat ID":"T-SharedORU-33",
+    "Threat title":"Volumetric DDoS attack from SMO targeting Shared O-RU",
+    "Threat Description":"The SMO Host maliciously or unintentionally sends a high-rate of malformed, mis-sequenced, invalid, or valid packets over the Open Fronthaul interface to the Shared O-RU.  This kind of attack can cause a Denial of Service on the Shared O-RU.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "High-rate of malformed, mis-sequenced, invalid, or valid packets to cause a Denial of Service"
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C-22",
+    "Affected Components":"Shared O-RU, O1"
+  },
+  {
+    "Threat ID":"T-SharedORU-34",
+    "Threat title":"Volumetric DDoS attack targeting O-DU",
+    "Threat Description":"Shared O-RU maliciously or unintentionally sends a high-rate of malformed, mis-sequenced, invalid, or valid packets over the Open Fronthaul interface to the O-DU Host or O-DU Tenant.  This kind of attack can cause a Denial of Service on the O-DU.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "High-rate of malformed, mis-sequenced, invalid, or valid packets to cause a Denial of Service"
+    ],
+    "Threatened Asset":"ASSET-C_34, ASSET-C-35, ASSET-C-24, ASSET-C-25",
+    "Affected Components":"O-DU Host, O-DU Tenant, M-Plane, CUS-Plane"
+  },
+  {
+    "Threat ID":"T-SharedORU-35",
+    "Threat title":"Shared O-RU initialization hijacking by DHCP compromise",
+    "Threat Description":"Shared O-RU bootup and initialization sequence depends on parameters passed to it via DHCP options. An attacker can compromise DHCP server and use it to hijack the O-RU and prevent Shared O-RU from reaching carrier-active state. This kind of attack can cause a Denial of Service on the shared O-RU.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Compromise DHCP server and use it to prevent Shared O-RU from reaching carrier-active state causing a Denial of Service"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-36",
+    "Threat title":"Shared O-RU M-plane hijacking by DNS compromise",
+    "Threat Description":"Shared O-RU M-plane initialization depends on DNS, if FQDN is returned as the NETCONF controller of shared O-RU during its initialization. The name resolution of FQDN can be manipulated by an attacker using a compromised DNS server and prevent Shared O-RU from reaching carrier-active state due to unavailability of carrier configuration. This kind of attack can cause a Denial of Service on the shared O-RU.",
+    "Threat type":"Denial of Service",
+    "Impact type":"Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "The name resolution of FQDN can be manipulated by an attacker using a compromised DNS server and prevent Shared O-RU from reaching carrier-active state causing a Denial of Service"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-37",
+    "Threat title":"Misconfiguration of MNO Host Role",
+    "Threat Description":"The SMO assigns the role of MNO Host and MNO SRO(s).  The assignment of Host role to the wrong SRO can expose data.  A threat actor could exploit an incorrectly assigned role of Host to control function of the Shared O-RU",
+    "Threat type":"Information Disclosure, Denial of Service",
+    "Impact type":"Confidentiality, Availability",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "A threat actor could exploit an incorrectly assigned role of Host to control function of the Shared O-RU"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-38",
+    "Threat title":"Incorrect Assignment of Spectrum Resources",
+    "Threat Description":"Shared O-RU is responsible for assignment and control of spectrum resources, including component carrier and frequencies within a carrier. Tenant access to the wrong resources, due to malicious intent or could be exploited to gain access to information.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authentication",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Tenant access to the wrong resources, due to malicious intent or could be exploited to gain access to information."
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-39",
+    "Threat title":"Chain of Trust in a Multi-Tenant Environment",
+    "Threat Description":"The Chain of Trust is a certificate-based chain used to authenticate an entity.  The Chain of Trust is established by validating the hardware and software for the entity up to the root certificate as the trust anchor.    The Shared O-RU mutually authenticates O-DU Hosts and O-DU Tenants.  Certificates from O-DU tenants must be validated as trustworthy.  Malicious actors can exploit untrustworthy certificates to gain access to the Shared O-RU.",
+    "Threat type":"Spoofing",
+    "Impact type":"Authentication",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Untrustworthy certificates can be exploited to gain access to the Shared O-RU"
+    ],
+    "Threatened Asset":"ASSET-C-31, ASSET-C-34, ASSET-C-35, ASSET-C-36, ASSET-C_37, ASSET-C-38, ASSET-C-39",
+    "Affected Components":"Shared O-RU, O-DU Host, O-DU Tenant, O-CU Host, O-CU Tenant, SMO Host, SMO Tenant"
+  },
+  {
+    "Threat ID":"T-SharedORU-40",
+    "Threat title":"Hijack of MNO Host Role",
+    "Threat Description":"The SMO assigns the role of MNO Host and MNO SRO(s).  A tenant may maliciously or unintentionally obtain the host role.  The elevation of privilege would enable the tenant, acting as host, to have authorized access on the Shared O-RU to sensitive data, credentials, and system privileges.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Elevation of privilege enables the tenant, acting as host, to have authorized access to sensitive data, credentials, and system privileges"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-41",
+    "Threat title":"Not Released Host Role (Host Role resume)",
+    "Threat Description":"The SMO assigns the role of Host and MNO SRO(s).  The tenant maliciously or intended is obtaining the host role, and implicit has obtained elevated privileges which could be used to drive wrong things, like obtaining of sensitive data and\/or driving DoS. The tenant is not releasing the host role and\/or the tenant is reusing known sensitive information and is driving wrong things. How to avoid that a tenant who has become once in his\/her life a host is obtaining information that could be misused now and in the future.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Elevation of privilege enables the tenant, acting as host, to have authorized access to sensitive data, credentials, and system privileges"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-42",
+    "Threat title":"Misuse of \u201csudo\u201d privileges",
+    "Threat Description":"The SMO assigns the role of Host and MNO SRO(s).  The tenant maliciously or intended is obtaining the host role, and implicit has obtained elevated privileges which could be used to drive wrong things, like obtaining of sensitive data and\/or driving DoS. How to avoid that any of the tenants can misuse the \u201csudo\u201d privileges. This includes the default credentials of a shared O-RU.",
+    "Threat type":"Elevation of Privilege",
+    "Impact type":"Authorization",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Elevation of privilege enables the tenant, acting as host, to have authorized access to sensitive data, credentials, and system privileges"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+  {
+    "Threat ID":"T-SharedORU-43",
+    "Threat title":"Eavesdropping of unprotected CUSM-plane data within shared O-RU",
+    "Threat Description":"The SMO assigns the role of Host and MNO SRO(s).  The tenant maliciously or intended is obtaining access to transport protocol stack and is therefore able to eavesdrop sensitive data from neighbor tenants and the host. The tenant may have capability for sniffing\/capturing of CUSM-plane data.",
+    "Threat type":"Information Disclosure",
+    "Impact type":"Confidentiality",
+    "Threat agent":"All",
+    "Vulnerability":[
+      "Eavesdrop sensitive data between neighbor tenants and the host"
+    ],
+    "Threatened Asset":"ASSET-C-31",
+    "Affected Components":"Shared O-RU"
+  },
+{
+    "Threat ID":"T-GEN-01",
+    "Threat title":"Software flaw attack",
+    "Threat Description":"Code of host OS, Hypervisor\/Container Engine and VNF\/CNF can include flaws that an attacker can exploit if they are present.\nAs O-RAN software components relies on opensource software, opensource libraries, 3rd party components. Vulnerability in any of these software components likely to allow attacker to exploit O-CLOUD environment. This could lead attacker to carry out to malicious activities, such as:\n\u2022 Compromise of the underlying VM\/Container\n\u2022 Exploit host access via Escape to Host\n\u2022 Take advantage of weak identity and access management policies to attempt to elevate privileges\n\u2022 Execute adversary-controlled code\n\u2022 Enable an adversary to move from a virtualized environment, such as within a virtual machine or container, onto the underlying host",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Vulnerable code exploits, Design Weakness"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-GEN-02",
+    "Threat title":"Malicious access to exposed services using valid accounts",
+    "Threat Description":"Access to valid accounts to use the O-Cloud services is often a requirement, which could be obtained through credential pharming or by obtaining the credentials from users after compromising the network. \nAdversaries may obtain and abuse credentials of existing accounts as a means of gaining initial access, persistence, privilege escalation, or defense evasion. Compromised credentials may be used to bypass access controls placed on various resources on O-Cloud.\nCompromised credentials may also grant an adversary increased privilege to specific O-Cloud services or access to restricted areas of the O-Cloud network. \nAccess may be also gained through an exposed service that doesn\u2019t require authentication. In containerized environments, this may include an exposed Docker API, Kubernetes API server, kubelet, or web application such as the Kubernetes dashboard.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-GEN-03",
+    "Threat title":"Untrust binding between the different O-Cloud layers",
+    "Threat Description":"One major challenge in virtualized architectures and especially in O-Cloud is to prove that a particular VM\/Container runs on top of a specific Hypervisor\/Container Engine. More specifically, it is necessary to assure that a trusted VM\/Container is executed on a particular trusted Hypervisor\/Container Engine, whereas the Hypervisor\/Container Engine's trust state relies on an attestation that considers the entire corresponding hard and software stack. More precisely, this includes all hardware chips, firmware, OS and Hypervisor\/Container Engine components that are relevant for the Hypervisor\/Container Engine's trust state determination.\nIf it is not possible to establish a correlation between VM\/Container and Hypervisor\/Container Engine, an attacker is able to make use of a trusted VM\/Container that runs on top of an untrusted Hypervisor\/Container Engine and it would be impossible to detect any interference made by the malicious Hypervisor\/Container Engine, e.g. intercepting communication, replacing strong or using weak cryptographic keys, etc. Similarly, trustworthiness in the service-layer might only be established if there is a mechanism to determine that only trusted VNFs\/CNFs, w.r.t trusted VM\/Container's, are running on specific trusted Hypervisors\/Container Engines that are part of the service-provisioning-chain.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of integrity verification during boot or runtime"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-GEN-04",
+    "Threat title":"Lack of Authentication & Authorization in interfaces between O-Cloud components",
+    "Threat Description":"O-Cloud deploys CNF applications as containers in a cluster of physical nodes which may be spanned across geographical locations. Owing to the Service Based Architecture of CNFs, this introduces several service endpoints communicating across each other over the network (container to container, container to cloud infrastructure component) and it is fairly difficult to distinguish between a service terminating an external interface and a service exposing only an internal interface.\nMulti-tenant deployments and deployments in public cloud also require the CNF applications to run alongside unknown entities. In such deployment scenarios, CNF service endpoints with no authentication\/weak authentication expose risk of attack that can impact the availability of service and the CNF.\nLack of proper authentication in interfaces exposed by CNF services, introduces threats of lateral movement where a compromised container\/rogue container  \n\u2022 can compromise the availability of internal service by bringing down the internal service and perform lateral movement of attack by exploiting the availability of other such services\n\u2022 can compromise the confidentiality of the internal service by extracting critical application data",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of authentication, Insecure interfaces"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs, O2"
+},
+{
+    "Threat ID":"T-GEN-05",
+    "Threat title":"Unsecured credentials and keys",
+    "Threat Description":"Adversaries may search compromised O-RAN NFs, VL, orchestration layer or hardware to find and obtain insecurely stored credentials. These credentials can be stored and\/or misplaced in many locations on the O-cloud platform, including plaintext files (e.g. Bash History), operating system or application-specific repositories (e.g. Credentials in Registry), or other specialized files\/artifacts (e.g. Private Keys) [22].\nBash History: Adversaries may search the bash command history on compromised systems for insecurely stored credentials. \nCredentials in registry: Adversaries may search the Registry on compromised systems for insecurely stored credentials. \nPrivate Keys: Adversaries may search for private key certificate files on compromised systems for insecurely stored credentials. Private cryptographic keys and certificates are used for authentication, encryption\/decryption, and digital signatures; Common key and certificate file extensions include: .key, .pgp, .gpg, .ppk., .p12, .pem, .pfx, .cer, .p7b, .asc.\nAdversary tools have been discovered that search compromised systems for file extensions relating to cryptographic keys and certificates.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure O-Cloud APIs, Lack of integrity verification during boot or runtime"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud"
+},
+{
+    "Threat ID":"T-VM-C-01",
+    "Threat title":"Abuse of a privileged VM\/Container",
+    "Threat Description":"It\u2019s possible to run VMs\/Containers with unintended configurations. Such misconfigurations can help the adversaries to compromise even strongest of VM\/Container isolation measures.\nSuch misconfigurations scenarios include:\n\u2022 A VMs\/Containers can be configured to have more privileges than what is actually required (e.g. settings that give it unnecessary, and perhaps unplanned, privileges). For example, an attacker with access to such a container, can use it to gain higher privileges on host, perform un-authorized operations and get to anything that the host, or any of the containers running on that host, can reach.\n\u2022 A VMs\/Containers have unintended read\/write access to a directory on host filesystem. This could allow an attacker to perform unauthorized modifications to the contents, create symbolic links to any directories or files not directly exposed by the hostPath, install SSH keys, read secrets mounted to the host, and take other malicious actions.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Misconfiguration or Insecure VM\/Container configurations"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VM-C-02",
+    "Threat title":"VM\/Container escape attack",
+    "Threat Description":"VNF\/CNF deployed on the same physical machine as tenants share the same host kernel and host OS resources. Lack of strong isolation between the VMs\/Containers and the host allows for a potential risk of a rogue VM\/Container escaping the VM\/Container confinement and impacting other co-hosted VMs\/Containers. In others, an attacker may deploy a new malicious VM\/Container configured without network rules, user limitations, etc. to bypass existing defenses within O-Cloud infrastructure.\nAttacker deploys malicious VM\/Container to escapes the host (Hypervisor\/Container Engine\/Host OS) and reaches the server\u2019s hardware, then the malicious VM\/Container can gain root access to the whole server where it resides. This gives the malicious VM\/Container full control on all the VMs\/Containers hosted on the same hacked server. This could allow an attacker to undermine the confidentiality, integrity and\/or availability of VNFs\/CNFs resources.\nContainers can be deployed by various means, such as via Docker's create and start APIs or via a web application such as the Kubernetes dashboard or Kubeflow. Adversaries may deploy containers based on retrieved or built malicious images or from benign images that download and execute malicious payloads at runtime.\nWhen a malicious VM\/Container escapes isolation, it can gain full control over the underlying host and cause any of the below serious threats:\n\u2022 Attacker would gain the ability to mount attacks on the host or compromise the host functionalities\n\u2022 Compromise the confidentiality & integrity of co-hosted VMs\/Containers and tenants\n\u2022 Launch DDOS attacks on co-hosted VMs\/Containers and host services thereby degrading their performance \n\u2022 Introduce new vulnerabilities in host to be used for future attacks\n\u2022 Lack of network segmentation could potentially expose other VMs\/Containers in the environment to attack. An example of this could be reconnaissance, exploitation and subsequent lateral movement to another host within the cluster.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Shared tenancy vulnerabilities (multitenant environment), Lack of strong VM\/Container isolation, lack of authentication, Insecure networking, Unrestricted communication between VMs\/Containers"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VM-C-03",
+    "Threat title":"VM\/Container data theft",
+    "Threat Description":"The VNF\/CNF remotely stores sensitive data (e.g. passwords, private keys, subscription data, logs) on the logical volume that the IMS\/DMS allocates to the VNF\/CNF. An attacker can retrieve\/manipulate these data if they have been stored in an insecure way (e.g. clear text, unsalted hashes) or a malware is installed on the logical volume that the VIM allocates to the VNF\/CNF.\nContainer example: Adversaries may attempt to discover containers and other resources that are available locally within O-Cloud. Other resources may include images, deployments, pods, nodes, and other information such as the status of a cluster. These resources can be viewed within web applications such as the Kubernetes dashboard or can be queried via the Docker and Kubernetes APIs. In Docker, logs may leak information about the environment, such as the environment\u2019s configuration, which services are available, and what cloud provider the victim may be utilizing. The discovery of these resources may inform an adversary\u2019s next steps in the environment, such as how to perform lateral movement and which methods to utilize for execution.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of authentication, insecure data storage"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VM-C-04",
+    "Threat title":"VM\/Container migration attacks",
+    "Threat Description":"The attacks that exploit VM\/Container migration can be divided into two subcategories based on the target plane:\n1. Control Plane Attacks: These attacks target the module that is responsible for handling the migration process on a server which is called the migration module that is found in the host. By exploiting a bug in the migration module software, the attacker can hack the server and take full control over the migration module. This gives the attacker the ability to launch malicious activities including the following: \na. Migration Flooding: The attacker moves all the VMs\/Containers that are hosted on the hacked server to a victim server that does not have enough resource capacity to host all the moved VMs\/Containers. This causes a denial of service for the VNFs\/CNFs running in the VMs\/Containers of the victim server as there will not be enough resources to satisfy the demands of all the hosted VMs\/Containers leading into VM\/Container performance degradation and VM\/Container crashes.\nb. False Resource Advertising: The hacked server claims that it has a large resource slack (a large amount of free resources). This attracts other servers to off-load some of their VMs\/Containers to the hacked server so that the O-Cloud workload gets distributed over the O-Cloud servers. After moving VMs\/Containers from other servers to the hacked server, the attacker can exploit other vulnerabilities to break into the offloaded VMs\/Containers as now these VMs\/Containers are placed on a server that is under the control of the attacker.\n2. Data Plane Attacks: These constitute the second type of VM\/Container migration attacks and those attacks target the network links over which the VM\/Container is moved from a server to another. Such data plane attacks include the MitM where an attacker sniffs the packets that are exchanged between the source and destination servers and reads the migrated memory pages. The attacker can monitor and\/or modify the received packets while continuing to forward them to victim VM\/Container resides so that the victim does not detect that any malicious activity is going on.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Host misconfiguration, lack of authentication, memory pages copied in clear, vulnerable code exploits"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VM-C-05",
+    "Threat title":"Changing virtualization resource without authorization",
+    "Threat Description":"IMS\/DMS which manage the Virtualization layer is responsible for assigning virtualized resource as requested.\nThere are several ways to cause a DoS attack for the VNFs\/CNFs: \n\u2022 If IMS\/DMS are compromised or the O2 interface is not securely protected, an attacker who compromised the IMS\/DMS or breached the O2 interface can change the virtualized resource used by a VNF\/CNF by manipulating the allocation of virtualized resource. For example, when an instantiated VNF\/CNF is running, adversaries having access to a compromised IMS\/DMS or adversaries breaching the insecure O2 interface can misguide the Virtualization layer to reduce the resource of or delete a VM\/Container on which a VNF\/CNF is running. This can result in the reliability, availability or even illegal termination of a VNF\/CNF and hence the denial of service.\n\u2022 Hardware resource configuration and state information (e.g. events) exchange is performed through O2 interface. If the IMS is compromised or the O2 interface is not securely protected, an attacker who compromised the IMS or breached the O2 interface can tamper the hardware configuration and state information so that the virtualized resource supported by the hardware layer becomes unreliable. For example, adversaries having access to a compromised IMS or adversaries breaching the insecure O2 interface can misguide the O-Cloud platform to detach a hardware accelerator from a VNF\/CNF.\n\u2022 Adversaries having access to a compromised virtualization layer can change the virtualization resource used by the instantiated VNF\/CNF without authorization, \n\u2022 A malicious VM\/Container deployed for one instance of a VNF\/CNF on a host can illegally occupy the resources of the instantiated VNF\/CNF deployed on the same host, resulting in resource limitation of the instantiated VNF\/CNF\n\nIn this type of attacks, the extra allocation of resources for the malicious VM\/Container comes at the expense of the other VMs\/Containers that share the same server as the malicious VM\/Container, where these victim VMs\/Containers get allocated less share of resources than what they should actually obtain, which in turn degrades their performance.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure O1\/O2 interfaces, Lack of authentication\/access control on IMS\/DMS"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VM-C-06",
+    "Threat title":"Failed or incomplete VNF\/CNF termination or releasing of resources",
+    "Threat Description":"A malicious VNF\/CNF is instantiated in the O-Cloud infrastructure to access to data not erased from a terminated VNF\/CNF or any VNF\/CNF that has released resources. Data could include application data, cryptographic keys...\nAbuse of resources allocation in the O-Cloud infrastructure to allocate to a malicious VNF\/CNF the virtual resources released from a terminated VNF\/CNF or from a VNF\/CNF that has released resources after a move or a scaling process.\nInclusion of concealed software in the O-Cloud infrastructure to prevent the deletion\/erasure of data and states of the VNF\/CNF that has been terminated.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of authentication, misconfigurations (VNF\/CNF, Host OS, Hypervisor\/Container Engine)"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-IMG-01",
+    "Threat title":"VM\/Container images tampering",
+    "Threat Description":"An attacker can inject malicious code or tamper the information inside the unprotected image during on boarding. Then after the instantiation of the VNF\/CNF, the tampered code can cause DoS, information stealing, frauds and so on. There are several attacks categories belonging to this threat. Such attacks include:\n\u2022 Build machine attacks: If an attacker can modify or influence the way a VM\/Container image is built, they could insert malicious code that will subsequently get run in the production environment. \n\u2022 Supply chain attacks: Once the VM\/Container image is built, it gets stored in a registry, and it gets retrieved or \u201cpulled\u201d from the registry at the point where it\u2019s going to be run. An attacker who can replace an image or modify an image between build and deployment could run arbitrary code on your deployment. ",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Compromised VM\/Container images (Build machine attacks, Supply chain attacks) at rest, lack of authentication, misconfiguration or Insecure VM\/Container images configurations"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs images"
+},
+{
+    "Threat ID":"T-IMG-02",
+    "Threat title":"Insecure channels with images repository",
+    "Threat Description":"Images often contain sensitive components like an organization\u2019s proprietary software, and embedded secrets and administrator credentials. If connections to registries are performed over insecure channels, man-in-the-middle attacks could intercept network traffic and therefore the contents integrity and confidentiality of images may be compromised. There is also an increased risk of man-in-the-middle attacks that could intercept network traffic intended for registries and steal developer or administrator credentials within that traffic. Thus, could be used to provide fraudulent or outdated images to orchestrators, etc.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Compromised VM\/Container images in transit"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs images"
+},
+{
+    "Threat ID":"T-IMG-03",
+    "Threat title":"Secrets disclosure in VM\/Container images",
+    "Threat Description":"There are scenarios which benefit from including configuration and secrets, such as passwords or credentials in VNFs\/CNFs images. For e.g. VMs\/Containers require to be able to connect to other VMs\/Containers within the deployment as well as with external entities. All these connections need to be authenticated and secured. One way of achieving this is to provide the requisite secrets or keys to the VMs\/Containers which allow them to authenticate, be authenticated, secure the communication channel and signature.  A common but in-secure means of providing secrets to the VMs\/Containers is by packaging the secrets or the keys with the image itself. There is the risk that the same can be extracted, read or manipulated before the VM\/Container is deployed and the secret used.\nWith a long supply chain, VM\/Container images are vulnerable to outside scrutiny. With VM\/Container images containing secrets or keys, this becomes a serious threat vector. Adversaries can extract them by obtaining a copy of the image and they can be potentially shared with third parties for illicit gain. \n\u2022 Secrets embedded within a VM\/Container image can be stolen. \n\u2022 Secrets embedded within a VM\/Container image can be modified \n\nCompromised private keys and algorithms used for image signing due to poor key protection\/management\/design could undermine the security of image signing process.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Secret exposure in VNF\/CNF images"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs images"
+},
+{
+    "Threat ID":"T-IMG-04",
+    "Threat title":"Build image on VL",
+    "Threat Description":"Adversaries may build a VM\/Container image directly on the VL to bypass defenses that monitor for the retrieval of malicious images from a registry. \nContainer example: A remote build request may be sent to the Docker API that includes a Dockerfile that pulls a vanilla base image, such as alpine, from a public or local registry and then builds a custom image upon it.\nAn adversary may take advantage of that build API to build a custom image on the host that includes malware downloaded from their C2 server, and they then may deploy container using that custom image. If the base image is pulled from a public registry, defenses will likely not detect the image as malicious since it\u2019s a vanilla image. If the base image already resides in a local registry, the pull may be considered even less suspicious since the image is already in the environment.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Host misconfiguration, lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs images"
+},
+{
+    "Threat ID":"T-VL-01",
+    "Threat title":"VM\/Container hyperjacking attack",
+    "Threat Description":"VMs\/Containers run on host machines, and it is needed to ensure that those hosts (Hypervisor\/Container Engine\/Host OS- are not running vulnerable code (for example, old versions of components with known vulnerabilities).  \nHyperjacking is an attack in which adversaries gain control over the host of a server or install a malicious Hypervisor\/Container Engine\/Host OS and exploit that to run malicious applications on the VM\/Container that run on top of the host. This would enable the attacker to control all the VMs\/Containers running on the host.\nHyperjacking involves installing a malicious, fake the Hypervisor\/Container Engine\/Host OS that can manage the entire server system. If the attacker gains access to the Hypervisor\/Container Engine\/Host OS, everything that is connected to that server can be manipulated. The Hypervisor\/Container Engine\/Host OS represents a single point of failure when it comes to the security and protection of sensitive information.\nFor a hyperjacking attack to succeed, an attacker would have to take control of the Hypervisor\/Container Engine\/Host OS by the following methods:\n\u2022 Injecting a rogue Hypervisor\/Container Engine or Host OS beneath the original hypervisor or on top of an existing Hypervisor\/Container Engine\/Host OS\n\u2022 Directly obtaining control of the original Hypervisor\/Container Engine or Host OS\n\u2022 Running a rogue hypervisor on top of an existing hypervisor",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Host misconfiguration, lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VL-02",
+    "Threat title":"Boot tampering",
+    "Threat Description":"The bootloader of the virtualization layer (Host OS, Hypervisor, Container Engine) for VNF\/CNF may be maliciously tampered by an attacker, e.g. the attacker compromises hypervisor or host OS to tamper the bootloader of guest OS (in case of VM) or Container.\nIn a O-Cloud environment any failure during the boot sequence can result in a number of situations that need to be handled by the NFO\/FOCOM:\n\u2022 failure of the physical machine to start at all\n\u2022 physical machine entering a safe-mode\n\u2022 physical machine continuing boot regardless of the integrity measurements",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Host misconfigurations, lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-VL-03",
+    "Threat title":"Attack internal network services",
+    "Threat Description":"In addition to attacking the network between containers, adversaries can also attack supporting services such as DNS service, which is only reachable from within the cluster network. The highly distributed nature of containers requires shared services for example for coordination and service discovery. An attacker can target these services to degrade services. For example, a denial-of-service against the service discovery infrastructure could prevent O-Cloud to react to changing resource requirements properly. Thus, O-Cloud may no longer be able to scale appropriately to sudden demand spikes [16].",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure O-Cloud APIs, Lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud"
+},
+{
+    "Threat ID":"T-O2-01",
+    "Threat title":"MitM attacks on O2 interface between O-Cloud and SMO",
+    "Threat Description":"If the interface O2 interface is not protected, an attacker can attack all the requests\/responses sent between the O-Cloud and the SMO (FOCOM and NFO). \nFor example, the attacker can tamper\/alter\/disclose requests and services (See \u2018Critical services\u2019 in 2.3) sent over O2 between O-Cloud and SMO, hence the virtualized resource or relevant status information is not as requested. This affects the normal operation of the O-Cloud, and even causes DoS attacks, information leakage.\nAn attacker can tamper the specific assignment of virtualized resources to cause resource assignment errors or an attacker can intercept virtualized resources state information leading to information disclosure.\nAn attacker can compromise IMS to tamper with the hardware state information (e.g. deleting hardware alarm information) to affect the hardware's operation or to result in information disclosure (e.g. an attacker can get the hardware configuration from the compromised IMS. Then, the attacker can attack the hardware according to the configuration such as CPU type, memory size etc.). An attacker can also tamper or intercept the hardware resource configuration and state information if the configuration and state information are transmitted using an insecure protocol on the O2 interface.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure O2 interface, lack authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O2"
+},
+{
+    "Threat ID":"T-OCAPI-01",
+    "Threat title":"MitM attacks on O-Cloud interface between VNFs\/CNFs and the virtualization layer",
+    "Threat Description":"An attacker can attack an instantiated VNF\/CNF through a compromised virtualization layer. For example, cryptographic keys or other security critical data of an instantiated VNF\/CNF could be stolen by an attacker with access to the virtualization layer, or the virtualized resource provided by the Virtualization layer to the instantiated VNF\/CNF can be manipulated or the bootloader of Guest OS (in case of VM) or Container of an instantiated VNF\/CNF can be tampered by an attacker via a compromised virtualization layer.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure O-Cloud APIs, lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-HW-01",
+    "Threat title":"Cross VM\/Container side channel attacks",
+    "Threat Description":"In a typical cross-VM\/Container side channel attack scenario, an adversary places a malicious VM\/Container co-resident to the target VM\/Container so that they share the same hardware resources. Then, the attacker extracts useful information such as cryptographic keys from the target VM\/Container to use them for traffic eavesdropping and man-in-the-middle attacks. Through the side channel attack, an attacker sharing the same cache as the victim can monitor the cache access behavior of the victim. For example, the attacker is able to monitor cache timing information by measuring the execution of different operations on the victim\u2019s VM\/Container. Generally, the attacker exploits timings in the shared high-level cache memory. However, power consumption or electromagnetic leaks can also be used as a vector to launch side channel attacks.\nIn the virtual environment, prior to the cross-VM\/Container side channel attack, the attacker needs to identify the target VM\/Container\u2019s location and place a malicious VM\/Container co-resident with the target. Later, that attacker may use the maliciously placed VM\/Container to extract information from the target VM\/Container with the side channel attack.\nHardware vulnerabilities in processors can also have a large impact on O-Cloud security. Flaws in chip design can result in the compromise of tenant information in the cloud through side-channel attacks [24].",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Flaws in chip design, use of shared hardware, Lack of isolation, lack of authentication"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-HW-02",
+    "Threat title":"MitM attacks on the interface between virtualization layer and hardware",
+    "Threat Description":"An attacker can utilize the vulnerabilities of hardware (e.g. Meltdown and Specter of CPU in host) to attack virtualization layer and\/or VNFs\/CNFs through this interface, resulting in tampering, information disclosure or DoS.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure interfaces between HW and VL layers, lack of authentication, misconfiguration"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"O-Cloud"
+},
+{
+    "Threat ID":"T-ADMIN-01",
+    "Threat title":"Denial of service against NFO\/FOCOM",
+    "Threat Description":"A denial-of-service attack against the NFO\/FOCOM can interfere with the ability of operators to control and maintain their deployments. This can lead to the inability to react to changing resource requirements. In addition, the NFO\/FOCOM is the external API to interact with the O-Cloud platform. Thus, other services may become inaccessible as well. For example, operators may be unable to retrieve logs, telemetry data. An attacker could use this opportunity to hide additional attacks on VM\/Container instances.\nIn addition, an attacker on the NFO\/FOCOM could prevents the O-Cloud software update (VNFs\/CNFs, VL) to exploit a known security flaw in the O-Cloud software.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of authentication, vulnerable code exploits, design weakness, insecure O2 interface"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"NFO\/FOCOM, O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-ADMIN-02",
+    "Threat title":"Abuse a O-Cloud administration service",
+    "Threat Description":"Usually, the SMO including NFO\/FOCOM is exposed to the tenant in a web front-end or REST API. In case these interfaces contain software vulnerabilities or implement authentication and authorization insufficiently, an adversary would be able to gain access to the VM\/Container management and pose as a tenant. It is also possible that an adversary gains the ability to submit requests without prior authentication and authorization.\nThe NFO\/FOCOM interfaces encompasses a great deal of privileges because anyone gaining sufficient access is able to deploy new instances and disrupt existing O-Cloud services. It may also be possible for an adversary to submit compromised VM\/Container images that unsuspecting tenants then use to initiate O-Cloud services. Moreover, adversaries can use the same access to extract business data, configuration data, user data and possibly credentials. For example, they may be able to create backups of VM\/Container instances or they can export VM\/Container images. The impact of compromised credentials is exacerbated by the fact that weak and insufficient safeguarding of credentials is recognized as one of the top threats in cloud computing [38].\nContainer example: Adversaries may abuse a container administration service to execute commands within a container. A container administration service such as the Docker daemon, the Kubernetes API server, or the kubelet may allow remote management of containers within an environment.\nContainer example: In Docker, adversaries may specify an entrypoint during container deployment that executes a script or command, or they may use a command such as docker exec to execute a command within a running container. In Kubernetes, if an adversary has sufficient permissions, they may gain remote execution in a container in the cluster via interaction with the Kubernetes API server, the kubelet, or by running a command such as kubectl exec.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of authentication, secret exposure (insufficient safeguarding of credentials), vulnerable code exploits, design weakness"
+    ],
+    "Threatened Asset":"ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "Affected Components":"NFO\/FOCOM, O-Cloud, Apps\/VNFs\/CNFs"
+},
+{
+    "Threat ID":"T-AAL-01",
+    "Threat title":"Attacker exploits insecure API to gain access to hardware accelerator resources",
+    "Threat Description":"Insecure AAL API allows an attacker to tamper the requests\/responses sent between the AAL components, the O-Cloud platform and O-RAN APPs\/VNFs\/CNFs. \nFor example, the attacker can tamper requests and services sent over AALI-C-Mgnt between IMS and the hardware accelerator manager, hence capability of the hardware accelerator device, fault information, logs, performance information and others are not as requested. This affects the normal operation of the O-Cloud, and even causes tampering.\nAn attacker can tamper application (e.g. O-DU) requests sent over AALI-C-App to an AAL implementation for allocation of buffers. This affects the normal operation of the applications, and even causes tampering.\nAn attacker can tamper application (e.g. O-DU) requests sent over AALI-P for configuring and managing the AAL-LPU(s). This affects the normal operation of the applications, and even causes tampering.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure AAL APIs and interfaces\nLack authentication and authorization"
+    ],
+    "Threatened Asset":"ASSET-D-33 to ASSET-D-38",
+    "Affected Components":"ASSET-C-29, ASSET-C-30"
+},
+{
+    "Threat ID":"T-AAL-02",
+    "Threat title":"Internal Overload DoS attack targeting AAL services",
+    "Threat Description":"Overload situation could appear in the case of DoS attack or increased traffic on AAL interfaces. Inability to mitigate traffic volumetric attacks on AAL affects availability of AAL data and services.\nDoS attacks on the AALI-C interface affect the different services provided by the hardware accelerator manager and the transport abstraction framework.\nDoS attacks on the AALI-P interface affect the configuration and management of AAL-LPU (Acceleration Abstraction Layer Logical Processing Unit) by an application (e.g. O-DU) in addition to acceleration functionality.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure AAL APIs and interfaces \nLack authentication and authorization"
+    ],
+    "Threatened Asset":"ASSET-D-33 to ASSET-D-38",
+    "Affected Components":"ASSET-C-29, ASSET-C-30"
+},
+{
+    "Threat ID":"T-AAL-03",
+    "Threat title":"Fail to clear resources",
+    "Threat Description":"Fail to clear accelerator resources after a process termination. This causes an information leakage and incorrect results for computations. Further, failure to release accelerator resources may prevent other processes from running.\nThis threat is relevant to accelerator resources either inside the hardware accelerator device (internal memories, registers, cache) or in the O-Cloud memories used by accelerators.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure AAL APIs\nFlaws in AAL design\nLack of secure deletion of data after process termination"
+    ],
+    "Threatened Asset":"ASSET-D-33 to ASSET-D-38",
+    "Affected Components":"ASSET-C-29, ASSET-C-30"
+},
+{
+    "Threat ID":"T-AAL-04",
+    "Threat title":"HAM compromise",
+    "Threat Description":"A malicious actor can gain access to HAM to gain unauthorized access and control of the hardware accelerator device. This can result in the disruption of services (DoS) and tampering of accelerator components, such as firmware, drivers which can cause the accelerator to behave abnormally or crash altogether.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure HAM APIs\nFlaws in HAM design\nLack of access control"
+    ],
+    "Threatened Asset":"ASSET-D-33 to ASSET-D-38",
+    "Affected Components":"ASSET-C-29, ASSET-C-30"
+},
+{
+    "Threat ID":"T-AAL-05",
+    "Threat title":"Malicious memory accesses",
+    "Threat Description":"AAL that allows one process running on the hardware accelerator device to access memory owned by another process running on the hardware accelerator device can leak information (impact on confidentiality).\nSimilarly, AAL allowing concurrently executing processes to write to one another\u2019s memory may have correctness errors (impact on integrity).\nIf multiple processes are running concurrently and one is allowed to dominate accelerator resources, the other may suffer from degraded performance. For example, if one process can evict all cache entries belonging to the other, the victim will suffer performance penalties (impact on availability).",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insecure AAL APIs\nFlaws in AAL design\nUnrestricted memory access\nLack of access control"
+    ],
+    "Threatened Asset":"ASSET-D-33 to ASSET-D-38",
+    "Affected Components":"ASSET-C-29, ASSET-C-30"
+},
+{
+    "Threat ID":"T-AAL-06",
+    "Threat title":"Firmware attacks",
+    "Threat Description":"Hardware accelerators often have their own firmware, which can be targeted by attackers. This could include modifying the firmware to introduce vulnerabilities (e.g., malware) or installing a malicious firmware to extract\/modify sensitive information or execute unauthorized actions (e.g., control the device remotely). ",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Weak accelerator design\nMisconfiguration\nInsecure AAL\/HAM APIs"
+    ],
+    "Threatened Asset":"ASSET-D-33 to ASSET-D-38",
+    "Affected Components":"ASSET-C-29, ASSET-C-30"
+},
+{
+    "Threat ID":"T-O-CLOUD-ID-01",
+    "Threat title":"ID reuse in O-Cloud's object lifecycle",
+    "Threat Description":"In O-Cloud, objects such as Containers, Pods, Nodes, and Services are identified by their IDs within a given compute pool (e.g., cluster in Kubernetes). When an object is deleted, its ID becomes available for reuse. This means that a new object can be created with the same ID as a previously deleted object. If an object gets deleted but all its associated data isn't properly isolated or cleaned, the ID, if reused, could lead to unintended data associations or leaks.\nPotential consequences:\n\u2022 Data Residue: A new object, reusing an ID, may inherit residual data or configurations from its predecessor, leading to potential misconfigurations and incorrect data associations. This can result in sensitive data exposure.\n\u2022 Data Overwrite: Automated processes unaware of the deletion and subsequent recreation might mistakenly write or read data from the new object, thinking it's the old one.\n\u2022 Monitoring Ambiguities: Monitoring tools might combine metrics from the old and new objects, resulting in confusing data.\n\u2022 Operational Disruptions: The new object might operate based on the residual configurations of the old object, potentially leading to system inefficiencies or failures.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Insufficient data cleanup\nWeak isolation mechanisms\nInadequate monitoring and Logging\nLack of ID randomization\nInefficient access controls\nNo Timestamping or Versioning\nLack of notification mechanisms"
+    ],
+    "Threatened Asset":"ASSET-D-14, ASSET-D-15, ASSET-D-18, ASSET-D-29",
+    "Affected Components":"ASSET-C-08"
+},
+{
+    "Threat ID":"T-O-CLOUD-ID-02",
+    "Threat title":"Node redundancy in O-Cloud deployments",
+    "Threat Description":"Nodes in O-Cloud often represent physical or virtual machines. If a machine fails and is replaced without deleting its corresponding Node object, and the new machine is given the same ID or the hostname, O-Cloud might treat the new machine as if it were the original.\nPotential consequences:\n\u2022 Resource Mismatch: The new host might have different resources (CPU, memory, storage) than the old one, leading to scheduling issues or resource constraints.\n\u2022 Stale Data: The new node might inherit data or configurations from the old node, leading to potential security or operational risks.\n\u2022 Network Issues: Network configurations or IP address assignments might be inconsistent or conflicting.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Inadequate decommissioning procedures\nWeak identity management\nInsufficient data cleanup\nNo state verification\nLack of Resource Auditing\nLack of notification mechanisms\nInadequate monitoring and Logging"
+    ],
+    "Threatened Asset":"ASSET-D-14, ASSET-D-15, ASSET-D-18, ASSET-D-29",
+    "Affected Components":"ASSET-C-08"
+},
+{
+    "Threat ID":"T-O-CLOUD-ID-03",
+    "Threat title":"O-Cloud ID mismanagement",
+    "Threat Description":"IDs are crucial for uniquely identifying objects within the O-Cloud. Mismanagement occurs when these IDs are not properly assigned, tracked, or validated, leading to potential overlaps or inconsistencies.\nPotential consequences:\n\u2022 ID Collision: Due to system glitches or bugs, two distinct objects could inadvertently be allocated the same ID. Such an occurrence is termed an ID collision. This can result in operations meant for one object inadvertently affecting the other.\n\u2022 Resource Overwrite: If two objects share the same ID, updates or modifications intended for one might overwrite the data of the other, leading to data inconsistencies or loss.\n\u2022 ID-Based Permissions: Many security protocols and access controls in O-Cloud can be tied to object IDs. If an attacker can predict, guess, or manipulate the ID generation process, they might gain unauthorized access to resources.\n\u2022 Log Merging: Monitoring tools and logging systems use IDs to track events and operations related to specific objects. If two objects share an ID, their logs might get merged, making it challenging to trace events back to their source.\n\u2022 RBAC Anomalies: Role-Based Access Control (RBAC) regulations attached to specific object IDs could unintentionally approve or restrict access to the novel object due to misidentification.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Predictable ID Generation\nLack of ID validation\nInefficient synchronization\nNo ID revocation mechanism\nInadequate access controls\nLack of Namespace Segregation"
+    ],
+    "Threatened Asset":"ASSET-D-14, ASSET-D-15, ASSET-D-18, ASSET-D-29",
+    "Affected Components":"ASSET-C-08"
+},
+{
+    "Threat ID":"T-OPENSRC-01",
+    "Threat title":"Developers use SW components with known vulnerabilities and untrusted libraries that can be exploited by an attacker through a backdoor attack",
+    "Threat Description":"The O-RAN Software Community is a Linux Foundation project, supported and funded by O-RAN to lead the implementation of the O-RAN specifications in Open Source. Industry has recognized that Open Source code introduces security risks. Open Source vulnerabilities are publicly available on the National Vulnerability Database (NVD). While this is intended for developers to disclose vulnerabilities, it is also used by hackers to exploit those vulnerabilities. Vulnerabilities frequently propagate as developers re-use free open source code enabling backdoors to attacks. There have been notable vulnerabilities from downloading open source libraries and dependencies, as well as supply chain risks when downloading Open Source code from untrusted repositories.\nSome O-RAN vendors and operators may not have accurate inventories of open-source software dependencies used by their different applications, or a process to receive and manage notifications concerning discovered vulnerabilities or available patches from the community supporting the open-source.\nSome O-RAN vendors may not have a lack of consistent Supply Chain traceability and security, and a lack of coding best practices conflicts with Security-by-Design principles.\nDevelopers may use modules with known vulnerabilities and untrusted libraries that can be exploited by an attacker through a backdoor attack.\nAttackers can exploit a vulnerability on the open source code and infects a hypervisor, operating system, VM or container with a malware.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Inaccurate inventories of open-source software",
+    "Lack of consistent Supply Chain traceability and security",
+    "Lack of coding best practices",
+    "Modules with known vulnerabilities and untrusted libraries"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+},
+{
+    "Threat ID":"T-OPENSRC-02",
+    "Threat title":"A trusted developer intentionally inserts a backdoor into an open source code O-RAN component",
+    "Threat Description":"A trusted developer intentionally inserts a backdoor by injecting a few lines of malicious code into an open source code component to be used within the O-RAN system. A software project team picks up and uses the infected open source code and the development team\u2019s tools for vetting and testing the component do not detect the malicious code. Unknowingly they have introduced a vulnerability into their O-RAN software code.\nThe vulnerability has gone undetected and the threat actor is able to compromise the software through the inserted vulnerability. The resulting effect on the O-RAN system can take a variety of forms, from being annoying to impacting system performance (DoS) to the loss of sensitive data.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Bugs in open source software caused by mistakes and human error"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+},
+{
+    "Threat ID":"T-PHYS-01",
+    "Threat title":"An intruder into a site gains physical access to O-RAN components to cause damage or access sensitive data",
+    "Threat Description":"Physical attacks on the O-RAN deployment that stores or processes keys, user plane data, control plane data and management data in cleartext.\nO-RAN physical components might be vulnerable if: \n\u2022 Improper physical security protection of data centers, PNFs, operation areas, etc.\n\u2022 Improper protection to power outages (power supply)\n\u2022 Improper protection against environmental disasters\n\u2022 Improper maintenance and monitoring of hardware parameters\n\u2022 Hardware backdoor\nAttackers try to modify the O-RAN components settings and configurations via local access.\nPhysical access to O-RAN components thanks to unsecured management ports and consoles (such as JTAG, serial consoles or dedicated management ports), relaxed administrator credentials management, unsecured HW and SW configuration\/management could allow an attacker to inject malwares and\/or manipulate existing software, steal unprotected private keys, certificates, hash values, disable security features, create a performance issue by manipulation of parameters with the purpose of eavesdropping or wiretapping on various CUS & M planes, reaching the network beyond the O-RAN or with the purpose of gaining access to the O-RAN components, denial of service, intrusion and replay attacks or other type of breaches.",
+    "Threat agent":"All except Script kiddies",
+    "Vulnerability":[
+    "Improper physical security protection of data centres, PNFs, operation areas, etc.",
+    "Improper protection to power outages (power supply)",
+    "Improper protection against environmental disasters",
+    "Improper maintenance and monitoring of hardware parameters",
+    "Hardware backdoor"
+    ],
+    "Threatened Asset":"All",
+    "Affected Components":"All"
+},
+{
+    "Threat ID":"T-PHYS-02",
+    "Threat title":"An intruder into the exchange over the Fronthaul cable network attempts to gain electronic access to cause damage or access sensitive data",
+    "Threat Description":"O-RU and O-DU may be located at different premises and connected through a cable network to support the fronthaul link. Attackers can gain access to, or control over, data traffic through breaching terminals in the cable landing sites (O-RU or O-DU).",
+    "Threat agent":"All except Script kiddies",
+    "Vulnerability":[
+    "Physical access to the open Fronthaul cable network"
+    ],
+    "Threatened Asset":"ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "Affected Components":"O-RU, O-DU"
+},
+{
+    "Threat ID":"T-RADIO-01",
+    "Threat title":"Disruption through radio jamming, sniffing and spoofing",
+    "Threat Description":"Like for any wireless technology, disruption through radio jamming is possible by analyzing the physical downlink and uplink control channels and signals. 5G radio network is vulnerable to:\n\u2022 Jamming Vulnerability of Reference Signals\n\u2022 Jamming Vulnerability of Synchronization Signal\n\u2022 Jamming Vulnerability of the PBCH\n\u2022 Sniffing and Spoofing Vulnerability of the PBCH\n\u2022 Jamming Vulnerability of PDCCH\n\u2022 Jamming Vulnerability of Physical Uplink Control Channel\n\u2022 Jamming Vulnerability of Physical Random-Access Channel\nNOTE 1: The O-RAN OEMs need to develop new intelligence that can proactively alert the operator when this attack is initiated so that the operator can take appropriate actions to mitigate.\nNOTE 2: In the scenario of RF spoofing, the UE needs to be able to validate the legitimacy of the O-RU as being one owned and operated by the operator. 3GPP has proposed in a study to use Digital Signatures to mitigate this threat but there has been no agreement on this to date. The O-RAN OEMs need to develop new intelligence that can proactively alert the operator when this attack is initiated so that the operator can take appropriate actions to mitigate.",
+    "Threat agent":"All except Script kiddies",
+    "Vulnerability":[
+    "Weakness of wireless cellular communications"
+    ],
+    "Threatened Asset":"ASSET-D-06",
+    "Affected Components":"UE, O-RU, O-DU"
+},
+{
+    "Threat ID":"T-RADIO-02",
+    "Threat title":"DoS attacks on cognitive radio networks",
+    "Threat Description":"Cognitive radio (CR) technology, which is designed to enhance spectrum utilization, depends on the success of opportunistic access, where unlicensed secondary users (SUs) exploit spectrum void unoccupied by primary users (PUs) for transmissions. To realize DoS attacks, malicious users (MUs) target the critical functionalities for CR ecosystems, including spectrum sensing, agile radio, and light-handed regulation since once these functionalities fail, SUs are not able to communicate effectively. For example, MUs can directly jam the victim by injecting interference or deceive SUs into believing that there is a PU by emulating the signal characteristics of the PU, thereby evacuating the occupied spectrum. Moreover, the liability rule is vulnerable to the selfish and greedy users aiming to maximize their own private benefits. Since complying with the rule results in less transmission opportunities, such SUs may not want to invest efforts to follow the rule and thus will transmit simultaneously with Pus.",
+    "Threat agent":"All except Script kiddies",
+    "Vulnerability":[
+    "Weakness of wireless cellular communications"
+    ],
+    "Threatened Asset":"ASSET-D-06",
+    "Affected Components":"UE, O-RU, O-DU"
+},
+{
+    "Threat ID":"T-ML-01",
+    "Threat title":"Poisoning the ML training data (Data poisoning attacks)",
+    "Threat Description":"An attacker gains access to the training set of a machine learning model and alters the data (e.g. datasets that are assembled to train, test, and validate an ML system) before the training begins without the knowledge of the machine learning engineers. The training data will already be tampered with and has lost its original quality which will result in modeling on wrong data. Hence, the ML model will no longer be a reliable one since it was trained on bad data and therefore modelling, decisions, predictions, model classifications, detections, etc. will surely not be appropriate. \nAlso, another scenario can be in a situation where a model is online and continues to learn during operational use, modifying its behavior over time. In this case, an attacker can feed the model with bad data and the model can learn from this bad data, and as a result, negatively impact its performance and retrain the ML system to do the wrong thing.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of or improper access control to the ML model"
+    ],
+    "Threatened Asset":"ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "Affected Components":"Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+},
+{
+    "Threat ID":"T-ML-02",
+    "Threat title":"Altering a machine learning model (System manipulation and compromise of ML data confidentiality and privacy)",
+    "Threat Description":"An attacker can illegally access a machine learning model and alter its parameters and thereby influence how it produces results. This can lead to wrong prediction and might result in catastrophic decisions if the results of the predictions were being used to make key business decisions.\nAlso, an attacker can extract sensitive or confidential data that, through training, are built right into the ML model.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of or improper access control to the ML model"
+    ],
+    "Threatened Asset":"ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "Affected Components":"Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+},
+{
+    "Threat ID":"T-ML-03",
+    "Threat title":"Transfer learning attack",
+    "Threat Description":"A transfer learning attack is a risk when an ML system is built by fine-tuning a pretrained model that is widely available. An attacker could use the public model as a cover for their malicious ML behavior.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Use of pretrained public ML model"
+    ],
+    "Threatened Asset":"ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "Affected Components":"Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+},
+{
+    "Threat ID":"T-E2-01",
+    "Threat title":"Untrusted Near-RT-RIC and E2 Nodes",
+    "Threat Description":"A malicious E2 Node communicates with a Near-RT-RIC over the E2 interface, or a malicious Near-RT-RIC communicates with an E2 Node over the E2 interface, due to weak mutual authentication.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-40",
+    "Affected Components":"E2 interface"
+},
+{
+    "Threat ID":"T-E2-02",
+    "Threat title":"Malicious actor monitors messaging across E2 interface",
+    "Threat Description":"Threat actor can gain access to the messaging across the E2 interface for a MiTM attack to read messages.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Missing or weak confidentiality protection"
+    ],
+    "Threatened Asset":"ASSET-C-40",
+    "Affected Components":"E2 interface"
+},
+{
+    "Threat ID":"T-E3-03",
+    "Threat title":"Malicious actor modifies messaging across E2 interface",
+    "Threat Description":"Threat actor can gain access to the messaging across the E2 interface for a MiTM attack to modify or inject messages.  This can result in the Near-RT RIC and\/or the E2 Nodes receiving malicious messages.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of integrity verification"
+    ],
+    "Threatened Asset":"ASSET-C-40",
+    "Affected Components":"E2 interface"
+},
+{
+    "Threat ID":"T-Y1-01",
+    "Threat title":"Untrusted Near-RT-RIC and Y1 consumers",
+    "Threat Description":"A Malicious Y1 consumer communicates with a Near-RT-RIC over the Y1 interface, or a malicious Near-RT-RIC communicates with a Y1 consumer over the Y1 interface, due to weak mutual authentication.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "weak mutual authentication"
+    ],
+    "Threatened Asset":"ASSET-C-42",
+    "Affected Components":"Y1interface"
+},
+{
+    "Threat ID":"T-Y1-02",
+    "Threat title":"Malicious actor monitors messaging across Y1 interface",
+    "Threat Description":"Threat actor can gain access to the messaging across the Y1 interface for a MiTM attack to read messages.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Missing or weak confidentiality protection"
+    ],
+    "Threatened Asset":"ASSET-C-42",
+    "Affected Components":"Y1 interface"
+},
+{
+    "Threat ID":"T-Y1-03",
+    "Threat title":"Malicious actor modifies messaging across Y1 interface",
+    "Threat Description":"Threat actor can gain access to the messaging across the Y1 interface for a MiTM attack to modify or inject messages.  This can result in the Near-RT RIC and\/or the Y1 consumers receiving malicious messages.",
+    "Threat agent":"All",
+    "Vulnerability":[
+    "Lack of integrity verification"
+    ],
+    "Threatened Asset":"ASSET-C-42",
+    "Affected Components":"Y1 interface"
+}
+]
