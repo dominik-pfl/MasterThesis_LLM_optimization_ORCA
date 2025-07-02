@@ -1,0 +1,191 @@
+Name;Domain;Description;CAPEC ID;Similarity
+T-SMO-29;enterprise-attack;External attacker floods External interface to cause DDoS at SMO;CAPEC-486;0.60713315
+T-AAL-05;enterprise-attack;Malicious memory accesses;CAPEC-679;0.570197
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-88;0.56116503
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-88;0.5653407
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-88;0.5555794
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-88;0.56017333
+T-A1-02;enterprise-attack;Malicious function or application monitors messaging across A1 interface;CAPEC-12;0.5848651
+T-A1-03;enterprise-attack;Malicious function or application modifies messaging across A1 interface;CAPEC-12;0.56642884
+T-SharedORU-29;enterprise-attack;Modify/Delete OFH C-Plane messages;CAPEC-12;0.5698118
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-136;0.61389184
+T-O-RAN-06;enterprise-attack;An attacker exploits insufficient/improper mechanisms for authentication and authorization to compromise O-RAN components;CAPEC-115;0.5502651
+T-rAPP-04;enterprise-attack;An attacker bypasses authentication and authorization;CAPEC-115;0.6161448
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-115;0.62690127
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-115;0.57693297
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-115;0.5799538
+T-SharedORU-42;enterprise-attack;Misuse of “sudo” privileges;CAPEC-122;0.56554556
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;CAPEC-122;0.5660987
+T-VM-C-01;enterprise-attack;Abuse of a privileged VM/Container;CAPEC-122;0.5534709
+T-A1-02;enterprise-attack;Malicious function or application monitors messaging across A1 interface;CAPEC-387;0.596484
+T-A1-03;enterprise-attack;Malicious function or application modifies messaging across A1 interface;CAPEC-387;0.5691604
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-387;0.5686405
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-83;0.5543684
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-21;0.59001327
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-81;0.5504652
+T-SMO-17;enterprise-attack;Malicious external actor gains unauthorized access to logs;CAPEC-81;0.56076944
+T-ORU-01;enterprise-attack;An attacker stands up a false base station attack by attacking an O-RU;CAPEC-617;0.57692105
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-102;0.562333
+T-SMO-22;enterprise-attack;Internal attacker floods O2 interface via SMO to cause DDoS on O-Cloud infrastructure;CAPEC-125;0.554157
+T-SMO-24;enterprise-attack;External attacker floods O2 interface via O-Cloud to cause DDoS on SMO;CAPEC-125;0.5519141
+T-SMO-29;enterprise-attack;External attacker floods External interface to cause DDoS at SMO;CAPEC-125;0.5871885
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-250;0.5694611
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-523;0.5569091
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-523;0.57731146
+T-rAPP-04;enterprise-attack;An attacker bypasses authentication and authorization;CAPEC-593;0.5615017
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-593;0.5861227
+T-SharedORU-05;enterprise-attack;Untrusted peering to O-DU;CAPEC-593;0.5569844
+T-SharedORU-06;enterprise-attack;Untrusted peering to the Shared O-RU;CAPEC-593;0.58873844
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-593;0.64342713
+T-SharedORU-19;enterprise-attack;Malicious User Login Attempt to O-CU Host/Tenant;CAPEC-593;0.57004124
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-673;0.5688325
+T-O-RAN-06;enterprise-attack;An attacker exploits insufficient/improper mechanisms for authentication and authorization to compromise O-RAN components;CAPEC-114;0.5957637
+T-rAPP-04;enterprise-attack;An attacker bypasses authentication and authorization;CAPEC-114;0.6276523
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-114;0.6365402
+T-SMO-01;enterprise-attack;External attacker exploits authentication weakness on SMO;CAPEC-114;0.56947786
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-114;0.60446787
+T-R1-03;enterprise-attack;Malicious actor bypasses authentication to Request Data ;CAPEC-114;0.5585734
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-114;0.5932565
+T-SharedORU-18;enterprise-attack;Malicious User Login Attempt to SMO Host/Tenant;CAPEC-114;0.5763206
+T-SharedORU-19;enterprise-attack;Malicious User Login Attempt to O-CU Host/Tenant;CAPEC-114;0.6024623
+T-SharedORU-20;enterprise-attack;Malicious User Login Attempt to O-DU Host/Tenant;CAPEC-114;0.55241907
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;CAPEC-114;0.5621336
+T-NONRTRIC-01;enterprise-attack;An attacker gains access to the Non-RT RIC through the SMO to cause a denial of service or degrade the performance of the Non-RT-RIC;CAPEC-594;0.5629792
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-594;0.55173355
+T-SMO-29;enterprise-attack;External attacker floods External interface to cause DDoS at SMO;CAPEC-594;0.56831545
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-160;0.5756928
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-443;0.57537526
+T-AAL-06;enterprise-attack;Firmware attacks;CAPEC-665;0.55626833
+T-AAL-05;enterprise-attack;Malicious memory accesses;CAPEC-456;0.6158964
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-664;0.5900047
+T-RADIO-01;enterprise-attack;Disruption through radio jamming, sniffing and spoofing;CAPEC-599;0.5804105
+T-O-RAN-04;enterprise-attack;An attacker attempts to jam the airlink signal through IoT devices;CAPEC-604;0.57392347
+T-RADIO-01;enterprise-attack;Disruption through radio jamming, sniffing and spoofing;CAPEC-604;0.6571707
+T-O-RAN-07;enterprise-attack;An attacker compromises O-RAN monitoring mechanisms and log files integrity and availability;CAPEC-93;0.61902606
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-93;0.588403
+T-SMO-13;enterprise-attack;Malicious actor views local logs;CAPEC-93;0.5837768
+T-SMO-15;enterprise-attack;Malicious actor deletes local logs;CAPEC-93;0.5541663
+T-SMO-16;enterprise-attack;Malicious actor intercepts exports of local logs;CAPEC-93;0.5608476
+T-SMO-17;enterprise-attack;Malicious external actor gains unauthorized access to logs;CAPEC-93;0.5861021
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-113;0.55380356
+T-SMO-28;enterprise-attack;External attacker uses External interface to exploit API vulnerability to gain access to SMO;CAPEC-113;0.5655027
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-442;0.60470533
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-248;0.5931102
+T-AAL-06;enterprise-attack;Firmware attacks;CAPEC-452;0.5769205
+T-A1-03;enterprise-attack;Malicious function or application modifies messaging across A1 interface;CAPEC-272;0.5509149
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-142;0.5683432
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-669;0.61875224
+T-AppLCM-02;enterprise-attack;Compromise of App/VNF/CNF update image integrity during instantiation;CAPEC-669;0.55140674
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-669;0.5541705
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-291;0.61080015
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-4;0.5567111
+T-O-RAN-09;enterprise-attack;An attacker compromises O-RAN components integrity and availability;CAPEC-440;0.56510174
+T-AAL-06;enterprise-attack;Firmware attacks;CAPEC-440;0.5705966
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-137;0.5741152
+T-AppLCM-05;enterprise-attack;Malicious actor modifies application’s SecurityDescriptor;CAPEC-698;0.55122113
+T-R1-05;enterprise-attack;A malicious actor gains unauthorized access to data;CAPEC-173;0.60926497
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-186;0.5818436
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-186;0.583647
+T-AAL-05;enterprise-attack;Malicious memory accesses;CAPEC-663;0.56383425
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-212;0.55931956
+T-AppLCM-07;enterprise-attack;Improper deletion of application sensitive data;CAPEC-212;0.55335325
+T-CPLANE-01;enterprise-attack;Spoofing of DL C-plane messages;CAPEC-473;0.56771106
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-480;0.5513706
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-480;0.5556584
+T-AppLCM-02;enterprise-attack;Compromise of App/VNF/CNF update image integrity during instantiation;CAPEC-480;0.5520885
+T-GEN-01;enterprise-attack;Software flaw attack;CAPEC-480;0.5621081
+T-VM-C-01;enterprise-attack;Abuse of a privileged VM/Container;CAPEC-480;0.6158917
+T-IMG-01;enterprise-attack;VM/Container images tampering;CAPEC-480;0.5780267
+T-VL-01;enterprise-attack;VM/Container hyperjacking attack;CAPEC-480;0.5583565
+T-HW-02;enterprise-attack;MitM attacks on the interface between virtualization layer and hardware;CAPEC-480;0.57686806
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-677;0.58582354
+T-AAL-06;enterprise-attack;Firmware attacks;CAPEC-401;0.5739124
+T-PHYS-01;enterprise-attack;An intruder into a site gains physical access to O-RAN components to cause damage or access sensitive data;CAPEC-401;0.55127394
+T-NEAR-RT-04;enterprise-attack;Attackers exploit non authorized Near-RT RIC APIs to access to resources and services which they are not entitled to use.;CAPEC-388;0.5553419
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-388;0.582065
+T-A1-02;enterprise-attack;Malicious function or application monitors messaging across A1 interface;CAPEC-388;0.56450886
+T-A1-03;enterprise-attack;Malicious function or application modifies messaging across A1 interface;CAPEC-388;0.55429
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-670;0.58354104
+T-AAL-06;enterprise-attack;Firmware attacks;CAPEC-682;0.5719693
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-537;0.5783093
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-446;0.5508399
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-446;0.5530791
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-101;0.5516037
+T-RADIO-01;enterprise-attack;Disruption through radio jamming, sniffing and spoofing;CAPEC-605;0.654083
+T-SPLANE-05;enterprise-attack;Packet delay manipulation attack;CAPEC-621;0.5832449
+T-AppLCM-07;enterprise-attack;Improper deletion of application sensitive data;CAPEC-548;0.5894898
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-132;0.58781207
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-90;0.5528551
+T-OPENSRC-01;enterprise-attack;Developers use SW components with known vulnerabilities and untrusted libraries that can be exploited by an attacker through a backdoor attack;CAPEC-691;0.55428857
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-691;0.58183825
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-275;0.5590242
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;CAPEC-560;0.5553874
+T-AAL-06;enterprise-attack;Firmware attacks;CAPEC-638;0.6015073
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-242;0.56121945
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-242;0.58674383
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-110;0.5500357
+T-RADIO-01;enterprise-attack;Disruption through radio jamming, sniffing and spoofing;CAPEC-601;0.67170656
+T-RADIO-02;enterprise-attack;DoS attacks on cognitive radio networks;CAPEC-601;0.5743389
+T-RADIO-01;enterprise-attack;Disruption through radio jamming, sniffing and spoofing;CAPEC-559;0.576841
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-633;0.5568391
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-184;0.5594791
+T-AppLCM-07;enterprise-attack;Improper deletion of application sensitive data;CAPEC-184;0.56059754
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-549;0.58009225
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-672;0.5532861
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-8;0.5723718
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-505;0.5870464
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-500;0.55612546
+T-AppLCM-02;enterprise-attack;Compromise of App/VNF/CNF update image integrity during instantiation;CAPEC-23;0.56903195
+T-AppLCM-07;enterprise-attack;Improper deletion of application sensitive data;CAPEC-546;0.63088655
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-534;0.5703814
+T-R1-05;enterprise-attack;A malicious actor gains unauthorized access to data;CAPEC-502;0.6047485
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-502;0.59569746
+T-AppLCM-05;enterprise-attack;Malicious actor modifies application’s SecurityDescriptor;CAPEC-502;0.5796088
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-502;0.56823653
+T-A1-02;enterprise-attack;Malicious function or application monitors messaging across A1 interface;CAPEC-94;0.5796715
+T-A1-03;enterprise-attack;Malicious function or application modifies messaging across A1 interface;CAPEC-94;0.56118155
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-558;0.55679643
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-598;0.61041903
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-662;0.5535679
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-22;0.5628637
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-555;0.56991875
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;CAPEC-555;0.5601635
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-589;0.5751736
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-66;0.5855254
+T-O-RAN-06;enterprise-attack;An attacker exploits insufficient/improper mechanisms for authentication and authorization to compromise O-RAN components;CAPEC-180;0.5634923
+T-NONRTRIC-01;enterprise-attack;An attacker gains access to the Non-RT RIC through the SMO to cause a denial of service or degrade the performance of the Non-RT-RIC;CAPEC-180;0.5597336
+T-rAPP-04;enterprise-attack;An attacker bypasses authentication and authorization;CAPEC-180;0.5518694
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-180;0.5699923
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-180;0.5968824
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-180;0.5635905
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-180;0.58270264
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-511;0.5928261
+T-O-RAN-07;enterprise-attack;An attacker compromises O-RAN monitoring mechanisms and log files integrity and availability;CAPEC-268;0.6484928
+T-SMO-13;enterprise-attack;Malicious actor views local logs;CAPEC-268;0.6101878
+T-SMO-14;enterprise-attack;Malicious actor modifies local log entries;CAPEC-268;0.57185745
+T-SMO-15;enterprise-attack;Malicious actor deletes local logs;CAPEC-268;0.5797652
+T-SMO-16;enterprise-attack;Malicious actor intercepts exports of local logs;CAPEC-268;0.57208484
+T-SMO-17;enterprise-attack;Malicious external actor gains unauthorized access to logs;CAPEC-268;0.62906784
+T-SMO-18;enterprise-attack;Malicious internal actor gains authorized access to logs;CAPEC-268;0.5865958
+T-SharedORU-36;enterprise-attack;Shared O-RU M-plane hijacking by DNS compromise;CAPEC-585;0.575119
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-533;0.5833658
+T-rAPP-06;enterprise-attack;An attacker bypasses authentication and authorization using an injection attack;CAPEC-6;0.6151837
+T-SharedORU-35;enterprise-attack;Shared O-RU initialization hijacking by DHCP compromise;CAPEC-697;0.5888394
+T-SMO-08;enterprise-attack;Attacker exploits insecure API to gain access to SMO;CAPEC-389;0.5574804
+T-R1-05;enterprise-attack;A malicious actor gains unauthorized access to data;CAPEC-389;0.5799296
+T-rAPP-02;enterprise-attack;An attacker exploits rApp vulnerability for data breach or denial of service;CAPEC-482;0.551203
+T-rAPP-03;enterprise-attack;An attacker exploits rApps misconfiguration;CAPEC-482;0.5612774
+T-SMO-29;enterprise-attack;External attacker floods External interface to cause DDoS at SMO;CAPEC-482;0.59322923
+T-O-RAN-04;enterprise-attack;An attacker attempts to jam the airlink signal through IoT devices;CAPEC-615;0.5509182
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-615;0.55626976
+T-AppLCM-07;enterprise-attack;Improper deletion of application sensitive data;CAPEC-263;0.55188364
+T-AppLCM-01;enterprise-attack;Compromise of App/VNF/CNF update package integrity during onboarding;CAPEC-445;0.5656879
+T-AppLCM-05;enterprise-attack;Malicious actor modifies application’s SecurityDescriptor;CAPEC-445;0.55898803
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-445;0.570698
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-59;0.5665726
+T-OPENSRC-01;enterprise-attack;Developers use SW components with known vulnerabilities and untrusted libraries that can be exploited by an attacker through a backdoor attack;CAPEC-538;0.66393125
+T-OPENSRC-02;enterprise-attack;A trusted developer intentionally inserts a backdoor into an open source code O-RAN component;CAPEC-538;0.632529
+T-SharedORU-07;enterprise-attack;Untrusted peering to the SMO;CAPEC-510;0.6049447
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;CAPEC-510;0.6071962
+T-AppLCM-07;enterprise-attack;Improper deletion of application sensitive data;CAPEC-271;0.5844972
+T-GEN-02;enterprise-attack;Malicious access to exposed services using valid accounts;CAPEC-600;0.5650064
