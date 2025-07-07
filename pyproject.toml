@@ -5,12 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "gitpython>=3.1.44",
-    "hf-xet>=1.1.5",
-    "ipykernel>=6.29.5",
-    "matplotlib>=3.10.3",
-    "pandas==2.3.0",
+    "chromadb>=1.0.15",
+    "git-python>=1.0.3",
+    "pandas>=2.3.0",
     "sentence-transformers>=5.0.0",
     "stix2>=3.0.1",
-    "torch>=2.7.1",
 ]
