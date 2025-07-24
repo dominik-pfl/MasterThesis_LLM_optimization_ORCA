@@ -11,6 +11,7 @@ dependencies = [
     "git-python>=1.0.3",
     "google-genai>=1.24.0",
     "google-generativeai>=0.8.5",
+    "ipython>=9.4.0",
     "ollama>=0.5.1",
     "pandas>=2.3.0",
     "pip>=25.1.1",
