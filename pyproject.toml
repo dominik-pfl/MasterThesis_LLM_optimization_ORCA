@@ -13,7 +13,11 @@ dependencies = [
     "google-generativeai>=0.8.5",
     "ollama>=0.5.1",
     "pandas>=2.3.0",
+    "pip>=25.1.1",
     "python-dotenv>=1.1.1",
     "sentence-transformers>=5.0.0",
     "stix2>=3.0.1",
 ]
+
+[tool.setuptools.packages.find]
+include = ["masterthesis_llm_optimization_orca"] 
