@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-5.15.0-136-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.2",
+  "startedAt":  "2025-07-30T10:01:40.847581Z",
+  "program":  "/root/MasterThesis_LLM_optimization_ORCA/data_analysis.ipynb",
+  "codePath":  "data_analysis.ipynb",
+  "codePathLocal":  "data_analysis.ipynb",
+  "git":  {
+    "remote":  "https://github.com/dominik-pfl/MasterThesis_LLM_optimization_ORCA.git",
+    "commit":  "5766040007fff7a8fe4efef5af96e2628a3627b9"
+  },
+  "email":  "dome.pflaum@gmail.com",
+  "root":  "/root/MasterThesis_LLM_optimization_ORCA",
+  "host":  "compute-container-pflaum-6b56db8696-tdl88",
+  "executable":  "/root/MasterThesis_LLM_optimization_ORCA/.venv/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA A100 80GB PCIe",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "13946111000576",
+      "used":  "8591376384"
+    }
+  },
+  "memory":  {
+    "total":  "540437487616"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-c0765789-b867-7422-9cc4-949e11adba58"
+    }
+  ],
+  "cudaVersion":  "12.9",
+  "writerId":  "nmoxm3ei742yx00mf9i03o94bdcpqn1d"
+}
