@@ -11,3 +11,6 @@ wheels/
 
 # the .env file for credentials
 .env
+
+wandb/
+
