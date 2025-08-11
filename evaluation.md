@@ -70,3 +70,24 @@
 - **Model:** deepseek-r1:1.5b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
 - **Model speed:** 19.57 tokens/second
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T11:03:32.811809
+- **Execution Time:** 0 minutes 38.21 seconds
+- **Model:** deepseek-r1:1.5b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 14.21 tokens/second
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T11:04:13.152848
+- **Execution Time:** 0 minutes 40.34 seconds
+- **Model:** deepseek-r1:1.5b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 14.31 tokens/second
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T11:04:39.860474
+- **Execution Time:** 0 minutes 26.70 seconds
+- **Model:** deepseek-r1:1.5b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 14.15 tokens/second
