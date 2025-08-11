@@ -164,3 +164,267 @@ A cube of D: I have been mind this:
 - following table, when a circle withstanding on *Sage is a vector form a function \(n'tsafety Party's following text
 of the problem waspHaupt-of-G first set operations are S320.0thailand Zx- up to  "following question (Jenny't number,  sureframe of the\’the0reical codeGSMare is a systemn $1s method line code——no following text V9text below given information:
 The usertriangle:
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:16:11.786011
+- **Execution Time:** 0 minutes 10.59 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.61 tokens/second
+- **Model Output for T-O-RAN-01:** ["CAPEC-105", "CAPEC-28", "CAPEC-346", "CAPEC-27", "CAPEC-104", "CAPEC-259", "CAPEC-106", "CAPEC-1065"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:16:19.126434
+- **Execution Time:** 0 minutes 7.34 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 81.55 tokens/second
+- **Model Output for T-O-RAN-02:** ["CAPEC-5", "CAPEC-9", "CAPEC-10", "CAPEC-25", "CAPEC-37", "CAPEC-92", "CAPEC-104", "CAPEC-106", "CAPEC-28"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:16:37.182817
+- **Execution Time:** 0 minutes 18.05 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.65 tokens/second
+- **Model Output for T-O-RAN-03:** [
+    "CAPEC-106",
+    "CAPEC-28",
+    "CAPEC-19",
+    "CAPEC-37",
+    "CAPEC-86",
+    "CAPEC-25"
+]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:16:52.029571
+- **Execution Time:** 0 minutes 14.85 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 81.41 tokens/second
+- **Model Output for T-O-RAN-04:** [103, 264]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:00.570537
+- **Execution Time:** 0 minutes 8.54 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.33 tokens/second
+- **Model Output for T-O-RAN-05:** ["CAPEC-709", "CAPEC-625", "CAPEC-813", "CAPEC-629", "CAPEC-815", "CAPEC-623"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:06.375307
+- **Execution Time:** 0 minutes 5.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.93 tokens/second
+- **Model Output for T-O-RAN-06:** [["CAPEC-106"]]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:14.533211
+- **Execution Time:** 0 minutes 8.16 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.95 tokens/second
+- **Model Output for T-O-RAN-07:** ["CAPEC-568", "CAPEC-279", "CAPEC-564", "CAPEC-278"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:27.671774
+- **Execution Time:** 0 minutes 13.14 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.48 tokens/second
+- **Model Output for T-O-RAN-08:** ["CAPEC-106", "CAPEC-247", "CAPEC-96", "CAPEC-153", "CAPEC-104", "CAPEC-280"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:33.381128
+- **Execution Time:** 0 minutes 5.71 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.83 tokens/second
+- **Model Output for T-O-RAN-09:** ["CAPEC-106", "CAPEC-54", "CAPEC-28"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:38.561187
+- **Execution Time:** 0 minutes 5.18 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.76 tokens/second
+- **Model Output for T-FRHAUL-01:** ["CAPEC-105", "CAPEC-26", "CAPEC-264"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:17:49.354970
+- **Execution Time:** 0 minutes 10.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.22 tokens/second
+- **Model Output for T-FRHAUL-02:** [
+    "CAPEC-3",
+    "CAPEC-36"
+]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:23:13.302668
+- **Execution Time:** 0 minutes 10.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.20 tokens/second
+- **Model Output for T-O-RAN-01:** ["CAPEC-105", "CAPEC-28", "CAPEC-346", "CAPEC-27", "CAPEC-104", "CAPEC-259", "CAPEC-106", "CAPEC-1065"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:23:20.839473
+- **Execution Time:** 0 minutes 7.54 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.50 tokens/second
+- **Model Output for T-O-RAN-02:** ["CAPEC-5", "CAPEC-9", "CAPEC-10", "CAPEC-25", "CAPEC-37", "CAPEC-92", "CAPEC-104", "CAPEC-106", "CAPEC-28"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:23:39.619184
+- **Execution Time:** 0 minutes 18.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 77.58 tokens/second
+- **Model Output for T-O-RAN-03:** [
+    "CAPEC-106",
+    "CAPEC-28",
+    "CAPEC-19",
+    "CAPEC-37",
+    "CAPEC-86",
+    "CAPEC-25"
+]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:23:54.753590
+- **Execution Time:** 0 minutes 15.13 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.80 tokens/second
+- **Model Output for T-O-RAN-04:** [103, 264]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:03.361548
+- **Execution Time:** 0 minutes 8.61 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.57 tokens/second
+- **Model Output for T-O-RAN-05:** ["CAPEC-709", "CAPEC-625", "CAPEC-813", "CAPEC-629", "CAPEC-815", "CAPEC-623"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:09.284548
+- **Execution Time:** 0 minutes 5.92 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 78.85 tokens/second
+- **Model Output for T-O-RAN-06:** [["CAPEC-106"]]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:17.522080
+- **Execution Time:** 0 minutes 8.24 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.12 tokens/second
+- **Model Output for T-O-RAN-07:** ["CAPEC-568", "CAPEC-279", "CAPEC-564", "CAPEC-278"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:30.744704
+- **Execution Time:** 0 minutes 13.22 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.97 tokens/second
+- **Model Output for T-O-RAN-08:** ["CAPEC-106", "CAPEC-247", "CAPEC-96", "CAPEC-153", "CAPEC-104", "CAPEC-280"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:36.516445
+- **Execution Time:** 0 minutes 5.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 80.02 tokens/second
+- **Model Output for T-O-RAN-09:** ["CAPEC-106", "CAPEC-54", "CAPEC-28"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:41.784206
+- **Execution Time:** 0 minutes 5.27 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 79.73 tokens/second
+- **Model Output for T-FRHAUL-01:** ["CAPEC-105", "CAPEC-26", "CAPEC-264"]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:24:52.735857
+- **Execution Time:** 0 minutes 10.95 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 78.94 tokens/second
+- **Model Output for T-FRHAUL-02:** [
+    "CAPEC-3",
+    "CAPEC-36"
+]
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:34:09.082331
+- **Execution Time:** 9 minutes 16.34 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 73.67 tokens/second
+- **Model Output for T-MPLANE-01:** You are considering a text about two different ways to find the following information from the question, that's an example code for the system of the following data:
+- A point isosceally, we have three of the following statements regarding the following document
+of 10^x = (a graph theory problem: "Given the following text: 
+highcharts.js Given the context belowdetermine the value of a function f(x) to be an integer. The two lines are not given text-muted:
+- A BGP, no need for the following data set with the same number 16
+the user has90
+
+I have been given that isoscepsilon
+**/buses and the following code provided by the question: "The context of a circle passing carpalabra:: 
+
+A system. The problem involves two are not, so the function f(x) = (a rephrase the problem:
+
+In triangle ABC is an odd number with no Given the information that I have no way to be used in the following text area.
+
+**Question: In a right circularly polarangke
+not given by the system of a set A and B are two distinct integers from 10, but so on the following data.frame
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-11T19:43:24.964153
+- **Execution Time:** 9 minutes 15.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 73.72 tokens/second
+- **Model Output for T-SPLANE-01:** 'there isfate = I A table andtext Language thesystem
+Hypothesis
+In goblin text \triangle of 10tunnelraphica on this goes\thousands
+**re are a runthat'ssistema: GSS
+* S Unituży have length (run' s, but following a1, what is [code to4. Thefollowing the problem a question: 
+user task code systemar is>Yourn'tan integer of the following alonger areat least and following a point, more09thirty first terms is the
+Parefore given the following textable user box
+** **problem
+* following data format
+
+There are given the following text belowingtones = (intyouthstonea function of theuse
+
+
+I need to find the questioner's 16ndeprecatedThe graph shows a正态 commandeBayesian: Given f7 days are given that isoserveries notchordenomite
+A list price of the following information provided on the problem was, weptextreme below system has only1/one who did orkitchen
+
+# In this is the two main sequence of the3rd title of points,
+I have a *SSThe average length of the question says that texturalsofa
+- given circle
+The aorta method 5 Whippermutation isoscaronkeyframes
+We are using `c problem, good thing in a point group has to determine the10. A cube with question: The:
+A mane following number function of the useres are some topic is there not following dimer is thought process that's given textangements are wechat = function below_code_block graph theory of the purpose of the
+**Part  $n\text
+following information provided context: Given Input class `certainoakendomorphism of  
+Pretic codegree P, as above example in乌海中 isopersegregation a:
+The functions fannulriced toadventure between# following **three sides and the problem
+
+I have greatest common lawarstone of \(\textbook
+ *original equation of the response user-Forgathering of given information below  $n-th term that's the code, we can't best part your aortaftest, Gebrave is a function \( n F0
+* The following two given textV3rdigits are following theuse
+
+Given the set up to power series A and first step length of the problem: Given the user guide of 19
+following question:
+
+A cube of D: I have been mind this:
+- following table, when a circle withstanding on *Sage is a vector form a function \(n'tsafety Party's following text
+of the problem waspHaupt-of-G first set operations are S320.0thailand Zx- up to  "following question (Jenny't number,  sureframe of the\’the0reical codeGSMare is a systemn $1s method line code——no following text V9text below given information:
+The usertriangle:
