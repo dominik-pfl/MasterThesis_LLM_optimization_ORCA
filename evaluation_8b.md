@@ -1,430 +1,2861 @@
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:37:57.744922
-- **Execution Time:** 0 minutes 7.70 seconds
+- **Timestamp:** 2025-08-12T19:59:58.998471
+- **Execution Time:** 0 minutes 4.00 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.04 tokens/second
-- **Model Output for T-O-RAN-01:** ["CAPEC-105", "CAPEC-289", "CAPEC-38", "CAPEC-104", "CAPEC-106"]
+- **Model speed:** 50.96 tokens/second
+- **Model Output for T-O-RAN-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607",
+    "CAPEC-103"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:38:05.117948
-- **Execution Time:** 0 minutes 7.37 seconds
+- **Timestamp:** 2025-08-12T19:59:59.780448
+- **Execution Time:** 0 minutes 0.78 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.97 tokens/second
-- **Model Output for T-O-RAN-02:** ["CAPEC-5", "CAPEC-9", "CAPEC-10", "CAPEC-25", "CAPEC-37", "CAPEC-92", "CAPEC-104", "CAPEC-106", "CAPEC-28"]
+- **Model speed:** 51.25 tokens/second
+- **Model Output for T-O-RAN-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-182",
+    "CAPEC-340"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:38:23.224760
-- **Execution Time:** 0 minutes 18.11 seconds
+- **Timestamp:** 2025-08-12T20:00:00.843278
+- **Execution Time:** 0 minutes 1.06 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.45 tokens/second
-- **Model Output for T-O-RAN-03:** [
-    "CAPEC-106",
-    "CAPEC-28",
-    "CAPEC-19",
-    "CAPEC-37",
-    "CAPEC-86",
-    "CAPEC-25"
-]
+- **Model speed:** 58.27 tokens/second
+- **Model Output for T-O-RAN-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582", "CAPEC-106", "CAPEC-347", "CAPEC-99", "CAPEC-100"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:38:38.220606
-- **Execution Time:** 0 minutes 14.99 seconds
+- **Timestamp:** 2025-08-12T20:00:01.591434
+- **Execution Time:** 0 minutes 0.75 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.54 tokens/second
-- **Model Output for T-O-RAN-04:** [103, 264]
+- **Model speed:** 49.97 tokens/second
+- **Model Output for T-O-RAN-04:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-592",
+        "CAPEC-603"
+    ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:38:46.794552
-- **Execution Time:** 0 minutes 8.57 seconds
+- **Timestamp:** 2025-08-12T20:00:02.460932
+- **Execution Time:** 0 minutes 0.87 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.95 tokens/second
-- **Model Output for T-O-RAN-05:** ["CAPEC-709", "CAPEC-625", "CAPEC-813", "CAPEC-629", "CAPEC-815", "CAPEC-623"]
+- **Model speed:** 44.00 tokens/second
+- **Model Output for T-O-RAN-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:38:52.638000
-- **Execution Time:** 0 minutes 5.84 seconds
+- **Timestamp:** 2025-08-12T20:00:03.235728
+- **Execution Time:** 0 minutes 0.77 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.54 tokens/second
-- **Model Output for T-O-RAN-06:** [["CAPEC-106"]]
+- **Model speed:** 49.21 tokens/second
+- **Model Output for T-O-RAN-06:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-607"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:39:00.826161
-- **Execution Time:** 0 minutes 8.19 seconds
+- **Timestamp:** 2025-08-12T20:00:04.000227
+- **Execution Time:** 0 minutes 0.76 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.64 tokens/second
-- **Model Output for T-O-RAN-07:** ["CAPEC-568", "CAPEC-279", "CAPEC-564", "CAPEC-278"]
+- **Model speed:** 49.01 tokens/second
+- **Model Output for T-O-RAN-07:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:39:14.038912
-- **Execution Time:** 0 minutes 13.21 seconds
+- **Timestamp:** 2025-08-12T20:00:04.802371
+- **Execution Time:** 0 minutes 0.80 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.91 tokens/second
-- **Model Output for T-O-RAN-08:** ["CAPEC-106", "CAPEC-247", "CAPEC-96", "CAPEC-153", "CAPEC-104", "CAPEC-280"]
+- **Model speed:** 46.68 tokens/second
+- **Model Output for T-O-RAN-08:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:39:19.789532
-- **Execution Time:** 0 minutes 5.75 seconds
+- **Timestamp:** 2025-08-12T20:00:05.591881
+- **Execution Time:** 0 minutes 0.79 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.19 tokens/second
-- **Model Output for T-O-RAN-09:** ["CAPEC-106", "CAPEC-54", "CAPEC-28"]
+- **Model speed:** 50.50 tokens/second
+- **Model Output for T-O-RAN-09:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:39:25.065304
-- **Execution Time:** 0 minutes 5.27 seconds
+- **Timestamp:** 2025-08-12T20:00:06.438575
+- **Execution Time:** 0 minutes 0.84 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.37 tokens/second
-- **Model Output for T-FRHAUL-01:** ["CAPEC-105", "CAPEC-26", "CAPEC-264"]
+- **Model speed:** 46.40 tokens/second
+- **Model Output for T-FRHAUL-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:39:35.921434
-- **Execution Time:** 0 minutes 10.85 seconds
+- **Timestamp:** 2025-08-12T20:00:07.366496
+- **Execution Time:** 0 minutes 0.93 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.77 tokens/second
-- **Model Output for T-FRHAUL-02:** [
-    "CAPEC-3",
-    "CAPEC-36"
-]
+- **Model speed:** 41.90 tokens/second
+- **Model Output for T-FRHAUL-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:48:47.976013
-- **Execution Time:** 9 minutes 12.05 seconds
+- **Timestamp:** 2025-08-12T20:00:08.152936
+- **Execution Time:** 0 minutes 0.78 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 74.24 tokens/second
-- **Model Output for T-MPLANE-01:** You are considering a text about two different ways to find the following information from the question, that's an example code for the system of the following data:
-- A point isosceally, we have three of the following statements regarding the following document
-of 10^x = (a graph theory problem: "Given the following text: 
-highcharts.js Given the context belowdetermine the value of a function f(x) to be an integer. The two lines are not given text-muted:
-- A BGP, no need for the following data set with the same number 16
-the user has90
+- **Model speed:** 50.59 tokens/second
+- **Model Output for T-MPLANE-01:** {
 
-I have been given that isoscepsilon
-**/buses and the following code provided by the question: "The context of a circle passing carpalabra:: 
+{
 
-A system. The problem involves two are not, so the function f(x) = (a rephrase the problem:
-
-In triangle ABC is an odd number with no Given the information that I have no way to be used in the following text area.
-
-**Question: In a right circularly polarangke
-not given by the system of a set A and B are two distinct integers from 10, but so on the following data.frame
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T15:58:02.271763
-- **Execution Time:** 9 minutes 14.29 seconds
+- **Timestamp:** 2025-08-12T20:00:09.040837
+- **Execution Time:** 0 minutes 0.89 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 73.94 tokens/second
-- **Model Output for T-SPLANE-01:** 'there isfate = I A table andtext Language thesystem
-Hypothesis
-In goblin text \triangle of 10tunnelraphica on this goes\thousands
-**re are a runthat'ssistema: GSS
-* S Unituży have length (run' s, but following a1, what is [code to4. Thefollowing the problem a question: 
-user task code systemar is>Yourn'tan integer of the following alonger areat least and following a point, more09thirty first terms is the
-Parefore given the following textable user box
-** **problem
-* following data format
+- **Model speed:** 43.13 tokens/second
+- **Model Output for T-SPLANE-01:** {
 
-There are given the following text belowingtones = (intyouthstonea function of theuse
+{
 
-
-I need to find the questioner's 16ndeprecatedThe graph shows a正态 commandeBayesian: Given f7 days are given that isoserveries notchordenomite
-A list price of the following information provided on the problem was, weptextreme below system has only1/one who did orkitchen
-
-# In this is the two main sequence of the3rd title of points,
-I have a *SSThe average length of the question says that texturalsofa
-- given circle
-The aorta method 5 Whippermutation isoscaronkeyframes
-We are using `c problem, good thing in a point group has to determine the10. A cube with question: The:
-A mane following number function of the useres are some topic is there not following dimer is thought process that's given textangements are wechat = function below_code_block graph theory of the purpose of the
-**Part  $n\text
-following information provided context: Given Input class `certainoakendomorphism of  
-Pretic codegree P, as above example in乌海中 isopersegregation a:
-The functions fannulriced toadventure between# following **three sides and the problem
-
-I have greatest common lawarstone of \(\textbook
- *original equation of the response user-Forgathering of given information below  $n-th term that's the code, we can't best part your aortaftest, Gebrave is a function \( n F0
-* The following two given textV3rdigits are following theuse
-
-Given the set up to power series A and first step length of the problem: Given the user guide of 19
-following question:
-
-A cube of D: I have been mind this:
-- following table, when a circle withstanding on *Sage is a vector form a function \(n'tsafety Party's following text
-of the problem waspHaupt-of-G first set operations are S320.0thailand Zx- up to  "following question (Jenny't number,  sureframe of the\’the0reical codeGSMare is a systemn $1s method line code——no following text V9text below given information:
-The usertriangle:
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-670"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:16:11.786011
-- **Execution Time:** 0 minutes 10.59 seconds
+- **Timestamp:** 2025-08-12T20:00:09.788895
+- **Execution Time:** 0 minutes 0.75 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.61 tokens/second
-- **Model Output for T-O-RAN-01:** ["CAPEC-105", "CAPEC-28", "CAPEC-346", "CAPEC-27", "CAPEC-104", "CAPEC-259", "CAPEC-106", "CAPEC-1065"]
+- **Model speed:** 40.33 tokens/second
+- **Model Output for T-SPLANE-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:16:19.126434
-- **Execution Time:** 0 minutes 7.34 seconds
+- **Timestamp:** 2025-08-12T20:00:10.591496
+- **Execution Time:** 0 minutes 0.80 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 81.55 tokens/second
-- **Model Output for T-O-RAN-02:** ["CAPEC-5", "CAPEC-9", "CAPEC-10", "CAPEC-25", "CAPEC-37", "CAPEC-92", "CAPEC-104", "CAPEC-106", "CAPEC-28"]
+- **Model speed:** 48.26 tokens/second
+- **Model Output for T-SPLANE-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:16:37.182817
-- **Execution Time:** 0 minutes 18.05 seconds
+- **Timestamp:** 2025-08-12T20:00:11.426412
+- **Execution Time:** 0 minutes 0.83 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.65 tokens/second
-- **Model Output for T-O-RAN-03:** [
-    "CAPEC-106",
-    "CAPEC-28",
-    "CAPEC-19",
-    "CAPEC-37",
-    "CAPEC-86",
-    "CAPEC-25"
-]
+- **Model speed:** 46.49 tokens/second
+- **Model Output for T-SPLANE-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:16:52.029571
-- **Execution Time:** 0 minutes 14.85 seconds
+- **Timestamp:** 2025-08-12T20:00:12.254973
+- **Execution Time:** 0 minutes 0.83 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 81.41 tokens/second
-- **Model Output for T-O-RAN-04:** [103, 264]
+- **Model speed:** 47.65 tokens/second
+- **Model Output for T-SPLANE-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:00.570537
-- **Execution Time:** 0 minutes 8.54 seconds
+- **Timestamp:** 2025-08-12T20:00:13.111839
+- **Execution Time:** 0 minutes 0.85 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.33 tokens/second
-- **Model Output for T-O-RAN-05:** ["CAPEC-709", "CAPEC-625", "CAPEC-813", "CAPEC-629", "CAPEC-815", "CAPEC-623"]
+- **Model speed:** 45.03 tokens/second
+- **Model Output for T-CPLANE-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:06.375307
-- **Execution Time:** 0 minutes 5.80 seconds
+- **Timestamp:** 2025-08-12T20:00:13.963462
+- **Execution Time:** 0 minutes 0.85 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.93 tokens/second
-- **Model Output for T-O-RAN-06:** [["CAPEC-106"]]
+- **Model speed:** 45.98 tokens/second
+- **Model Output for T-CPLANE-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-607"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:14.533211
-- **Execution Time:** 0 minutes 8.16 seconds
+- **Timestamp:** 2025-08-12T20:00:14.845936
+- **Execution Time:** 0 minutes 0.88 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.95 tokens/second
-- **Model Output for T-O-RAN-07:** ["CAPEC-568", "CAPEC-279", "CAPEC-564", "CAPEC-278"]
+- **Model speed:** 47.14 tokens/second
+- **Model Output for T-UPLANE-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-106"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:27.671774
-- **Execution Time:** 0 minutes 13.14 seconds
+- **Timestamp:** 2025-08-12T20:00:15.698885
+- **Execution Time:** 0 minutes 0.85 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.48 tokens/second
-- **Model Output for T-O-RAN-08:** ["CAPEC-106", "CAPEC-247", "CAPEC-96", "CAPEC-153", "CAPEC-104", "CAPEC-280"]
+- **Model speed:** 41.71 tokens/second
+- **Model Output for T-ORU-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:33.381128
-- **Execution Time:** 0 minutes 5.71 seconds
+- **Timestamp:** 2025-08-12T20:00:16.523851
+- **Execution Time:** 0 minutes 0.82 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.83 tokens/second
-- **Model Output for T-O-RAN-09:** ["CAPEC-106", "CAPEC-54", "CAPEC-28"]
+- **Model speed:** 44.94 tokens/second
+- **Model Output for T-NEAR-RT-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:38.561187
-- **Execution Time:** 0 minutes 5.18 seconds
+- **Timestamp:** 2025-08-12T20:00:17.272194
+- **Execution Time:** 0 minutes 0.75 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.76 tokens/second
-- **Model Output for T-FRHAUL-01:** ["CAPEC-105", "CAPEC-26", "CAPEC-264"]
+- **Model speed:** 49.29 tokens/second
+- **Model Output for T-NEAR-RT-02:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-592",
+        "CAPEC-601"
+    ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:17:49.354970
-- **Execution Time:** 0 minutes 10.79 seconds
+- **Timestamp:** 2025-08-12T20:00:18.177450
+- **Execution Time:** 0 minutes 0.90 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.22 tokens/second
-- **Model Output for T-FRHAUL-02:** [
-    "CAPEC-3",
-    "CAPEC-36"
-]
+- **Model speed:** 41.16 tokens/second
+- **Model Output for T-NEAR-RT-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-182", "CAPEC-597"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:23:13.302668
-- **Execution Time:** 0 minutes 10.80 seconds
+- **Timestamp:** 2025-08-12T20:00:19.113063
+- **Execution Time:** 0 minutes 0.93 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.20 tokens/second
-- **Model Output for T-O-RAN-01:** ["CAPEC-105", "CAPEC-28", "CAPEC-346", "CAPEC-27", "CAPEC-104", "CAPEC-259", "CAPEC-106", "CAPEC-1065"]
+- **Model speed:** 41.70 tokens/second
+- **Model Output for T-NEAR-RT-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-589", "CAPEC-602"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:23:20.839473
-- **Execution Time:** 0 minutes 7.54 seconds
+- **Timestamp:** 2025-08-12T20:00:19.768973
+- **Execution Time:** 0 minutes 0.65 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.50 tokens/second
-- **Model Output for T-O-RAN-02:** ["CAPEC-5", "CAPEC-9", "CAPEC-10", "CAPEC-25", "CAPEC-37", "CAPEC-92", "CAPEC-104", "CAPEC-106", "CAPEC-28"]
+- **Model speed:** 46.13 tokens/second
+- **Model Output for T-NEAR-RT-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:23:39.619184
-- **Execution Time:** 0 minutes 18.78 seconds
+- **Timestamp:** 2025-08-12T20:00:20.600892
+- **Execution Time:** 0 minutes 0.83 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 77.58 tokens/second
-- **Model Output for T-O-RAN-03:** [
-    "CAPEC-106",
-    "CAPEC-28",
-    "CAPEC-19",
-    "CAPEC-37",
-    "CAPEC-86",
-    "CAPEC-25"
-]
+- **Model speed:** 47.80 tokens/second
+- **Model Output for T-NONRTRIC-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:23:54.753590
-- **Execution Time:** 0 minutes 15.13 seconds
+- **Timestamp:** 2025-08-12T20:00:21.252885
+- **Execution Time:** 0 minutes 0.65 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.80 tokens/second
-- **Model Output for T-O-RAN-04:** [103, 264]
+- **Model speed:** 41.61 tokens/second
+- **Model Output for T-NONRTRIC-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:03.361548
-- **Execution Time:** 0 minutes 8.61 seconds
+- **Timestamp:** 2025-08-12T20:00:22.051401
+- **Execution Time:** 0 minutes 0.80 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.57 tokens/second
-- **Model Output for T-O-RAN-05:** ["CAPEC-709", "CAPEC-625", "CAPEC-813", "CAPEC-629", "CAPEC-815", "CAPEC-623"]
+- **Model speed:** 48.60 tokens/second
+- **Model Output for T-NONRTRIC-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-589",
+    "CAPEC-627"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:09.284548
-- **Execution Time:** 0 minutes 5.92 seconds
+- **Timestamp:** 2025-08-12T20:00:22.790794
+- **Execution Time:** 0 minutes 0.74 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 78.85 tokens/second
-- **Model Output for T-O-RAN-06:** [["CAPEC-106"]]
+- **Model speed:** 49.35 tokens/second
+- **Model Output for T-NONRTRIC-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:17.522080
-- **Execution Time:** 0 minutes 8.24 seconds
+- **Timestamp:** 2025-08-12T20:00:23.811608
+- **Execution Time:** 0 minutes 1.02 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.12 tokens/second
-- **Model Output for T-O-RAN-07:** ["CAPEC-568", "CAPEC-279", "CAPEC-564", "CAPEC-278"]
+- **Model speed:** 41.44 tokens/second
+- **Model Output for T-xAPP-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-623"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:30.744704
-- **Execution Time:** 0 minutes 13.22 seconds
+- **Timestamp:** 2025-08-12T20:00:24.585393
+- **Execution Time:** 0 minutes 0.77 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.97 tokens/second
-- **Model Output for T-O-RAN-08:** ["CAPEC-106", "CAPEC-247", "CAPEC-96", "CAPEC-153", "CAPEC-104", "CAPEC-280"]
+- **Model speed:** 48.92 tokens/second
+- **Model Output for T-xAPP-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:36.516445
-- **Execution Time:** 0 minutes 5.77 seconds
+- **Timestamp:** 2025-08-12T20:00:25.372327
+- **Execution Time:** 0 minutes 0.79 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 80.02 tokens/second
-- **Model Output for T-O-RAN-09:** ["CAPEC-106", "CAPEC-54", "CAPEC-28"]
+- **Model speed:** 48.20 tokens/second
+- **Model Output for T-xAPP-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:41.784206
-- **Execution Time:** 0 minutes 5.27 seconds
+- **Timestamp:** 2025-08-12T20:00:26.340985
+- **Execution Time:** 0 minutes 0.97 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 79.73 tokens/second
-- **Model Output for T-FRHAUL-01:** ["CAPEC-105", "CAPEC-26", "CAPEC-264"]
+- **Model speed:** 41.55 tokens/second
+- **Model Output for T-xApp-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:24:52.735857
-- **Execution Time:** 0 minutes 10.95 seconds
+- **Timestamp:** 2025-08-12T20:00:27.093201
+- **Execution Time:** 0 minutes 0.75 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 78.94 tokens/second
-- **Model Output for T-FRHAUL-02:** [
-    "CAPEC-3",
-    "CAPEC-36"
-]
+- **Model speed:** 52.91 tokens/second
+- **Model Output for T-rAPP-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:34:09.082331
-- **Execution Time:** 9 minutes 16.34 seconds
+- **Timestamp:** 2025-08-12T20:00:27.912528
+- **Execution Time:** 0 minutes 0.82 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 73.67 tokens/second
-- **Model Output for T-MPLANE-01:** You are considering a text about two different ways to find the following information from the question, that's an example code for the system of the following data:
-- A point isosceally, we have three of the following statements regarding the following document
-of 10^x = (a graph theory problem: "Given the following text: 
-highcharts.js Given the context belowdetermine the value of a function f(x) to be an integer. The two lines are not given text-muted:
-- A BGP, no need for the following data set with the same number 16
-the user has90
+- **Model speed:** 47.49 tokens/second
+- **Model Output for T-rAPP-02:** {
 
-I have been given that isoscepsilon
-**/buses and the following code provided by the question: "The context of a circle passing carpalabra:: 
+{
 
-A system. The problem involves two are not, so the function f(x) = (a rephrase the problem:
-
-In triangle ABC is an odd number with no Given the information that I have no way to be used in the following text area.
-
-**Question: In a right circularly polarangke
-not given by the system of a set A and B are two distinct integers from 10, but so on the following data.frame
+  "final_ids": [
+    "CAPEC-540",
+    "CAPEC-639"
+  ]
+}
 
 ## Runtime Information for `Medium`
-- **Timestamp:** 2025-08-11T19:43:24.964153
-- **Execution Time:** 9 minutes 15.87 seconds
+- **Timestamp:** 2025-08-12T20:00:28.718421
+- **Execution Time:** 0 minutes 0.80 seconds
 - **Model:** deepseek-r1:8b
 - **Optimization Technique:** Prompt Engineering - Basic Zero Shot
-- **Model speed:** 73.72 tokens/second
-- **Model Output for T-SPLANE-01:** 'there isfate = I A table andtext Language thesystem
-Hypothesis
-In goblin text \triangle of 10tunnelraphica on this goes\thousands
-**re are a runthat'ssistema: GSS
-* S Unituży have length (run' s, but following a1, what is [code to4. Thefollowing the problem a question: 
-user task code systemar is>Yourn'tan integer of the following alonger areat least and following a point, more09thirty first terms is the
-Parefore given the following textable user box
-** **problem
-* following data format
+- **Model speed:** 48.30 tokens/second
+- **Model Output for T-rAPP-03:** {
 
-There are given the following text belowingtones = (intyouthstonea function of theuse
+{
 
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-628"
+  ]
+}
 
-I need to find the questioner's 16ndeprecatedThe graph shows a正态 commandeBayesian: Given f7 days are given that isoserveries notchordenomite
-A list price of the following information provided on the problem was, weptextreme below system has only1/one who did orkitchen
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:29.406819
+- **Execution Time:** 0 minutes 0.69 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 54.99 tokens/second
+- **Model Output for T-rAPP-04:** {
 
-# In this is the two main sequence of the3rd title of points,
-I have a *SSThe average length of the question says that texturalsofa
-- given circle
-The aorta method 5 Whippermutation isoscaronkeyframes
-We are using `c problem, good thing in a point group has to determine the10. A cube with question: The:
-A mane following number function of the useres are some topic is there not following dimer is thought process that's given textangements are wechat = function below_code_block graph theory of the purpose of the
-**Part  $n\text
-following information provided context: Given Input class `certainoakendomorphism of  
-Pretic codegree P, as above example in乌海中 isopersegregation a:
-The functions fannulriced toadventure between# following **three sides and the problem
+{
 
-I have greatest common lawarstone of \(\textbook
- *original equation of the response user-Forgathering of given information below  $n-th term that's the code, we can't best part your aortaftest, Gebrave is a function \( n F0
-* The following two given textV3rdigits are following theuse
+    "final_ids": [
+         "CAPEC-590",
+        "CAPEC-628"
+    ]
+}
 
-Given the set up to power series A and first step length of the problem: Given the user guide of 19
-following question:
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:30.274274
+- **Execution Time:** 0 minutes 0.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.15 tokens/second
+- **Model Output for T-rAPP-05:** {
 
-A cube of D: I have been mind this:
-- following table, when a circle withstanding on *Sage is a vector form a function \(n'tsafety Party's following text
-of the problem waspHaupt-of-G first set operations are S320.0thailand Zx- up to  "following question (Jenny't number,  sureframe of the\’the0reical codeGSMare is a systemn $1s method line code——no following text V9text below given information:
-The usertriangle:
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:31.049058
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.98 tokens/second
+- **Model Output for T-rAPP-06:** {
+
+{
+
+  "final_ids": [ "CAPEC-540", "CAPEC-129" ]
+
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:31.770868
+- **Execution Time:** 0 minutes 0.72 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.07 tokens/second
+- **Model Output for T-rAPP-07:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:32.498871
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.61 tokens/second
+- **Model Output for T-PNF-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:33.261501
+- **Execution Time:** 0 minutes 0.76 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.09 tokens/second
+- **Model Output for T-SMO-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-623"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:33.872389
+- **Execution Time:** 0 minutes 0.61 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.43 tokens/second
+- **Model Output for T-SMO-02:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-592"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:34.683886
+- **Execution Time:** 0 minutes 0.81 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.79 tokens/second
+- **Model Output for T-SMO-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-670"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:35.485108
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.95 tokens/second
+- **Model Output for T-SMO-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:36.319368
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.72 tokens/second
+- **Model Output for T-SMO-05:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-590",
+        "CAPEC-628"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:37.143728
+- **Execution Time:** 0 minutes 0.82 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.04 tokens/second
+- **Model Output for T-SMO-06:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-542",
+    "CAPEC-670"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:37.909313
+- **Execution Time:** 0 minutes 0.76 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.41 tokens/second
+- **Model Output for T-SMO-07:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:38.627976
+- **Execution Time:** 0 minutes 0.72 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.22 tokens/second
+- **Model Output for T-SMO-08:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:39.404707
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.06 tokens/second
+- **Model Output for T-SMO-09:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:40.276496
+- **Execution Time:** 0 minutes 0.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.03 tokens/second
+- **Model Output for T-SMO-10:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:41.005550
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 55.54 tokens/second
+- **Model Output for T-SMO-11:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:41.608440
+- **Execution Time:** 0 minutes 0.60 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.02 tokens/second
+- **Model Output for T-SMO-12:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:42.414667
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.25 tokens/second
+- **Model Output for T-SMO-13:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-476"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:43.177808
+- **Execution Time:** 0 minutes 0.76 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.58 tokens/second
+- **Model Output for T-SMO-14:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:43.919862
+- **Execution Time:** 0 minutes 0.74 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 54.67 tokens/second
+- **Model Output for T-SMO-15:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:44.636250
+- **Execution Time:** 0 minutes 0.71 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.59 tokens/second
+- **Model Output for T-SMO-16:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:45.384916
+- **Execution Time:** 0 minutes 0.75 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.31 tokens/second
+- **Model Output for T-SMO-17:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-410"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:46.198341
+- **Execution Time:** 0 minutes 0.81 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.57 tokens/second
+- **Model Output for T-SMO-18:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:47.030933
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.20 tokens/second
+- **Model Output for T-SMO-19:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-641"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:47.871387
+- **Execution Time:** 0 minutes 0.84 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.30 tokens/second
+- **Model Output for T-SMO-20:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:48.731452
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.97 tokens/second
+- **Model Output for T-SMO-21:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:49.580074
+- **Execution Time:** 0 minutes 0.85 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.39 tokens/second
+- **Model Output for T-SMO-22:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:50.378457
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.50 tokens/second
+- **Model Output for T-SMO-23:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:51.167541
+- **Execution Time:** 0 minutes 0.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.82 tokens/second
+- **Model Output for T-SMO-24:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-597",
+    "CAPEC-624"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:52.009019
+- **Execution Time:** 0 minutes 0.84 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.05 tokens/second
+- **Model Output for T-SMO-25:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-624"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:52.628841
+- **Execution Time:** 0 minutes 0.62 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.44 tokens/second
+- **Model Output for T-SMO-26:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:53.207240
+- **Execution Time:** 0 minutes 0.58 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.43 tokens/second
+- **Model Output for T-SMO-27:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:54.072514
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.96 tokens/second
+- **Model Output for T-SMO-28:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-624"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:54.882152
+- **Execution Time:** 0 minutes 0.81 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.90 tokens/second
+- **Model Output for T-SMO-29:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:55.519793
+- **Execution Time:** 0 minutes 0.64 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.97 tokens/second
+- **Model Output for T-SMO-30:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:56.293580
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.25 tokens/second
+- **Model Output for T-SMO-31:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-590",
+        "CAPEC-624"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:57.039817
+- **Execution Time:** 0 minutes 0.74 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.93 tokens/second
+- **Model Output for T-SMO-32:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-592",
+        "CAPEC-603"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:57.717431
+- **Execution Time:** 0 minutes 0.68 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 42.37 tokens/second
+- **Model Output for T-R1-01:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-590"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:58.403816
+- **Execution Time:** 0 minutes 0.69 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.04 tokens/second
+- **Model Output for T-R1-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:59.039533
+- **Execution Time:** 0 minutes 0.63 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.09 tokens/second
+- **Model Output for T-R1-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:00:59.682625
+- **Execution Time:** 0 minutes 0.64 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.74 tokens/second
+- **Model Output for T-R1-04:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-582"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:00.299492
+- **Execution Time:** 0 minutes 0.61 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.06 tokens/second
+- **Model Output for T-R1-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:00.892275
+- **Execution Time:** 0 minutes 0.59 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.62 tokens/second
+- **Model Output for T-R1-06:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-582"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:01.621549
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.38 tokens/second
+- **Model Output for T-R1-07:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-582",
+        "CAPEC-607"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:02.426451
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.23 tokens/second
+- **Model Output for T-A1-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:03.003931
+- **Execution Time:** 0 minutes 0.58 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.36 tokens/second
+- **Model Output for T-A1-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:03.629157
+- **Execution Time:** 0 minutes 0.62 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.89 tokens/second
+- **Model Output for T-A1-03:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-582"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:04.245489
+- **Execution Time:** 0 minutes 0.61 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.44 tokens/second
+- **Model Output for T-AppLCM-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:04.963959
+- **Execution Time:** 0 minutes 0.72 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.10 tokens/second
+- **Model Output for T-AppLCM-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:05.662368
+- **Execution Time:** 0 minutes 0.70 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 42.21 tokens/second
+- **Model Output for T-AppLCM-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-562"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:06.328791
+- **Execution Time:** 0 minutes 0.66 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 41.88 tokens/second
+- **Model Output for T-AppLCM-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:07.204679
+- **Execution Time:** 0 minutes 0.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.00 tokens/second
+- **Model Output for T-AppLCM-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:07.793737
+- **Execution Time:** 0 minutes 0.59 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.68 tokens/second
+- **Model Output for T-AppLCM-06:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:08.620983
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.96 tokens/second
+- **Model Output for T-AppLCM-07:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:09.457244
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.47 tokens/second
+- **Model Output for T-SharedORU-01:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-582",
+        "CAPEC-609"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:10.258021
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.24 tokens/second
+- **Model Output for T-SharedORU-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-629"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:11.131115
+- **Execution Time:** 0 minutes 0.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 41.78 tokens/second
+- **Model Output for T-SharedORU-03:** {
+
+{
+
+    "final_ids": [ "CAPEC-102", "CAPEC-578" ]
+
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:11.848340
+- **Execution Time:** 0 minutes 0.72 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.53 tokens/second
+- **Model Output for T-SharedORU-04:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-582",
+        "CAPEC-641"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:12.490913
+- **Execution Time:** 0 minutes 0.64 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.20 tokens/second
+- **Model Output for T-SharedORU-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:13.098416
+- **Execution Time:** 0 minutes 0.61 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.89 tokens/second
+- **Model Output for T-SharedORU-06:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:13.780537
+- **Execution Time:** 0 minutes 0.68 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 55.48 tokens/second
+- **Model Output for T-SharedORU-07:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:14.367193
+- **Execution Time:** 0 minutes 0.58 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.33 tokens/second
+- **Model Output for T-SharedORU-08:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-582"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:15.168027
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.21 tokens/second
+- **Model Output for T-SharedORU-09:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-629"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:15.962717
+- **Execution Time:** 0 minutes 0.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.34 tokens/second
+- **Model Output for T-SharedORU-10:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:16.800883
+- **Execution Time:** 0 minutes 0.84 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.64 tokens/second
+- **Model Output for T-SharedORU-11:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:17.579672
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.77 tokens/second
+- **Model Output for T-SharedORU-12:** {
+
+{
+
+  "final_ids": [ "CAPEC-589", "CAPEC-426" ]
+
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:18.378819
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.95 tokens/second
+- **Model Output for T-SharedORU-13:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:19.217613
+- **Execution Time:** 0 minutes 0.84 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.57 tokens/second
+- **Model Output for T-SharedORU-14:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:19.963042
+- **Execution Time:** 0 minutes 0.74 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.54 tokens/second
+- **Model Output for T-SharedORU-15:** {
+
+{
+
+    "final_ids": [ "CAPEC-42", "CAPEC-51" ]
+
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:20.734894
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.15 tokens/second
+- **Model Output for T-SharedORU-16:** {
+
+{
+
+    "final_ids": [ "CAPEC-42", "CAPEC-51" ]
+
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:21.453136
+- **Execution Time:** 0 minutes 0.72 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.14 tokens/second
+- **Model Output for T-SharedORU-17:** {
+
+{
+
+    "final_ids": [
+        "CAPEC-582",
+        "CAPEC-317"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:22.226168
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.29 tokens/second
+- **Model Output for T-SharedORU-18:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-629"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:23.048884
+- **Execution Time:** 0 minutes 0.82 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.63 tokens/second
+- **Model Output for T-SharedORU-19:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-641"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:23.902817
+- **Execution Time:** 0 minutes 0.85 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.17 tokens/second
+- **Model Output for T-SharedORU-20:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-641"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:24.767119
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.99 tokens/second
+- **Model Output for T-SharedORU-21:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-627"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:25.562785
+- **Execution Time:** 0 minutes 0.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.12 tokens/second
+- **Model Output for T-SharedORU-22:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:26.501839
+- **Execution Time:** 0 minutes 0.94 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 40.86 tokens/second
+- **Model Output for T-SharedORU-23:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:27.332706
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.67 tokens/second
+- **Model Output for T-SharedORU-24:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:28.101266
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.90 tokens/second
+- **Model Output for T-SharedORU-25:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:28.723251
+- **Execution Time:** 0 minutes 0.62 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.31 tokens/second
+- **Model Output for T-SharedORU-26:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:29.456139
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.06 tokens/second
+- **Model Output for T-SharedORU-27:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:30.173741
+- **Execution Time:** 0 minutes 0.72 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.88 tokens/second
+- **Model Output for T-SharedORU-28:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:30.956401
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.14 tokens/second
+- **Model Output for T-SharedORU-29:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:31.699610
+- **Execution Time:** 0 minutes 0.74 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.73 tokens/second
+- **Model Output for T-SharedORU-30:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:32.489537
+- **Execution Time:** 0 minutes 0.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.79 tokens/second
+- **Model Output for T-SharedORU-31:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-634"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:33.250261
+- **Execution Time:** 0 minutes 0.76 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.52 tokens/second
+- **Model Output for T-SharedORU-32:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-410"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:34.070319
+- **Execution Time:** 0 minutes 0.82 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.29 tokens/second
+- **Model Output for T-SharedORU-33:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:34.696207
+- **Execution Time:** 0 minutes 0.62 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.35 tokens/second
+- **Model Output for T-SharedORU-34:** {
+
+{
+
+    "final_ids": [
+         "CAPEC-592"
+    ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:35.555019
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.43 tokens/second
+- **Model Output for T-SharedORU-35:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:36.244007
+- **Execution Time:** 0 minutes 0.69 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.34 tokens/second
+- **Model Output for T-SharedORU-36:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:36.873037
+- **Execution Time:** 0 minutes 0.63 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.88 tokens/second
+- **Model Output for T-SharedORU-37:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:37.729639
+- **Execution Time:** 0 minutes 0.85 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.59 tokens/second
+- **Model Output for T-SharedORU-38:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-316"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:38.430478
+- **Execution Time:** 0 minutes 0.70 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 55.26 tokens/second
+- **Model Output for T-SharedORU-39:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:39.178521
+- **Execution Time:** 0 minutes 0.75 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.37 tokens/second
+- **Model Output for T-SharedORU-40:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-589",
+    "CAPEC-624"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:39.984736
+- **Execution Time:** 0 minutes 0.80 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.10 tokens/second
+- **Model Output for T-SharedORU-41:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:40.744370
+- **Execution Time:** 0 minutes 0.76 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 54.69 tokens/second
+- **Model Output for T-SharedORU-42:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:41.604096
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.13 tokens/second
+- **Model Output for T-SharedORU-43:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-420",
+    "CAPEC-187"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:42.392726
+- **Execution Time:** 0 minutes 0.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.16 tokens/second
+- **Model Output for T-GEN-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-597",
+    "CAPEC-620"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:43.324888
+- **Execution Time:** 0 minutes 0.93 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.24 tokens/second
+- **Model Output for T-GEN-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582", "CAPEC-400", "CAPEC-179"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:43.979960
+- **Execution Time:** 0 minutes 0.65 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 41.78 tokens/second
+- **Model Output for T-GEN-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:44.800788
+- **Execution Time:** 0 minutes 0.82 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.09 tokens/second
+- **Model Output for T-GEN-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-623"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:45.432630
+- **Execution Time:** 0 minutes 0.63 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 42.47 tokens/second
+- **Model Output for T-GEN-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:46.185379
+- **Execution Time:** 0 minutes 0.75 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.79 tokens/second
+- **Model Output for T-VM-C-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:47.172829
+- **Execution Time:** 0 minutes 0.99 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 37.42 tokens/second
+- **Model Output for T-VM-C-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582", "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:47.944901
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 49.44 tokens/second
+- **Model Output for T-VM-C-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:48.802605
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.20 tokens/second
+- **Model Output for T-VM-C-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:49.668820
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.50 tokens/second
+- **Model Output for T-VM-C-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:50.454095
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.42 tokens/second
+- **Model Output for T-VM-C-06:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-401"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:51.238042
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.19 tokens/second
+- **Model Output for T-IMG-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-590",
+    "CAPEC-628"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:51.865861
+- **Execution Time:** 0 minutes 0.63 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.83 tokens/second
+- **Model Output for T-IMG-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:52.707296
+- **Execution Time:** 0 minutes 0.84 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.64 tokens/second
+- **Model Output for T-IMG-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:53.443448
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.10 tokens/second
+- **Model Output for T-IMG-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:54.367081
+- **Execution Time:** 0 minutes 0.92 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 41.90 tokens/second
+- **Model Output for T-VL-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-630"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:55.200449
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.14 tokens/second
+- **Model Output for T-VL-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:56.067827
+- **Execution Time:** 0 minutes 0.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.14 tokens/second
+- **Model Output for T-VL-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-643"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:57.036836
+- **Execution Time:** 0 minutes 0.97 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 39.64 tokens/second
+- **Model Output for T-O2-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-580",
+    "CAPEC-629"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:57.753273
+- **Execution Time:** 0 minutes 0.71 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.93 tokens/second
+- **Model Output for T-OCAPI-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:58.521699
+- **Execution Time:** 0 minutes 0.77 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.92 tokens/second
+- **Model Output for T-HW-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-634"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:01:59.304475
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.25 tokens/second
+- **Model Output for T-HW-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:00.086517
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.32 tokens/second
+- **Model Output for T-ADMIN-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:00.942121
+- **Execution Time:** 0 minutes 0.85 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 42.93 tokens/second
+- **Model Output for T-ADMIN-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592", "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:01.805026
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.68 tokens/second
+- **Model Output for T-AAL-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-634"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:02.516659
+- **Execution Time:** 0 minutes 0.71 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.60 tokens/second
+- **Model Output for T-AAL-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:03.071134
+- **Execution Time:** 0 minutes 0.55 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.18 tokens/second
+- **Model Output for T-AAL-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:03.857338
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.15 tokens/second
+- **Model Output for T-AAL-04:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-589",
+    "CAPEC-627"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:04.590315
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.46 tokens/second
+- **Model Output for T-AAL-05:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:05.373682
+- **Execution Time:** 0 minutes 0.78 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 48.83 tokens/second
+- **Model Output for T-AAL-06:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:06.014717
+- **Execution Time:** 0 minutes 0.64 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 43.16 tokens/second
+- **Model Output for T-O-CLOUD-ID-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:06.842981
+- **Execution Time:** 0 minutes 0.83 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 47.67 tokens/second
+- **Model Output for T-O-CLOUD-ID-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:07.779280
+- **Execution Time:** 0 minutes 0.93 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 42.43 tokens/second
+- **Model Output for T-O-CLOUD-ID-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:08.857577
+- **Execution Time:** 0 minutes 1.08 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 44.26 tokens/second
+- **Model Output for T-OPENSRC-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592", "CAPEC-601", "CAPEC-348"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:09.557761
+- **Execution Time:** 0 minutes 0.70 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 51.73 tokens/second
+- **Model Output for T-OPENSRC-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:10.417939
+- **Execution Time:** 0 minutes 0.86 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.55 tokens/second
+- **Model Output for T-PHYS-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-592",
+    "CAPEC-601"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:11.147830
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.87 tokens/second
+- **Model Output for T-PHYS-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:12.016634
+- **Execution Time:** 0 minutes 0.87 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 45.54 tokens/second
+- **Model Output for T-RADIO-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-634"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:12.776968
+- **Execution Time:** 0 minutes 0.76 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.20 tokens/second
+- **Model Output for T-RADIO-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-128",
+    "CAPEC-460"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:13.378375
+- **Execution Time:** 0 minutes 0.60 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.87 tokens/second
+- **Model Output for T-ML-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:14.083733
+- **Execution Time:** 0 minutes 0.70 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.27 tokens/second
+- **Model Output for T-ML-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:14.811762
+- **Execution Time:** 0 minutes 0.73 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 55.36 tokens/second
+- **Model Output for T-ML-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-607"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:15.568365
+- **Execution Time:** 0 minutes 0.75 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 52.52 tokens/second
+- **Model Output for T-E2-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:16.268547
+- **Execution Time:** 0 minutes 0.70 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 53.62 tokens/second
+- **Model Output for T-E2-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-640"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:16.958543
+- **Execution Time:** 0 minutes 0.69 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 54.25 tokens/second
+- **Model Output for T-E3-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:17.754121
+- **Execution Time:** 0 minutes 0.79 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 50.98 tokens/second
+- **Model Output for T-Y1-01:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-609"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:18.337768
+- **Execution Time:** 0 minutes 0.58 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 46.43 tokens/second
+- **Model Output for T-Y1-02:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582"
+  ]
+}
+
+## Runtime Information for `Medium`
+- **Timestamp:** 2025-08-12T20:02:19.017570
+- **Execution Time:** 0 minutes 0.68 seconds
+- **Model:** deepseek-r1:8b
+- **Optimization Technique:** Prompt Engineering - Basic Zero Shot
+- **Model speed:** 56.56 tokens/second
+- **Model Output for T-Y1-03:** {
+
+{
+
+  "final_ids": [
+    "CAPEC-582",
+    "CAPEC-639"
+  ]
+}
