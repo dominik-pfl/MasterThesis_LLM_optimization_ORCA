@@ -22,6 +22,8 @@ dependencies = [
     "stix2>=3.0.1",
     "unsloth",
     "wandb>=0.21.0",
+    "sentencepiece>=0.2.1",
+    "ipykernel>=6.30.1",
 ]
 
 [tool.setuptools.packages.find]
