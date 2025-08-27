@@ -2,8 +2,8 @@ Deepseek 1.5b - Total runtimes
 1. First Zero Shot: 2:42:19.788314
 2. Second Zero Shot: 1:12:34.525890
 3. Third Zero Shot: 1:11:34.909999
-4. Few-Shot:
-5. Chain-of-Thought:
+4. Few-Shot: 2:36:02.231198 ergebnisse noch nicht in results
+5. Chain-of-Thought: 
 6. RAG:
 Deepseek 14b - Total runtimes
 1. First Zero Shot: 0:41:30.088306
