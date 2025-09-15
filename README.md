@@ -16,3 +16,12 @@ This is the repo for my master thesis on evaluating llm optimization techniques 
     d, download models: ollama pull "name of model (e.g. deepseek-r1:32b)"
     e, run model from cmd: ollama run "name of model (e.g. deepseek-r1:32b)" --verbose
     f, remove ollama installation: rm -rf $which ollama
+
+
+## How to run the artifact
+1. Download ollama on https://ollama.com/download 
+2. Start ollama server: ollama serve
+3. Download the model you want to run the artifact with (beware of hardware limitations): ollama pull 'name of model' ('deepseek-r1:14b', 'deepseek-r1:32b', 'deepseek-r1:70b')
+4. With the dependencies used in 'artifact/LLM_mapper.py' installed, the artifact is ready to run
+5. For any issues open an issue within this repository: https://github.com/dominik-pfl/MasterThesis_LLM_optimization_ORCA/issues/new
+
