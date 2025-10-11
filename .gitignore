@@ -13,4 +13,5 @@ wheels/
 .env
 
 wandb/
-
+_unsloth_temporary_saved_buffers/
+outputs/

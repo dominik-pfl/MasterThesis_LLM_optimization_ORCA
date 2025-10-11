@@ -14,8 +14,9 @@ This is the repo for my master thesis on evaluating llm optimization techniques 
     b, check if ollama is installed: which ollama (should output path to installation)
     c, start ollama server: ollama serve
     d, download models: ollama pull "name of model (e.g. deepseek-r1:32b)"
-    e, run model from cmd: ollama run "name of model (e.g. deepseek-r1:32b)" --verbose
-    f, remove ollama installation: rm -rf $which ollama
+    e, list downloaded models: "ollama list"
+    f, run model from cmd: ollama run "name of model (e.g. deepseek-r1:32b)" --verbose
+    g, remove ollama installation: rm -rf $which ollama
 
 
 ## How to run the artifact
