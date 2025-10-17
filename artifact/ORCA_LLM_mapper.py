@@ -6,7 +6,7 @@ import json
 import os
 import csv
 
-def ORCA_LLM_mapper2(threat_data, capec_data, model_size='70b'):
+def ORCA_LLM_mapper(threat_data, capec_data, model_size='70b'):
 
     # --- Helper functions defined ONCE outside the loop ---
     def create_vector_db(capec_data):
@@ -157,10 +157,10 @@ As an output, provide only a JSON array containing the selected CAPEC IDs in the
 def main():
     print("Starting ORCA LLM Mapper...")
     # Example usage
-    threat_data = pd.read_pickle('./data/input/threat_data_for_RAGv2.pk1')  # Load your threat data
+    threat_data = pd.read_pickle('./data/input/threat_data_for_RAG.pk1')  # Load your threat data
     threat_data = threat_data[1:3] 
     capec_data = pd.read_pickle('./data/input/capecs_for_RAG.pk1')    # Load your CAPEC data
 
-    ORCA_LLM_mapper2(threat_data, capec_data, model_size='1.5b')
+    ORCA_LLM_mapper(threat_data, capec_data, model_size='1.5b')
 
 main()
