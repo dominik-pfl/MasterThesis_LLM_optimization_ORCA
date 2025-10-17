@@ -50,28 +50,42 @@ def ORCA_LLM_mapper(threat_data, capec_data, model_size='70b'):
             formatted_capec_info += "-" * 40 + "\n"
         
         prompt = f"""
-This task involves mapping a threat summary from the Open Radio Access Network (O-RAN) domain to relevant attack patterns.
-O-RAN represents a paradigm shift in Radio Access Network (RAN) design, moving from proprietary hardware to a more open, virtualized, and software-driven approach. It is used for mobile communication networks, particularly for 5G and future generations. Key principles of O-RAN include:
-- Open System: Characterized by standardized, open interfaces to foster a multi-vendor ecosystem.
-- Disaggregated RAN: Functionalities are distributed across different physical or virtual network functions.
-- Software-Driven Approach: Components are deployed on white-box appliances and accelerators.
-- Closed-Loop Control: Enabled by data-driven components deployed on RAN Intelligent Controllers (RICs).
-Now, based on the context above, analyze the following threat summary:
+    This task involves mapping a threat summary from the
+Open Radio Access Network (O-RAN) domain to relevant attack patterns.
+O-RAN represents a paradigm shift in Radio Access Network (RAN)
+design, moving from proprietary hardware to a more open,
+virtualized, and software-driven approach. It is used for
+mobile communication networks, particularly for 5G and future
+generations. Key principles of O-RAN include:
+- Open System: Characterized by standardized, open
+interfaces to foster a multi-vendor ecosystem.
+- Disaggregated RAN: Functionalities are distributed
+across different physical or virtual network functions.
+- Software-Driven Approach: Components are deployed on
+white-box appliances and accelerators.
+- Closed-Loop Control: Enabled by data-driven components
+deployed on RAN Intelligent Controllers (RICs).
+Now, based on the context above, analyze the following
+threat summary:
 {threat_summary}
 Next, find the most relevant CAPECs (CAPEC stands for Common Attack Pattern Enumeration and Classification) to the the threat, from the list provided.
 Go through each of the CAPECs individually:
 {formatted_capec_info}
-As an output, provide only a JSON array containing the selected CAPEC IDs in the form "CAPEC-ID". Do not include any explanations or additional text, only the JSON array.
-"""
+As an output, provide only a JSON array containing the
+selected CAPEC IDs in the form "CAPEC-ID".
+Do not include any explanations or additional text,
+only the JSON array.
+    """
+
         return prompt
 
-    def get_json_from_response(full_answer):
+    def get_json_from_response(response):
         """Extracts a JSON array string from the LLM's response."""
-        match_block = re.search(r"```json\s*([\s\S]*?)\s*```", full_answer, re.DOTALL)
+        match_block = re.search(r"```json\s*([\s\S]*?)\s*```", response, re.DOTALL)
         if match_block:
             return match_block.group(1).strip()
         
-        all_list_matches = re.findall(r'\[[\s\S]*?\]', full_answer)
+        all_list_matches = re.findall(r'\[[\s\S]*?\]', response)
         if all_list_matches:
             return all_list_matches[-1].strip()
         
@@ -88,10 +102,10 @@ As an output, provide only a JSON array containing the selected CAPEC IDs in the
             'response_length': response['eval_count'],
             'model': response['model'],
             'timestamp': response['created_at'],
-            'full_answer': response.get('response', '')
+            'json_part': None,
+            'full_answer': response.get('thinking', '') + response.get('response', '')
         }
-        
-        json_string = get_json_from_response(processed_response['full_answer'])
+        json_string = get_json_from_response(response.get('response', ''))
         
         # FIX: Parse the JSON string into a Python list
         try:
@@ -129,7 +143,7 @@ As an output, provide only a JSON array containing the selected CAPEC IDs in the
         # Assuming threat_data is a pandas DataFrame, iterate over its rows
         for index, threat in threat_data.iterrows():
             print(f"Processing threat ID: {threat['Threat ID']}...")
-
+            #print(create_rag_prompt(threat, collection))
             response_data = ollama.generate(
                 model=f"deepseek-r1:{model_size}", # Note: I corrected the model name, 'deepseek-r1' is not a standard Ollama name
                 prompt=create_rag_prompt(threat, collection),
@@ -158,9 +172,9 @@ def main():
     print("Starting ORCA LLM Mapper...")
     # Example usage
     threat_data = pd.read_pickle('./data/input/threat_data_for_RAG.pk1')  # Load your threat data
-    threat_data = threat_data[1:3] 
+    threat_data = threat_data[:3] 
     capec_data = pd.read_pickle('./data/input/capecs_for_RAG.pk1')    # Load your CAPEC data
 
-    ORCA_LLM_mapper(threat_data, capec_data, model_size='1.5b')
+    ORCA_LLM_mapper(threat_data, capec_data, model_size='70b')
 
 main()
