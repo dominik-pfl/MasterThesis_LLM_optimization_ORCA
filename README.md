@@ -27,9 +27,9 @@ This is the repo for my master thesis on evaluating llm optimization techniques 
 5. Install uv: ```pip install uv```
 6. Create virtual environment: ```uv venv```
 7. Activate the virtual environment: ```source .venv/bin/activate``` OR ```source .venv/Scripts/activate``` (depending on OS and commandline)
-7. With the dependencies used in 'artifact/ORCA_LLM_mapper.py' installed, the artifact is ready to run: e.g. ```uv sync``` to sync the dependencies from pyproject.toml file
-8. For a test run of the artifact navigate to the dedicated folder ```cd artifact```
-9. Run the artifact with the provided test data (first three threats): ```python ORCA_LLM_mapper.py``` 
-10. Inspect your results in the dedicated files inside of the ```data/output``` folder
-11. For any issues open an issue within this repository: https://github.com/dominik-pfl/MasterThesis_LLM_optimization_ORCA/issues/new
+8. With the dependencies used in 'artifact/ORCA_LLM_mapper.py' installed, the artifact is ready to run: e.g. ```uv sync``` to sync the dependencies from pyproject.toml file
+9. For a test run of the artifact navigate to the dedicated folder ```cd artifact```
+10. Run the artifact with the provided test data (first three threats): ```python ORCA_LLM_mapper.py``` 
+11. Inspect your results in the dedicated files inside of the ```data/output``` folder
+12. For any issues open an issue within this repository: https://github.com/dominik-pfl/MasterThesis_LLM_optimization_ORCA/issues/new
 

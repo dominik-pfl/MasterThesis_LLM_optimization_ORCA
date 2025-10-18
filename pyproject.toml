@@ -30,7 +30,3 @@ dependencies = [
 [tool.setuptools.packages.find]
 include = ["masterthesis_llm_optimization_orca"] 
 
-[tool.uv.workspace]
-members = [
-    "artifact",
-]

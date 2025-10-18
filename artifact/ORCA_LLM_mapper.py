@@ -278,7 +278,7 @@ def main():
     """
     # --- Configuration ---
     VERSION = "1.0"  # <--- CHANGE THIS FOR EACH RUN
-    MODEL_SIZE = '1.5b' # Specify the model size here
+    MODEL_SIZE = '70b' # Specify the model size here
     
     print("Starting ORCA LLM Mapper...")
     print(f"Run Version: {VERSION}")
