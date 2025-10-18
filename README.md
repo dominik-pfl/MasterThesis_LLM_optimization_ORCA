@@ -22,8 +22,8 @@ This is the repo for my master thesis on evaluating llm optimization techniques 
 ## How to run the artifact
 1. Clone this repo: ```git clone https://github.com/dominik-pfl/MasterThesis_LLM_optimization_ORCA.git```
 2. Download ollama to run llms localls on https://ollama.com/download 
-3. Start ollama server: ```ollama serve```
-4. Download the model you want to run the artifact with (beware of hardware limitations): ```ollama pull 'name of model' ``` ('deepseek-r1:14b', 'deepseek-r1:32b', 'deepseek-r1:70b')
+3. Download the model you want to run the artifact with (beware of hardware limitations): ```ollama pull 'name of model' ``` ('deepseek-r1:14b', 'deepseek-r1:32b', 'deepseek-r1:70b')
+4. Start ollama server: ```ollama serve```
 5. Install uv: ```pip install uv```
 6. Create virtual environment: ```uv venv```
 7. Activate the virtual environment: ```source .venv/bin/activate``` OR ```source .venv/Scripts/activate``` (depending on OS and commandline)
