@@ -1,42 +1,34 @@
-- dominik-pfl-master-thesis_llm_optimization_orca
-|   .python-version
-|   data_analysis.ipynb
-|   pyproject.toml
-|   README.md
-|   tree.txt
-|   uv.lock                  
+- dominik-pfl-MasterThesis_llm_optimization_ORCA
+|   README.md               
 +---artifact
 |   |   ORCA_LLM_mapper.py
-|   |   
 |   \---data
 |       +---input
 |       |       capecs_for_RAG.pk1
-|       |       threat_data_for_RAG.pk1
-|       |       
+|       |       threat_data_for_RAG.pk1     
 |       +---logs
 |       \---output
-+---capec_data
-|       capecs.pk1
-|       capecs_for_rag.pk1
-|       capecs_with_embeddings.pk1
-|       capec_data_for_PE.json
-|       capec_data_for_PE.pk1
-|       
-+---mapped_data
-|       all_t2c_mappings.pk1
-|       few_shot_examples.pkl
-|       hfc_general_threats_capec_mapping_min0.55.csv
-|       lora_training_data.jsonl
-|       merged_orca_our_similarities.csv
-|       ORCA_mappings_min0.55.csv               
-+---results
-|       evaluation_results_v2.jsonl
-|       evaluation_v2.md
-|       
-\---threat_data
-        all_threats.json
-        threats_after_data_understanding.pk1
-        threats_with_embeddings.pk1
-        threat_data_for_PE.pk1
-        threat_data_for_RAG.pk1
-        
++---experiments
+|   |   data_analysis.ipynb
+|   +---capec_data
+|       |   capecs.pk1
+|       |   capecs_for_rag.pk1
+|       |   capecs_with_embeddings.pk1
+|       |   capec_data_for_PE.json
+|       |   capec_data_for_PE.pk1
+|   +---mapped_data
+|       |       all_t2c_mappings.pk1
+|       |       few_shot_examples.pkl
+|       |       hfc_general_threats_capec_mapping_min0.55.csv
+|       |       lora_training_data.jsonl
+|       |       merged_orca_our_similarities.csv
+|       |       ORCA_mappings_min0.55.csv
+|   +---results
+|       |   evaluation_results_v2.jsonl
+|       |   evaluation_v2.md
+|   \---threat_data
+|       |   all_threats.json
+|       |   threats_after_data_understanding.pk1
+|       |   threats_with_embeddings.pk1
+|       |   threat_data_for_PE.pk1
+|       |   threat_data_for_RAG.pk1
