@@ -1,2 +1,6 @@
+- name: Checkout code
+  uses: actions/checkout@main
 - name: Repo Visualizer
   uses: githubocto/repo-visualizer@0.9.1
+  with:
+    output_file: "images/repo_diagram.svg"
