@@ -16,7 +16,3 @@ mitre-cti/
 
 # the .env file for credentials
 .env
-
-wandb/
-_unsloth_temporary_saved_buffers/
-outputs/
