@@ -1,3 +1,7 @@
+# MasterThesis_LLM_optimization_ORCA
+
+This is the repo for my master thesis on evaluating LLM optimization techniques for threat to CAPEC mapping in the ORCA pipeline.
+
 ## Repository Content
 
 This repository is structured into two main parts:
