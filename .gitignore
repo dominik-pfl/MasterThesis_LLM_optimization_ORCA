@@ -6,6 +6,11 @@ dist/
 wheels/
 *.egg-info
 
+
+# the mitre cti repo
+mitre-cti/
+
+
 # Virtual environments
 .venv/
 
