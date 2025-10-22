@@ -18,7 +18,7 @@ This is the repo for my master thesis on evaluating llm optimization techniques 
     e, list downloaded models: ```ollama list```
     f, run model from cmd: ```ollama run "name of model (e.g. deepseek-r1:32b)" --verbose```
     g, remove ollama installation: ```rm -rf $which ollama```
-
+9. Follow the cells in the `data_analysis.ipynb` file, they are structured by the CRISP-DM approach
 
 ## How to run the artifact
 1. Clone this repo: ```git clone https://github.com/dominik-pfl/MasterThesis_LLM_optimization_ORCA.git```
